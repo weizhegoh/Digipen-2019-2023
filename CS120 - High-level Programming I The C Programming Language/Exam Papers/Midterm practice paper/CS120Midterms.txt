@@ -1,0 +1,119 @@
+CS120 Midterms Practice
+
+1a) No (All caps IF is not a keyword)
+1b) Yes (A floating point value that stores 8 bits)
+1c) No, main is a preclared method, not a predefined keyword
+1d) No (for is the keyword, For isn't)
+1e) Yes (A keyword to define a specific type of loop)
+1f) No (int is the actual keyword)
+
+2a) VALID
+2b) VALID
+2c) NO, - is not valid in an identifier
+2d) No, because by starting with a numeric value, the compiler will be confused and treat it as a RValue
+2e) VALID
+2f) No, you are not allowed to start with # in a identifier
+
+3a) 13
+3b) 2 
+3c) 5?
+13 Tokens (String literal, scanf, all symbols "(" "," "&" identifiers etc)
+NOT TESTED
+
+4a) |-07  -_10.55_|  (NOTE THAT . COUNTS AS A CHARACTER AS WELL, and %- means space is at the right)
+4b) |- 2.7120e-03-| (e MEANS EXPONENTIAL, and leave space in front)
+
+5a) |-----%d| TECHNICALLY CORRECT (Can use %7d)
+5b) |%8.5f|
+5c) |0000%d,%d----| TECHNICALLY CORRECT (%6.6d,%-6d)
+
+6a) 15
+6b) 0.65
+6c) SPACE
+6d) 40.0
+6e) Rubbish Value
+
+7a) ((((((a * (-(b++))) * (+(--c))) * d) * e) * f) + (g/h))
+7b) (((((((a * (+b)) % c) / d) - (-e)) + (f++)) - (--g))
+7c) (a = (b += (((c++) - d) + ((--e) / (-f)))))
+7d) (a /= ((((+b) % (-c)) / d) + (-e)))
+
+8a)
+- Missing return statement
+- "b" is uninitialized
+- c is undefined   /
+- 1st printf does not have closing "  /
+- %f expects float/double   /
+- No starting braces for main  /
+
+b) Cannot find the "main" function (capitalization is important)
+
+9a) 1 12 3
+9b) 0 4 5 6
+
+10a) <=10 
+10b) NOTHING (Error redeclaring int i)
+10c) onetwothree
+10d) -1
+10e) 5 13, 4 13, 3 13, 2 13, 1 13, (RETURNS YOU J CHECK)
+10f) sum = 60
+
+11)
+
+int i;
+
+for (i = 0; ++i <= 5;)
+{
+  printf("%d ", i);
+}
+
+12)
+
+short fnc (int int1, int int2, int int3, char a, float f);
+
+13)
+
+int LCM(int A, int B)
+{
+  int tempA = A, tempB = B;
+
+  while (tempA != tempB)
+  {
+    if (tempA > tempB)
+	tempA += A;
+    else if (tempB > tempA)
+	tempB += B;
+  }
+  return tempA;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
