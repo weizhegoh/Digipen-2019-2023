@@ -1,0 +1,63 @@
+// pthread.cpp
+// -- simple thread creation using POSIX
+// cs180 1/08
+
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+#include <unistd.h>
+#include <pthread.h>
+using namespace std;
+
+// (global) string table -- to be used by
+//    the thread:
+char const *table[]
+   = { "A man, a plan, a canal: Panama!",
+       "No lemons, no melon.",
+       "Step on no pets.",
+       "Was it a rat I saw?",
+       "Dog as a devil deified lived as a god.",
+       "Able was I ere I saw Elba.",
+       "Yawn! Madonna fan? No damn way!",
+       "Go hang a salami. I'm a lasagna hog!"
+     };
+
+// # of entries in the string table:
+const int table_size = 8;
+
+// thread function (code used by the thread):
+//   Note: a thread function must have the following
+//         form (although you may choose the name)
+void *palindrome(void *) {
+  srand(time(0));
+  int max = 1 + rand()%10;
+  for (int i=0; i < max; ++i) {
+    cout << table[rand()%table_size] << endl;
+    //      ^^^^^        ^^^^^^^^^^
+    // -- thread has access to parent's resources (global
+    //    variables)
+    sleep(1);
+  }
+  // A thread must use 'pthread_exit' instead of
+  //   'return':
+  pthread_exit(0);
+}
+
+
+int main(void) {
+  pthread_t thread_id;
+  // create a thread:
+  pthread_create(&thread_id,0,palindrome,0);
+  //                          ^^^^^^^^^^ pointer to thread code
+  //              ^^^^^^^^^ filled in with thread ID
+  // Note: 'pthread_create' does not block (it
+  //       returns immediately, and the thread is
+  //       started)
+
+  // wait for the child thread to finish:
+  pthread_join(thread_id,0);
+  //           ^^^^^^^^^ ID of thread to wait for
+  // Note: 'pthread_join' blocks until the specified
+  //       thread calls 'pthread_exit'
+  return 0;
+}

@@ -1,0 +1,52 @@
+// win_thread.cpp
+// -- Win32 threads: single simple thread
+// cs180 1/08
+
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+#include <windows.h>
+using namespace std;
+
+char *table[] = { "A nut for a jar of tuna.",
+                  "Rats live on no evil star.",
+                  "I prefer pi.",
+                  "Gary knits a stinky rag.",
+                  "Nate bit a Tibetan.",
+                  "Sleep on no peels."
+                };
+const int table_size = 6;
+
+// thread function:
+//   (may have a different name, but must take a
+//    single 'LPVOID' argument, and return a 'DWORD')
+DWORD WINAPI ThreadProc(LPVOID) {
+  srand(unsigned(time(0)));
+  int max = 1 + rand()%10;
+  for (int i=0; i < max; ++i) {
+    cout << table[rand()%table_size] << endl;
+    Sleep(500);
+  }
+  // Under Win32, just use 'return':
+  return 0;
+}
+
+
+int main(void) {
+  // create the thread:
+  HANDLE thread_handle = CreateThread(0,0,ThreadProc,0,0,0);
+  //                                      ^^^^^^^^^^ thread fcn
+  //     ^^^^^^^^^^^^^ returns a handle to the thread
+  // Note: 'CreateThread' does not block (returns
+  //       immediately) and starts the thread concurrently
+  //       with the main thread
+
+  // wait the for the thread to finish:
+  WaitForSingleObject(thread_handle,INFINITE);
+  //                                ^^^^^^^^ max wait time
+  //                  ^^^^^^^^^^^^^ thread handle
+
+  // don't forget to close the handle:
+  CloseHandle(thread_handle);
+  return 0;
+}

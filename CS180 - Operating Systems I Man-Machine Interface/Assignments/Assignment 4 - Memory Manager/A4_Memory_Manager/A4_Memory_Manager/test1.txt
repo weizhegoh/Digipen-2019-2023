@@ -1,0 +1,79 @@
+The original block...
+start address: 80010338
+  byte count: 64
+  allocated? false
+
+After allocating all...
+start address: 80010338
+  byte count: 14
+  allocated? true
+start address: 8001034c
+  byte count: 14
+  allocated? true
+start address: 80010360
+  byte count: 14
+  allocated? true
+start address: 80010374
+  byte count: 14
+  allocated? true
+start address: 80010388
+  byte count: 14
+  allocated? true
+
+After deallocating second...
+start address: 80010338
+  byte count: 14
+  allocated? true
+start address: 8001034c
+  byte count: 14
+  allocated? false
+start address: 80010360
+  byte count: 14
+  allocated? true
+start address: 80010374
+  byte count: 14
+  allocated? true
+start address: 80010388
+  byte count: 14
+  allocated? true
+
+After deallocating fourth...
+start address: 80010338
+  byte count: 14
+  allocated? true
+start address: 8001034c
+  byte count: 14
+  allocated? false
+start address: 80010360
+  byte count: 14
+  allocated? true
+start address: 80010374
+  byte count: 14
+  allocated? false
+start address: 80010388
+  byte count: 14
+  allocated? true
+
+After deallocating third...
+start address: 80010338
+  byte count: 14
+  allocated? true
+start address: 8001034c
+  byte count: 3c
+  allocated? false
+start address: 80010388
+  byte count: 14
+  allocated? true
+
+After deallocating first...
+start address: 80010338
+  byte count: 50
+  allocated? false
+start address: 80010388
+  byte count: 14
+  allocated? true
+
+After deallocating fifth...
+start address: 80010338
+  byte count: 64
+  allocated? false

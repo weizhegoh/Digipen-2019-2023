@@ -1,0 +1,138 @@
+bool doExec()
+{
+    std::vector<std::vector<std::string>> _cmdList; // Vector of all the commands
+    std::vector<std::string> _bufferVector;
+    for (size_t count = 0; count < _inputVector.size(); ++count)
+    {
+        if (!_inputVector[count].compare("|")) // seperate the commands
+        {
+            _cmdList.push_back(_bufferVector);
+            _bufferVector.clear();
+            continue;
+        }
+        _bufferVector.push_back(_inputVector[count].c_str());
+    }
+    _cmdList.push_back(_bufferVector);
+
+    int toWaitPid;  // the PID of the program that will be waiting
+    int new_fd[2];  // "current" file descriptor
+    int prev_fd[2]; // "previous" file descriptor
+
+    for (auto &_currCmd : _cmdList) // Loops all the commands
+    {
+        // spilting up path if seperated with ':'
+        std::replace(_currCmd.front().begin(), _currCmd.front().end(), ':', ' ');
+        std::stringstream _tempss;
+        _tempss << _currCmd.front();
+        std::vector<std::string> path;
+        std::string _tempstr;
+
+        while (_tempss >> _tempstr)
+            path.push_back(_tempstr);
+
+        if (_currCmd != _cmdList.back() && (_cmdList.size() > 1)) // piping if there is a next command
+            pipe(new_fd);
+
+        int pid;
+        pid = fork();
+
+        if (pid == 0) // Child process
+        {
+            int check;
+            for (auto &i : path)
+            {
+                std::vector<const char *> strings;
+
+                std::size_t found = i.find_last_of("/\\"); // finds both back slash and forward slash
+                std::string path = i.substr(0, found);
+                (found == std::string::npos) ? found = 0 : found++;
+                std::string file = i.substr(found);
+                strings.push_back(file.c_str());
+                for (size_t count = 1; count < _currCmd.size(); ++count)
+                    strings.push_back(_currCmd[count].c_str());
+
+                if (!strcmp(strings.back(), "&")) // Check if there is an & for background process
+                    strings.pop_back();
+
+                if (_currCmd != _cmdList.front() && (_cmdList.size() > 1)) // piping if there is a prev command
+                {
+                    dup2(prev_fd[READ_END], 0);
+                    close(prev_fd[READ_END]);
+                    close(prev_fd[WRITE_END]);
+                }
+                if (_currCmd != _cmdList.back() && (_cmdList.size() > 1)) // piping if there is a next command
+                {
+                    close(new_fd[READ_END]);
+                    dup2(new_fd[WRITE_END], 1);
+                    close(new_fd[WRITE_END]);
+                }
+
+                strings.push_back(NULL);
+                if (!path.compare(file))
+                {
+                    check = execv(path.c_str(), const_cast<char *const *>(strings.data()));  // check in local dir
+                    check = execvp(path.c_str(), const_cast<char *const *>(strings.data())); // else check in PATH
+                }
+                else
+                {
+                    check = execv(i.c_str(), const_cast<char *const *>(strings.data())); // check in given path
+                }
+            }
+            if (check == -1)
+            {
+                std::cout << _inputVector.front() << ": command not found" << std::endl;
+            }
+            exit(1); // cannot do any exec command
+        }
+        else // Parent process
+        {
+            int status;
+            if (!_inputVector.back().compare("&")) // Check if there is an & for background process
+            {
+                processList.insert_or_assign(processCount, pid);
+                std::cout << "[" << processCount << "] " << processList[processCount] << std::endl;
+                processCount++;
+                background = true;
+            }
+            if (_currCmd != _cmdList.front() && (_cmdList.size() > 1)) // piping if there is a prev command
+            {
+                close(prev_fd[READ_END]);
+                close(prev_fd[WRITE_END]);
+            }
+            if (_currCmd != _cmdList.back() && (_cmdList.size() > 1)) // piping if there is a next command
+            {
+                prev_fd[READ_END] = new_fd[READ_END];
+                prev_fd[WRITE_END] = new_fd[WRITE_END];
+            }
+
+            if (_currCmd == _cmdList.back() && (_cmdList.size() > 1)) // If it is the last command
+            {
+                toWaitPid = pid;
+                lastProgram = true;
+            }
+
+            if (WIFEXITED(status))
+            {
+                if (WEXITSTATUS(status)) // if child couldnt find any exec file
+                {
+                    return 1;
+                }
+            }
+        }
+    }
+
+    if ((_cmdList.size() > 1))
+    {
+        close(prev_fd[READ_END]);
+        close(prev_fd[WRITE_END]);
+    }
+
+    if (!background || lastProgram) // mainly for waiting
+    {
+        waitpid(toWaitPid, NULL, 0);
+        lastProgram = false;
+        background = false;
+    }
+    lastProgram = false;
+    return 0;
+}

@@ -1,0 +1,46 @@
+# Macros ========================================
+
+CC=g++
+CFLAGS=-Wall -Wextra -Werror -ansi -pedantic -std=c++17 -Wconversion
+OUTDIR=gnu\\
+OBJECTS= $(OUTDIR)main.obj
+DIFF_OPTIONS=-y --strip-trailing-cr --suppress-common-lines
+TCDIR=..\\output\\
+INDIR=..\\input\\
+CLEANTARG=$(OUTPUT) $(OBJECTS) *.stackdump $(OUTDIR)
+EXE=uShell.exe
+TESTEXE=..\\test\\
+ERASE=rm
+
+# Targets ========================================
+
+$(shell mkdir -p $(OUTDIR))
+$(shell mkdir -p testExecutables/goo/)
+ 
+$(EXE) : $(OBJECTS)
+	$(CC) -o $(EXE) $(OBJECTS) 
+
+$(OUTDIR)main.obj : main.cpp
+	$(CC) -o $(OUTDIR)main.obj $(CFLAGS) -c main.cpp
+	
+clean : 
+	$(ERASE) $(CLEANTARG) -rf
+
+rebuild : clean
+	$(MAKE) -f makefile_gnu -i
+	
+compileAll: 
+	$(MAKE) -f makefile_gnu
+
+0 1 2 3: compileAll
+	./$(TESTEXE)uShell.exe <$(INDIR)$@.txt > $(TCDIR)sample$@.txt
+	./$(EXE) <$(INDIR)$@.txt > $(OUTPUT)$(TCDIR)$@.txt
+	diff $(TCDIR)sample$@.txt $(TCDIR)$@.txt $(DIFF_OPTIONS)
+	
+	./$(TESTEXE)uShell.exe -v <$(INDIR)$@.txt > $(TCDIR)sample$@.txt
+	./$(EXE) -v <$(INDIR)$@.txt > $(OUTPUT)$(TCDIR)$@.txt
+	diff $(TCDIR)sample$@.txt $(TCDIR)$@.txt $(DIFF_OPTIONS)
+	
+testAll: 0 1 2 3
+
+
