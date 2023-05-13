@@ -1,0 +1,42 @@
+
+====================== TestStrings ======================
+type: BSTree, height: 6, nodes: 21
+             abe[21]   
+
+        abd[2]                                                 for[18]   
+
+   abc[1]                                       fad[9]                        one[8]    
+
+                  box[6]                             fat[2]         hit[2]                        two[5]    
+
+                                 car[5]                   fav[1]         man[1]    six[3]              zoo[1]    
+
+                            cab[2]         dog[2]                                            sox[2]    
+
+                       boy[1]         dig[1]                                            sow[1]    
+
+Value dig found with 7 compares
+Value abe found with 1 compares
+Value hot NOT found with 6 compares
+Value abcd NOT found with 4 compares
+Index 0: abc
+Index 1: abd
+Index 2: abe
+Index 3: box
+Index 4: boy
+Index 5: cab
+Index 6: car
+Index 7: dig
+Index 8: dog
+Index 9: fad
+Index 10: fat
+Index 11: fav
+Index 12: for
+Index 13: hit
+Index 14: man
+Index 15: one
+Index 16: six
+Index 17: sow
+Index 18: sox
+Index 19: two
+Index 20: zoo

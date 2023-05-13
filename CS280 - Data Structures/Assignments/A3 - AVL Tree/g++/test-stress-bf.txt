@@ -1,0 +1,25 @@
+
+====================== AVLStress ======================
+Sum is 2068087328
+type: AVLTree, height: 23, nodes: 1000000
+type: AVLTree, height: 4, nodes: 10
+                 258972    
+
+            169975         632003    
+
+  52374               429992              752217    
+
+       61891                    689923         929589    
+
+                                     727526    
+
+Index 0: 52374
+Index 1: 61891
+Index 2: 169975
+Index 3: 258972
+Index 4: 429992
+Index 5: 632003
+Index 6: 689923
+Index 7: 727526
+Index 8: 752217
+Index 9: 929589

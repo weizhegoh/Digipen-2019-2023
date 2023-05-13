@@ -1,0 +1,38 @@
+
+====================== TestStrings ======================
+type: AVLTree, height: 4, nodes: 21
+                                               fad[21]   
+
+                                car[9]                                       one[11]   
+
+                 box[6]                   dog[2]         fav[5]                                  two[5]    
+
+       abd[3]              cab[2]    dig[1]         fat[1]         hit[3]              sow[3]         zoo[1]    
+
+  abc[1]    abe[1]    boy[1]                                  for[1]    man[1]    six[1]    sox[1]    
+
+Value dig found with 4 compares
+Value abe found with 5 compares
+Value hot NOT found with 6 compares
+Value abcd NOT found with 6 compares
+Index 0: abc
+Index 1: abd
+Index 2: abe
+Index 3: box
+Index 4: boy
+Index 5: cab
+Index 6: car
+Index 7: dig
+Index 8: dog
+Index 9: fad
+Index 10: fat
+Index 11: fav
+Index 12: for
+Index 13: hit
+Index 14: man
+Index 15: one
+Index 16: six
+Index 17: sow
+Index 18: sox
+Index 19: two
+Index 20: zoo

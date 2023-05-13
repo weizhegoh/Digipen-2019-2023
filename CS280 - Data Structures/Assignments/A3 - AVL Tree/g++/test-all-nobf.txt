@@ -1,0 +1,503 @@
+
+====================== Test1 - random insert ======================
+BSTree
+height: 5
+ nodes: 10
+tree is NOT empty
+
+            2         
+
+  0                                       8         
+
+       1         3                             9         
+
+                           5         
+
+                      4         6         
+
+                                     7         
+
+
+====================== Test2 - sorted insert ======================
+BSTree
+height: 9
+ nodes: 10
+tree is NOT empty
+
+    0         
+
+         1         
+
+              2         
+
+                   3         
+
+                        4         
+
+                             5         
+
+                                  6         
+
+                                       7         
+
+                                            8         
+
+                                                 9         
+
+
+====================== Test3 - random insert/remove ======================
+BSTree
+remove 2, 6, 3:
+height: 3
+ nodes: 7
+tree is NOT empty
+
+      1         
+
+ 0                        8         
+
+                5              9         
+
+           4         7         
+
+
+====================== Test4 - random insert/remove all ======================
+BSTree
+remove all and then some:
+height: -1
+ nodes: 0
+tree is empty
+
+
+====================== Test5 - random insert/clear ======================
+BSTree
+clear:
+height: -1
+ nodes: 0
+tree is empty
+
+
+====================== Test6 - random insert/find ======================
+BSTree
+            2         
+
+  0                                       8         
+
+       1         3                             9         
+
+                           5         
+
+                      4         6         
+
+                                     7         
+
+Value 1 found with 3 compares
+Value 3 found with 3 compares
+Value 5 found with 4 compares
+Value 50 NOT found with 4 compares
+
+====================== Test1 - random insert ======================
+AVLTree
+height: 3
+ nodes: 10
+tree is NOT empty
+
+                          5         
+
+           2                             8         
+
+ 0              3              6              9         
+
+      1              4              7         
+
+
+====================== Test2 - sorted insert ======================
+AVLTree
+height: 3
+ nodes: 10
+tree is NOT empty
+
+                3         
+
+      1                             7         
+
+ 0         2              5              8         
+
+                     4         6              9         
+
+
+====================== Test3 - random insert/remove ======================
+AVLTree
+remove 2, 6, 3:
+height: 2
+ nodes: 7
+tree is NOT empty
+
+                5         
+
+      1                   8         
+
+ 0         4         7         9         
+
+
+====================== Test4 - random insert/remove all ======================
+AVLTree
+remove all and then some:
+height: -1
+ nodes: 0
+tree is empty
+
+
+====================== Test5 - random insert/clear ======================
+AVLTree
+clear:
+height: -1
+ nodes: 0
+tree is empty
+
+
+====================== Test6 - random insert/find ======================
+AVLTree
+                          5         
+
+           2                             8         
+
+ 0              3              6              9         
+
+      1              4              7         
+
+Value 1 found with 4 compares
+Value 3 found with 3 compares
+Value 5 found with 1 compares
+Value 50 NOT found with 4 compares
+
+====================== Test7 - assignment ======================
+BSTree
+height: 5
+ nodes: 10
+            2         
+
+  0                                       8         
+
+       1         3                             9         
+
+                           5         
+
+                      4         6         
+
+                                     7         
+
+height: 5
+ nodes: 10
+            6         
+
+  0                                       24        
+
+       3         9                             27        
+
+                           15        
+
+                      12        18        
+
+                                     21        
+
+tree 1 ------------------------------------------
+            6         
+
+  0                                       24        
+
+       3         9                             27        
+
+                           15        
+
+                      12        18        
+
+                                     21        
+
+tree 2------------------------------------------
+            6         
+
+  0                                       24        
+
+       3         9                             27        
+
+                           15        
+
+                      12        18        
+
+                                     21        
+
+
+====================== Test8 - copy constructor ======================
+BSTree
+height: 5
+ nodes: 10
+            2         
+
+  0                                       8         
+
+       1         3                             9         
+
+                           5         
+
+                      4         6         
+
+                                     7         
+
+height: 5
+ nodes: 10
+tree 1------------------------------------------
+            2         
+
+  0                                       8         
+
+       1         3                             9         
+
+                           5         
+
+                      4         6         
+
+                                     7         
+
+tree 2------------------------------------------
+            2         
+
+  0                                       8         
+
+       1         3                             9         
+
+                           5         
+
+                      4         6         
+
+                                     7         
+
+
+====================== Test7 - assignment ======================
+AVLTree
+height: 3
+ nodes: 10
+                          5         
+
+           2                             8         
+
+ 0              3              6              9         
+
+      1              4              7         
+
+height: 3
+ nodes: 10
+                          15        
+
+           6                             24        
+
+ 0              9              18             27        
+
+      3              12             21        
+
+tree 1 ------------------------------------------
+                          15        
+
+           6                             24        
+
+ 0              9              18             27        
+
+      3              12             21        
+
+tree 2------------------------------------------
+                          15        
+
+           6                             24        
+
+ 0              9              18             27        
+
+      3              12             21        
+
+
+====================== Test8 - copy constructor ======================
+AVLTree
+height: 3
+ nodes: 10
+                          5         
+
+           2                             8         
+
+ 0              3              6              9         
+
+      1              4              7         
+
+height: 3
+ nodes: 10
+tree 1------------------------------------------
+                          5         
+
+           2                             8         
+
+ 0              3              6              9         
+
+      1              4              7         
+
+tree 2------------------------------------------
+                          5         
+
+           2                             8         
+
+ 0              3              6              9         
+
+      1              4              7         
+
+
+====================== TestIndex - random insert/subscript ======================
+BSTree
+height: 6
+ nodes: 8
+tree is NOT empty
+
+   A         
+
+                                      S         
+
+             E         
+
+        C                        R         
+
+                  H         
+
+                       I         
+
+                            N         
+
+Index 0: A
+Index 1: C
+Index 2: E
+Index 3: H
+Index 4: I
+Index 5: N
+Index 6: R
+Index 7: S
+
+====================== TestIndex - random insert/subscript ======================
+AVLTree
+height: 3
+ nodes: 8
+tree is NOT empty
+
+           E         
+
+ A                             R         
+
+      C              I              S         
+
+                H         N         
+
+Index 0: A
+Index 1: C
+Index 2: E
+Index 3: H
+Index 4: I
+Index 5: N
+Index 6: R
+Index 7: S
+
+====================== TestStrings ======================
+type: BSTree, height: 6, nodes: 21
+             abe       
+
+        abd                                                    for       
+
+   abc                                          fad                           one       
+
+                  box                                fat            hit                           two       
+
+                                 car                      fav            man       six                 zoo       
+
+                            cab            dog                                               sox       
+
+                       boy            dig                                               sow       
+
+Value dig found with 7 compares
+Value abe found with 1 compares
+Value hot NOT found with 6 compares
+Value abcd NOT found with 4 compares
+Index 0: abc
+Index 1: abd
+Index 2: abe
+Index 3: box
+Index 4: boy
+Index 5: cab
+Index 6: car
+Index 7: dig
+Index 8: dog
+Index 9: fad
+Index 10: fat
+Index 11: fav
+Index 12: for
+Index 13: hit
+Index 14: man
+Index 15: one
+Index 16: six
+Index 17: sow
+Index 18: sox
+Index 19: two
+Index 20: zoo
+
+====================== TestStrings ======================
+type: AVLTree, height: 4, nodes: 21
+                                               fad       
+
+                                car                                          one       
+
+                 box                      dog            fav                                     two       
+
+       abd                 cab       dig            fat            hit                 sow            zoo       
+
+  abc       abe       boy                                     for       man       six       sox       
+
+Value dig found with 4 compares
+Value abe found with 5 compares
+Value hot NOT found with 6 compares
+Value abcd NOT found with 6 compares
+Index 0: abc
+Index 1: abd
+Index 2: abe
+Index 3: box
+Index 4: boy
+Index 5: cab
+Index 6: car
+Index 7: dig
+Index 8: dog
+Index 9: fad
+Index 10: fat
+Index 11: fav
+Index 12: for
+Index 13: hit
+Index 14: man
+Index 15: one
+Index 16: six
+Index 17: sow
+Index 18: sox
+Index 19: two
+Index 20: zoo
+
+====================== AVLStress ======================
+Sum is 900565408
+type: AVLTree, height: 15, nodes: 10000
+type: AVLTree, height: 3, nodes: 10
+                          5192      
+
+                4321                6917      
+
+      1111           4650      6628      7009      
+
+ 674       4310                               9235      
+
+Index 0: 674
+Index 1: 1111
+Index 2: 4310
+Index 3: 4321
+Index 4: 4650
+Index 5: 5192
+Index 6: 6628
+Index 7: 6917
+Index 8: 7009
+Index 9: 9235

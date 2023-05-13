@@ -1,0 +1,18 @@
+﻿  sizes.cpp
+C:\School\SIT Digipen - Desktop\Sem 2.2\CS280\Assignments\A1\TestVariableSize\TestVariableSize\sizes.cpp(10,13): warning C4311: 'type cast': pointer truncation from 'int *' to 'int'
+C:\School\SIT Digipen - Desktop\Sem 2.2\CS280\Assignments\A1\TestVariableSize\TestVariableSize\sizes.cpp(10,13): warning C4302: 'type cast': truncation from 'int *' to 'int'
+C:\School\SIT Digipen - Desktop\Sem 2.2\CS280\Assignments\A1\TestVariableSize\TestVariableSize\sizes.cpp(12,9): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'size_t'
+C:\School\SIT Digipen - Desktop\Sem 2.2\CS280\Assignments\A1\TestVariableSize\TestVariableSize\sizes.cpp(12,9): message : consider using '%zu' in the format string
+C:\School\SIT Digipen - Desktop\Sem 2.2\CS280\Assignments\A1\TestVariableSize\TestVariableSize\sizes.cpp(13,9): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'size_t'
+C:\School\SIT Digipen - Desktop\Sem 2.2\CS280\Assignments\A1\TestVariableSize\TestVariableSize\sizes.cpp(13,9): message : consider using '%zu' in the format string
+C:\School\SIT Digipen - Desktop\Sem 2.2\CS280\Assignments\A1\TestVariableSize\TestVariableSize\sizes.cpp(14,9): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'size_t'
+C:\School\SIT Digipen - Desktop\Sem 2.2\CS280\Assignments\A1\TestVariableSize\TestVariableSize\sizes.cpp(14,9): message : consider using '%zu' in the format string
+C:\School\SIT Digipen - Desktop\Sem 2.2\CS280\Assignments\A1\TestVariableSize\TestVariableSize\sizes.cpp(15,9): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'size_t'
+C:\School\SIT Digipen - Desktop\Sem 2.2\CS280\Assignments\A1\TestVariableSize\TestVariableSize\sizes.cpp(15,9): message : consider using '%zu' in the format string
+C:\School\SIT Digipen - Desktop\Sem 2.2\CS280\Assignments\A1\TestVariableSize\TestVariableSize\sizes.cpp(16,9): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'size_t'
+C:\School\SIT Digipen - Desktop\Sem 2.2\CS280\Assignments\A1\TestVariableSize\TestVariableSize\sizes.cpp(16,9): message : consider using '%zu' in the format string
+C:\School\SIT Digipen - Desktop\Sem 2.2\CS280\Assignments\A1\TestVariableSize\TestVariableSize\sizes.cpp(17,9): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'size_t'
+C:\School\SIT Digipen - Desktop\Sem 2.2\CS280\Assignments\A1\TestVariableSize\TestVariableSize\sizes.cpp(17,9): message : consider using '%zu' in the format string
+C:\School\SIT Digipen - Desktop\Sem 2.2\CS280\Assignments\A1\TestVariableSize\TestVariableSize\sizes.cpp(18,9): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'size_t'
+C:\School\SIT Digipen - Desktop\Sem 2.2\CS280\Assignments\A1\TestVariableSize\TestVariableSize\sizes.cpp(18,9): message : consider using '%zu' in the format string
+  TestVariableSize.vcxproj -> C:\School\SIT Digipen - Desktop\Sem 2.2\CS280\Assignments\A1\TestVariableSize\x64\Debug\TestVariableSize.exe

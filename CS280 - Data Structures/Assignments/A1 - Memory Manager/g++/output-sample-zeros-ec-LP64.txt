@@ -1,0 +1,857 @@
+============================== Students...
+Object size = 24, Page size = 104, Pad bytes = 0, ObjectsPerPage = 4, MaxPages = 2, MaxObjects = 8
+Alignment = 0, LeftAlign = 0, InterAlign = 0, HeaderBlocks = None, Header size = 0
+Pages in use: 1, Objects in use: 0, Available objects: 4, Allocs: 0, Frees: 0
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA
+ XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA XX XX XX XX XX XX XX XX
+ AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA
+ AA AA AA AA AA AA AA AA
+
+Pages in use: 1, Objects in use: 1, Available objects: 3, Allocs: 1, Frees: 0
+Pages in use: 1, Objects in use: 2, Available objects: 2, Allocs: 2, Frees: 0
+Pages in use: 1, Objects in use: 3, Available objects: 1, Allocs: 3, Frees: 0
+Exception thrown from Allocate (2) in DoStudents.
+Pages in use: 2, Objects in use: 8, Available objects: 0, Allocs: 8, Frees: 0
+Pages in use: 2, Objects in use: 7, Available objects: 1, Allocs: 8, Frees: 1
+Pages in use: 2, Objects in use: 6, Available objects: 2, Allocs: 8, Frees: 2
+Pages in use: 2, Objects in use: 5, Available objects: 3, Allocs: 8, Frees: 3
+Most students in use: 8
+
+============================== Students...
+Object size = 24, Page size = 104, Pad bytes = 0, ObjectsPerPage = 4, MaxPages = 2, MaxObjects = 8
+Alignment = 0, LeftAlign = 0, InterAlign = 0, HeaderBlocks = None, Header size = 0
+Pages in use: 1, Objects in use: 0, Available objects: 4, Allocs: 0, Frees: 0
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA
+ XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA XX XX XX XX XX XX XX XX
+ AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA
+ AA AA AA AA AA AA AA AA
+
+Pages in use: 1, Objects in use: 1, Available objects: 3, Allocs: 1, Frees: 0
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA
+ XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA XX XX XX XX XX XX XX XX
+ AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB
+
+Pages in use: 1, Objects in use: 2, Available objects: 2, Allocs: 2, Frees: 0
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA
+ XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA XX XX XX XX XX XX XX XX
+ BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB
+
+Pages in use: 1, Objects in use: 3, Available objects: 1, Allocs: 3, Frees: 0
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA
+ XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB XX XX XX XX XX XX XX XX
+ BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB
+
+Exception thrown from Allocate (2) in DoStudents.
+Pages in use: 2, Objects in use: 8, Available objects: 0, Allocs: 8, Frees: 0
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB
+ XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB XX XX XX XX XX XX XX XX
+ BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB
+ XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB XX XX XX XX XX XX XX XX
+ BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB
+
+Pages in use: 2, Objects in use: 7, Available objects: 1, Allocs: 8, Frees: 1
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB
+ XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB XX XX XX XX XX XX XX XX
+ BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB
+ XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB XX XX XX XX XX XX XX XX
+ BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC
+ CC CC CC CC CC CC CC CC
+
+Pages in use: 2, Objects in use: 6, Available objects: 2, Allocs: 8, Frees: 2
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB
+ XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB XX XX XX XX XX XX XX XX
+ BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB
+ XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB XX XX XX XX XX XX XX XX
+ CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC
+ CC CC CC CC CC CC CC CC
+
+Pages in use: 2, Objects in use: 5, Available objects: 3, Allocs: 8, Frees: 3
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB
+ XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB XX XX XX XX XX XX XX XX
+ BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB
+ XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC XX XX XX XX XX XX XX XX
+ CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC
+ CC CC CC CC CC CC CC CC
+
+Most students in use: 8
+
+============================== Employees...
+Object size = 40, Page size = 168, Pad bytes = 0, ObjectsPerPage = 4, MaxPages = 2, MaxObjects = 8
+Alignment = 0, LeftAlign = 0, InterAlign = 0, HeaderBlocks = None, Header size = 0
+Pages in use: 1, Objects in use: 0, Available objects: 4, Allocs: 0, Frees: 0
+Pages in use: 1, Objects in use: 1, Available objects: 3, Allocs: 1, Frees: 0
+Pages in use: 1, Objects in use: 2, Available objects: 2, Allocs: 2, Frees: 0
+Pages in use: 1, Objects in use: 3, Available objects: 1, Allocs: 3, Frees: 0
+Exception thrown from Allocate (2) in DoEmployees.
+Pages in use: 2, Objects in use: 8, Available objects: 0, Allocs: 8, Frees: 0
+Pages in use: 2, Objects in use: 7, Available objects: 1, Allocs: 8, Frees: 1
+Pages in use: 2, Objects in use: 6, Available objects: 2, Allocs: 8, Frees: 2
+Pages in use: 2, Objects in use: 5, Available objects: 3, Allocs: 8, Frees: 3
+Exception thrown from Free (Freeing object twice) in DoEmployees.
+Exception thrown from Free (Freeing address on bad boundary) in DoEmployees.
+Most employees in use: 8
+
+============================== Test padding...
+Object size = 24, Page size = 152, Pad bytes = 6, ObjectsPerPage = 4, MaxPages = 2, MaxObjects = 8
+Alignment = 0, LeftAlign = 0, InterAlign = 0, HeaderBlocks = None, Header size = 0
+Pages in use: 1, Objects in use: 0, Available objects: 4, Allocs: 0, Frees: 0
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX DD DD DD DD DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA AA
+ AA AA AA AA AA AA DD DD DD DD DD DD DD DD DD DD DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA
+ AA AA AA AA AA AA AA AA AA AA DD DD DD DD DD DD DD DD DD DD DD DD XX XX XX XX XX XX XX XX AA AA
+ AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD DD DD DD DD DD DD DD DD DD DD XX XX XX XX XX XX
+ XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD DD DD DD DD
+
+Pages in use: 1, Objects in use: 1, Available objects: 3, Allocs: 1, Frees: 0
+Pages in use: 1, Objects in use: 2, Available objects: 2, Allocs: 2, Frees: 0
+Pages in use: 1, Objects in use: 3, Available objects: 1, Allocs: 3, Frees: 0
+Exception thrown from Allocate (2) in DoStudents.
+Pages in use: 2, Objects in use: 8, Available objects: 0, Allocs: 8, Frees: 0
+Pages in use: 2, Objects in use: 7, Available objects: 1, Allocs: 8, Frees: 1
+Pages in use: 2, Objects in use: 6, Available objects: 2, Allocs: 8, Frees: 2
+Pages in use: 2, Objects in use: 5, Available objects: 3, Allocs: 8, Frees: 3
+Most students in use: 8
+
+============================== Test padding...
+Object size = 24, Page size = 184, Pad bytes = 10, ObjectsPerPage = 4, MaxPages = 2, MaxObjects = 8
+Alignment = 0, LeftAlign = 0, InterAlign = 0, HeaderBlocks = None, Header size = 0
+Pages in use: 1, Objects in use: 0, Available objects: 4, Allocs: 0, Frees: 0
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX DD DD DD DD DD DD DD DD DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA
+ AA AA AA AA AA AA AA AA AA AA DD DD DD DD DD DD DD DD DD DD DD DD DD DD DD DD DD DD DD DD XX XX
+ XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD DD DD DD DD DD DD DD DD
+ DD DD DD DD DD DD DD DD DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA
+ AA AA DD DD DD DD DD DD DD DD DD DD DD DD DD DD DD DD DD DD DD DD XX XX XX XX XX XX XX XX AA AA
+ AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD DD DD DD DD DD DD DD DD
+
+Pages in use: 1, Objects in use: 1, Available objects: 3, Allocs: 1, Frees: 0
+Pages in use: 1, Objects in use: 2, Available objects: 2, Allocs: 2, Frees: 0
+Pages in use: 1, Objects in use: 3, Available objects: 1, Allocs: 3, Frees: 0
+Exception thrown from Allocate (2) in DoStudents.
+Pages in use: 2, Objects in use: 8, Available objects: 0, Allocs: 8, Frees: 0
+Pages in use: 2, Objects in use: 7, Available objects: 1, Allocs: 8, Frees: 1
+Pages in use: 2, Objects in use: 6, Available objects: 2, Allocs: 8, Frees: 2
+Pages in use: 2, Objects in use: 5, Available objects: 3, Allocs: 8, Frees: 3
+Most students in use: 8
+
+============================== Test basic header blocks...
+Object size = 24, Page size = 140, Pad bytes = 2, ObjectsPerPage = 4, MaxPages = 2, MaxObjects = 8
+Alignment = 1, LeftAlign = 0, InterAlign = 0, HeaderBlocks = Basic, Header size = 5
+Pages in use: 1, Objects in use: 0, Available objects: 4, Allocs: 0, Frees: 0
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA
+ AA AA AA AA AA AA AA DD DD 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA
+ AA AA AA AA AA AA AA AA DD DD 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA
+ AA AA AA AA AA AA AA AA AA DD DD 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA
+ AA AA AA AA AA AA AA AA AA AA DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA
+ AA AA AA AA AA AA AA DD DD 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA
+ AA AA AA AA AA AA AA AA DD DD 02 00 00 00 01 DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB BB DD DD 01 00 00 00 01 DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB BB BB DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA
+ AA AA AA AA AA AA AA DD DD 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA
+ AA AA AA AA AA AA AA AA DD DD 02 00 00 00 01 DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB BB DD DD 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC
+ CC CC CC CC CC CC CC CC CC CC DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA
+ AA AA AA AA AA AA AA DD DD 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA
+ AA AA AA AA AA AA AA AA DD DD 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC
+ CC CC CC CC CC CC CC CC CC DD DD 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC
+ CC CC CC CC CC CC CC CC CC CC DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA
+ AA AA AA AA AA AA AA DD DD 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA
+ AA AA AA AA AA AA AA AA DD DD 03 00 00 00 01 DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB BB DD DD 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC
+ CC CC CC CC CC CC CC CC CC CC DD DD
+
+
+============================== Test extended header blocks(1)...
+Object size = 24, Page size = 152, Pad bytes = 2, ObjectsPerPage = 4, MaxPages = 2, MaxObjects = 8
+Alignment = 0, LeftAlign = 0, InterAlign = 0, HeaderBlocks = Extended, Header size = 8
+Pages in use: 1, Objects in use: 0, Available objects: 4, Allocs: 0, Frees: 0
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX 00 00 00 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA
+ AA AA AA AA AA AA AA AA AA AA DD DD 00 00 00 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA
+ AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD 00 00 00 00 00 00 00 00 DD DD XX XX XX XX XX XX
+ XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD 00 00 00 00 00 00 00 00 DD DD XX XX
+ XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX 00 00 00 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA
+ AA AA AA AA AA AA AA AA AA AA DD DD 00 00 00 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA
+ AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD 00 00 00 00 00 00 00 00 DD DD XX XX XX XX XX XX
+ XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD 00 01 00 01 00 00 00 01 DD DD XX XX
+ XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX 00 00 00 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA
+ AA AA AA AA AA AA AA AA AA AA DD DD 00 00 00 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA
+ AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD 00 01 00 02 00 00 00 01 DD DD XX XX XX XX XX XX
+ XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD 00 01 00 01 00 00 00 01 DD DD XX XX
+ XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX 00 00 00 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA
+ AA AA AA AA AA AA AA AA AA AA DD DD 00 00 00 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA
+ AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD 00 01 00 02 00 00 00 01 DD DD XX XX XX XX XX XX
+ XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD 00 01 00 00 00 00 00 00 DD DD XX XX
+ XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX 00 00 00 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA
+ AA AA AA AA AA AA AA AA AA AA DD DD 00 00 00 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA
+ AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD 00 01 00 00 00 00 00 00 DD DD XX XX XX XX XX XX
+ XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD 00 01 00 00 00 00 00 00 DD DD XX XX
+ XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX 00 00 00 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA
+ AA AA AA AA AA AA AA AA AA AA DD DD 00 00 00 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA
+ AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD 00 02 00 03 00 00 00 01 DD DD XX XX XX XX XX XX
+ XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD 00 01 00 00 00 00 00 00 DD DD XX XX
+ XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX 00 00 00 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA
+ AA AA AA AA AA AA AA AA AA AA DD DD 00 00 00 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA
+ AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD 00 07 00 08 00 00 00 01 DD DD XX XX XX XX XX XX
+ XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD 00 01 00 00 00 00 00 00 DD DD XX XX
+ XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX 00 00 00 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA
+ AA AA AA AA AA AA AA AA AA AA DD DD 00 00 00 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA
+ AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD 00 07 00 08 00 00 00 01 DD DD XX XX XX XX XX XX
+ XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD 00 02 00 09 00 00 00 01 DD DD XX XX
+ XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD
+
+
+============================== Test external header blocks...
+Object size = 24, Page size = 152, Pad bytes = 2, ObjectsPerPage = 4, MaxPages = 1, MaxObjects = 4
+Alignment = 0, LeftAlign = 0, InterAlign = 0, HeaderBlocks = External, Header size = 8
+Pages in use: 1, Objects in use: 0, Available objects: 4, Allocs: 0, Frees: 0
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA
+ AA AA AA AA AA AA AA AA AA AA DD DD XX XX XX XX XX XX XX XX DD DD XX XX XX XX XX XX XX XX AA AA
+ AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD XX XX XX XX XX XX XX XX DD DD XX XX XX XX XX XX
+ XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD XX XX XX XX XX XX XX XX DD DD XX XX
+ XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD
+  Label: 
+ In use: 0
+Alloc #: 0
+  Label: 
+ In use: 0
+Alloc #: 0
+  Label: 
+ In use: 0
+Alloc #: 0
+  Label: 
+ In use: 0
+Alloc #: 0
+
+Pages in use: 1, Objects in use: 1, Available objects: 3, Allocs: 1, Frees: 0
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA
+ AA AA AA AA AA AA AA AA AA AA DD DD XX XX XX XX XX XX XX XX DD DD XX XX XX XX XX XX XX XX AA AA
+ AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD XX XX XX XX XX XX XX XX DD DD XX XX XX XX XX XX
+ XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD XX XX XX XX XX XX XX XX DD DD XX XX
+ XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD
+  Label: 
+ In use: 0
+Alloc #: 0
+  Label: 
+ In use: 0
+Alloc #: 0
+  Label: 
+ In use: 0
+Alloc #: 0
+  Label: First student
+ In use: 1
+Alloc #: 1
+
+Pages in use: 1, Objects in use: 2, Available objects: 2, Allocs: 2, Frees: 0
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA
+ AA AA AA AA AA AA AA AA AA AA DD DD XX XX XX XX XX XX XX XX DD DD XX XX XX XX XX XX XX XX AA AA
+ AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD XX XX XX XX XX XX XX XX DD DD XX XX XX XX XX XX
+ XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD XX XX XX XX XX XX XX XX DD DD XX XX
+ XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD
+  Label: 
+ In use: 0
+Alloc #: 0
+  Label: 
+ In use: 0
+Alloc #: 0
+  Label: Second student
+ In use: 1
+Alloc #: 2
+  Label: First student
+ In use: 1
+Alloc #: 1
+
+Pages in use: 1, Objects in use: 1, Available objects: 3, Allocs: 2, Frees: 1
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA
+ AA AA AA AA AA AA AA AA AA AA DD DD XX XX XX XX XX XX XX XX DD DD XX XX XX XX XX XX XX XX AA AA
+ AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD XX XX XX XX XX XX XX XX DD DD XX XX XX XX XX XX
+ XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD XX XX XX XX XX XX XX XX DD DD XX XX
+ XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD
+  Label: 
+ In use: 0
+Alloc #: 0
+  Label: 
+ In use: 0
+Alloc #: 0
+  Label: Second student
+ In use: 1
+Alloc #: 2
+  Label: 
+ In use: 0
+Alloc #: 0
+
+Pages in use: 1, Objects in use: 0, Available objects: 4, Allocs: 2, Frees: 2
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA
+ AA AA AA AA AA AA AA AA AA AA DD DD XX XX XX XX XX XX XX XX DD DD XX XX XX XX XX XX XX XX AA AA
+ AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD XX XX XX XX XX XX XX XX DD DD XX XX XX XX XX XX
+ XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD XX XX XX XX XX XX XX XX DD DD XX XX
+ XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD
+  Label: 
+ In use: 0
+Alloc #: 0
+  Label: 
+ In use: 0
+Alloc #: 0
+  Label: 
+ In use: 0
+Alloc #: 0
+  Label: 
+ In use: 0
+Alloc #: 0
+
+
+============================== Test corruption...
+Object size = 24, Page size = 188, Pad bytes = 8, ObjectsPerPage = 4, MaxPages = 2, MaxObjects = 8
+Alignment = 0, LeftAlign = 0, InterAlign = 0, HeaderBlocks = Basic, Header size = 5
+Pages in use: 1, Objects in use: 2, Available objects: 2, Allocs: 2, Frees: 0
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX 00 00 00 00 00 DD DD DD DD DD DD DD DD XX XX XX XX XX XX XX XX AA AA AA
+ AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD DD DD DD DD DD DD 00 00 00 00 00 DD DD DD DD DD DD
+ DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD DD DD DD DD
+ DD DD 02 00 00 00 01 DD DD DD DD DD DD DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB DD DD DD DD DD DD DD DD 01 00 00 00 01 DD DD DD DD DD DD DD DD XX XX XX XX
+ XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD DD DD DD DD DD DD
+
+Exception thrown from Free: E_CORRUPTED_BLOCK on left
+Exception thrown from Free: E_CORRUPTED_BLOCK on right
+
+============================== Test using new/delete...
+Object size = 24, Page size = 104, Pad bytes = 0, ObjectsPerPage = 4, MaxPages = 2, MaxObjects = 8
+Alignment = 0, LeftAlign = 0, InterAlign = 0, HeaderBlocks = None, Header size = 0
+Allocs: 0, Frees: 0
+Allocs: 1, Frees: 0
+Allocs: 2, Frees: 0
+Allocs: 3, Frees: 0
+Allocs: 9, Frees: 0
+Allocs: 9, Frees: 1
+Allocs: 9, Frees: 2
+Allocs: 9, Frees: 3
+Allocs: 9, Frees: 9
+Most students in use: 9
+
+============================== Test leak...
+Object size = 40, Page size = 188, Pad bytes = 0, ObjectsPerPage = 4, MaxPages = 8, MaxObjects = 32
+Alignment = 0, LeftAlign = 0, InterAlign = 0, HeaderBlocks = Basic, Header size = 5
+Pages in use: 1, Objects in use: 0, Available objects: 4, Allocs: 0, Frees: 0
+Pages in use: 8, Objects in use: 32, Available objects: 0, Allocs: 32, Frees: 0
+Pages in use: 8, Objects in use: 16, Available objects: 16, Allocs: 32, Frees: 16
+Most employees in use: 32
+
+Checking for leaks...
+Detected memory leaks!
+Dumping objects ->
+Block at 0x00000000, 40 bytes long.
+ Data: <        Eton-Hog> BB BB BB BB BB BB BB BB 45 74 6F 6E 2D 48 6F 67
+Block at 0x00000000, 40 bytes long.
+ Data: <        St.Hubbi> BB BB BB BB BB BB BB BB 53 74 2E 48 75 62 62 69
+Block at 0x00000000, 40 bytes long.
+ Data: <        Besser  > BB BB BB BB BB BB BB BB 42 65 73 73 65 72 00 BB
+Block at 0x00000000, 40 bytes long.
+ Data: <        Savage  > BB BB BB BB BB BB BB BB 53 61 76 61 67 65 00 BB
+Block at 0x00000000, 40 bytes long.
+ Data: <        Faith   > BB BB BB BB BB BB BB BB 46 61 69 74 68 00 BB BB
+Block at 0x00000000, 40 bytes long.
+ Data: <        Waters  > BB BB BB BB BB BB BB BB 57 61 74 65 72 73 00 BB
+Block at 0x00000000, 40 bytes long.
+ Data: <        Mason   > BB BB BB BB BB BB BB BB 4D 61 73 6F 6E 00 BB BB
+Block at 0x00000000, 40 bytes long.
+ Data: <        Floyd   > BB BB BB BB BB BB BB BB 46 6C 6F 79 64 00 BB BB
+Block at 0x00000000, 40 bytes long.
+ Data: <        Fufkin  > BB BB BB BB BB BB BB BB 46 75 66 6B 69 6E 00 BB
+Block at 0x00000000, 40 bytes long.
+ Data: <        Pettibon> BB BB BB BB BB BB BB BB 50 65 74 74 69 62 6F 6E
+Block at 0x00000000, 40 bytes long.
+ Data: <        Pudding > BB BB BB BB BB BB BB BB 50 75 64 64 69 6E 67 00
+Block at 0x00000000, 40 bytes long.
+ Data: <        Upham   > BB BB BB BB BB BB BB BB 55 70 68 61 6D 00 BB BB
+Block at 0x00000000, 40 bytes long.
+ Data: <        Fleckman> BB BB BB BB BB BB BB BB 46 6C 65 63 6B 6D 61 6E
+Block at 0x00000000, 40 bytes long.
+ Data: <        Smalls  > BB BB BB BB BB BB BB BB 53 6D 61 6C 6C 73 00 BB
+Block at 0x00000000, 40 bytes long.
+ Data: <        Shrimpto> BB BB BB BB BB BB BB BB 53 68 72 69 6D 70 74 6F
+Block at 0x00000000, 40 bytes long.
+ Data: <        Tufnel  > BB BB BB BB BB BB BB BB 54 75 66 6E 65 6C 00 BB
+Object dump complete. [16]
+
+Checking for leaks...
+No leaks detected.
+
+============================== Test validate...
+Object size = 24, Page size = 188, Pad bytes = 8, ObjectsPerPage = 4, MaxPages = 2, MaxObjects = 8
+Alignment = 0, LeftAlign = 0, InterAlign = 0, HeaderBlocks = Basic, Header size = 5
+Pages in use: 2, Objects in use: 7, Available objects: 1, Allocs: 7, Frees: 0
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX 00 00 00 00 00 DD DD DD DD DD DD DD DD XX XX XX XX XX XX XX XX AA AA AA
+ AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD DD DD DD DD DD DD 07 00 00 00 01 DD DD DD DD DD DD
+ DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD DD DD DD DD
+ DD DD 06 00 00 00 01 DD DD DD DD DD DD DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB DD DD DD DD DD DD DD DD 05 00 00 00 01 DD DD DD DD DD DD DD DD XX XX XX XX
+ XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD DD DD DD DD DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX 04 00 00 00 01 DD DD DD DD DD DD DD DD XX XX XX XX XX XX XX XX BB BB BB
+ BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD DD DD DD DD DD DD 03 00 00 00 01 DD DD DD DD DD DD
+ DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD DD DD DD DD
+ DD DD 02 00 00 00 01 DD DD DD DD DD DD DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB DD DD DD DD DD DD DD DD 01 00 00 00 01 DD DD DD DD DD DD DD DD XX XX XX XX
+ XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD DD DD DD DD DD DD
+
+Number of corruptions: 0
+
+Pages in use: 2, Objects in use: 7, Available objects: 1, Allocs: 7, Frees: 0
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX 00 00 00 00 00 DD DD DD DD DD DD DD DD XX XX XX XX XX XX XX XX AA AA AA
+ AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD DD DD DD DD DD DD 07 00 00 00 01 DD DD DD DD DD DD
+ DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD DD DD DD DD
+ DD DD 06 00 00 00 01 DD DD DD DD DD DD DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB DD DD DD DD DD DD DD DD 05 00 00 00 01 DD DD DD DD DD DD DD DD XX XX XX XX
+ XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD DD DD DD DD DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX 04 00 00 00 01 DD DD DD DD DD DD DD DD XX XX XX XX XX XX XX XX BB BB BB
+ BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD DD DD DD DD DD DD 03 00 00 00 01 DD DD DD DD DD DD
+ DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD DD DD DD DD
+ DD DD 02 00 00 00 01 DD DD DD DD DD DD DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB EE EE EE EE EE EE DD DD 01 00 00 00 01 FF FF FF FF FF FF DD DD XX XX XX XX
+ XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD DD DD DD DD DD DD
+
+Block at 0x00000000, 24 bytes long.
+Block at 0x00000000, 24 bytes long.
+Number of corruptions: 2
+
+Pages in use: 2, Objects in use: 7, Available objects: 1, Allocs: 7, Frees: 0
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX 00 00 00 00 00 DD DD DD DD DD DD DD DD XX XX XX XX XX XX XX XX AA AA AA
+ AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD DD DD DD DD DD DD 07 00 00 00 01 FF FF FF FF FF FF
+ DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB EE EE EE EE EE EE
+ DD DD 06 00 00 00 01 DD DD DD DD DD DD DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB DD DD DD DD DD DD DD DD 05 00 00 00 01 DD DD DD DD DD DD DD DD XX XX XX XX
+ XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD DD DD DD DD DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX 04 00 00 00 01 DD DD DD DD DD DD DD DD XX XX XX XX XX XX XX XX BB BB BB
+ BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD DD DD DD DD DD DD 03 00 00 00 01 DD DD DD DD DD DD
+ DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD DD DD DD DD
+ DD DD 02 00 00 00 01 DD DD DD DD DD DD DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB EE EE EE EE EE EE DD DD 01 00 00 00 01 FF FF FF FF FF FF DD DD XX XX XX XX
+ XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD DD DD DD DD DD DD
+
+Block at 0x00000000, 24 bytes long.
+Block at 0x00000000, 24 bytes long.
+Block at 0x00000000, 24 bytes long.
+Number of corruptions: 3
+
+
+============================== Test free checking basic (stress)...
+Object size = 24, Page size = 29008, Pad bytes = 0, ObjectsPerPage = 1000, MaxPages = 10, MaxObjects = 10000
+Alignment = 0, LeftAlign = 0, InterAlign = 0, HeaderBlocks = Basic, Header size = 5
+Pages in use: 10, Objects in use: 10000, Available objects: 0, Allocs: 10000, Frees: 0
+
+============================== Test free checking extended (stress)...
+Object size = 24, Page size = 32008, Pad bytes = 0, ObjectsPerPage = 1000, MaxPages = 10, MaxObjects = 10000
+Alignment = 0, LeftAlign = 0, InterAlign = 0, HeaderBlocks = Extended, Header size = 8
+Pages in use: 10, Objects in use: 10000, Available objects: 0, Allocs: 10000, Frees: 0
+
+============================== Test free checking external (stress)...
+Object size = 24, Page size = 32008, Pad bytes = 0, ObjectsPerPage = 1000, MaxPages = 10, MaxObjects = 10000
+Alignment = 0, LeftAlign = 0, InterAlign = 0, HeaderBlocks = External, Header size = 8
+Pages in use: 10, Objects in use: 10000, Available objects: 0, Allocs: 10000, Frees: 0
+
+============================== Test stress using new/delete...
+
+============================== Test stress using allocator...
+
+============================== Test alignment...
+Object size = 24, Page size = 122, Pad bytes = 2, ObjectsPerPage = 3, MaxPages = 2, MaxObjects = 6
+Alignment = 8, LeftAlign = 1, InterAlign = 7, HeaderBlocks = Basic, Header size = 5
+Pages in use: 1, Objects in use: 0, Available objects: 3, Allocs: 0, Frees: 0
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX EE 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA
+ AA AA AA AA AA AA AA AA DD DD EE EE EE EE EE EE EE 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX
+ AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD EE EE EE EE EE EE EE 00 00 00 00 00 DD DD
+ XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD
+
+Pages in use: 2, Objects in use: 6, Available objects: 0, Allocs: 6, Frees: 0
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX EE 06 00 00 00 01 DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB DD DD EE EE EE EE EE EE EE 05 00 00 00 01 DD DD XX XX XX XX XX XX XX XX
+ BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD EE EE EE EE EE EE EE 04 00 00 00 01 DD DD
+ XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX EE 03 00 00 00 01 DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB DD DD EE EE EE EE EE EE EE 02 00 00 00 01 DD DD XX XX XX XX XX XX XX XX
+ BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD EE EE EE EE EE EE EE 01 00 00 00 01 DD DD
+ XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD
+
+
+============================== Test free empty pages 1...
+Object size = 24, Page size = 120, Pad bytes = 2, ObjectsPerPage = 4, MaxPages = 3, MaxObjects = 12
+Alignment = 0, LeftAlign = 0, InterAlign = 0, HeaderBlocks = None, Header size = 0
+Pages in use: 3, Objects in use: 12, Available objects: 0, Allocs: 12, Frees: 0
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB
+ BB BB DD DD DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD
+ DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD DD DD XX XX
+ XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB
+ BB BB DD DD DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD
+ DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD DD DD XX XX
+ XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB
+ BB BB DD DD DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD
+ DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD DD DD XX XX
+ XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD
+
+Pages in use: 3, Objects in use: 4, Available objects: 8, Allocs: 12, Frees: 8
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC
+ CC CC DD DD DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD
+ DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD DD DD XX XX
+ XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB
+ BB BB DD DD DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD
+ DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD DD DD XX XX
+ XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC
+ CC CC DD DD DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD
+ DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD DD DD XX XX
+ XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD
+
+Pages in use: 1, Objects in use: 4, Available objects: 0, Allocs: 12, Frees: 8
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB
+ BB BB DD DD DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD
+ DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD DD DD XX XX
+ XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD
+
+Pages in use: 1, Objects in use: 1, Available objects: 3, Allocs: 12, Frees: 11
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB
+ BB BB DD DD DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD
+ DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD DD DD XX XX
+ XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD
+
+Pages in use: 0, Objects in use: 0, Available objects: 0, Allocs: 12, Frees: 12
+
+
+Pages in use: 1, Objects in use: 1, Available objects: 3, Allocs: 13, Frees: 12
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA
+ AA AA DD DD DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD
+ DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD DD DD XX XX
+ XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD
+
+Pages in use: 1, Objects in use: 0, Available objects: 4, Allocs: 13, Frees: 13
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA
+ AA AA DD DD DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD
+ DD DD XX XX XX XX XX XX XX XX AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA DD DD DD DD XX XX
+ XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD
+
+Pages in use: 0, Objects in use: 0, Available objects: 0, Allocs: 13, Frees: 13
+
+============================== Test free empty pages 2...
+Object size = 24, Page size = 186, Pad bytes = 2, ObjectsPerPage = 4, MaxPages = 3, MaxObjects = 12
+Alignment = 16, LeftAlign = 1, InterAlign = 15, HeaderBlocks = Basic, Header size = 5
+Pages in use: 3, Objects in use: 12, Available objects: 0, Allocs: 12, Frees: 0
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX EE 0C 00 00 00 01 DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB DD DD EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 0B 00 00 00 01 DD DD
+ XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD EE EE EE EE EE EE
+ EE EE EE EE EE EE EE EE EE 0A 00 00 00 01 DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB DD DD EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 09 00 00 00 01 DD DD
+ XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX EE 08 00 00 00 01 DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB DD DD EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 07 00 00 00 01 DD DD
+ XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD EE EE EE EE EE EE
+ EE EE EE EE EE EE EE EE EE 06 00 00 00 01 DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB DD DD EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 05 00 00 00 01 DD DD
+ XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX EE 04 00 00 00 01 DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB DD DD EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 03 00 00 00 01 DD DD
+ XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD EE EE EE EE EE EE
+ EE EE EE EE EE EE EE EE EE 02 00 00 00 01 DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB DD DD EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 01 00 00 00 01 DD DD
+ XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD
+
+Pages in use: 3, Objects in use: 4, Available objects: 8, Allocs: 12, Frees: 8
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX EE 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC
+ CC CC CC CC CC CC CC CC DD DD EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 00 00 00 00 00 DD DD
+ XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD EE EE EE EE EE EE
+ EE EE EE EE EE EE EE EE EE 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC
+ CC CC CC CC CC CC CC CC DD DD EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 00 00 00 00 00 DD DD
+ XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX EE 08 00 00 00 01 DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB DD DD EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 07 00 00 00 01 DD DD
+ XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD EE EE EE EE EE EE
+ EE EE EE EE EE EE EE EE EE 06 00 00 00 01 DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB DD DD EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 05 00 00 00 01 DD DD
+ XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX EE 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC
+ CC CC CC CC CC CC CC CC DD DD EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 00 00 00 00 00 DD DD
+ XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD EE EE EE EE EE EE
+ EE EE EE EE EE EE EE EE EE 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC
+ CC CC CC CC CC CC CC CC DD DD EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 00 00 00 00 00 DD DD
+ XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD
+
+Pages in use: 1, Objects in use: 4, Available objects: 0, Allocs: 12, Frees: 8
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX EE 08 00 00 00 01 DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB DD DD EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 07 00 00 00 01 DD DD
+ XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD EE EE EE EE EE EE
+ EE EE EE EE EE EE EE EE EE 06 00 00 00 01 DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB DD DD EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 05 00 00 00 01 DD DD
+ XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD
+
+Pages in use: 1, Objects in use: 1, Available objects: 3, Allocs: 12, Frees: 11
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX EE 08 00 00 00 01 DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB DD DD EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 00 00 00 00 00 DD DD
+ XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD EE EE EE EE EE EE
+ EE EE EE EE EE EE EE EE EE 00 00 00 00 00 DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC
+ CC CC CC CC CC CC CC CC DD DD EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 00 00 00 00 00 DD DD
+ XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD
+
+Pages in use: 0, Objects in use: 0, Available objects: 0, Allocs: 12, Frees: 12
+
+============================== Test free empty pages 3...
+Object size = 24, Page size = 424, Pad bytes = 6, ObjectsPerPage = 8, MaxPages = 48, MaxObjects = 384
+Alignment = 0, LeftAlign = 0, InterAlign = 0, HeaderBlocks = Extended, Header size = 16
+Pages in use: 48, Objects in use: 384, Available objects: 0, Allocs: 384, Frees: 0
+Pages in use: 48, Objects in use: 5, Available objects: 379, Allocs: 384, Frees: 379
+Pages in use: 5, Objects in use: 5, Available objects: 35, Allocs: 384, Frees: 379
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 DD DD DD DD DD DD XX XX
+ XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD DD DD DD DD 00 00 00 00
+ 00 00 00 00 00 01 00 00 00 00 00 00 DD DD DD DD DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC
+ CC CC CC CC CC CC CC CC CC CC DD DD DD DD DD DD 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00
+ DD DD DD DD DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD
+ DD DD DD DD 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 DD DD DD DD DD DD XX XX XX XX XX XX
+ XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD DD DD DD DD 00 00 00 00 00 00 00 00
+ 00 01 00 00 00 00 00 00 DD DD DD DD DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC
+ CC CC CC CC CC CC DD DD DD DD DD DD 00 00 00 00 00 00 00 00 00 01 00 4B 01 00 00 01 DD DD DD DD
+ DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD DD DD DD DD
+ 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 DD DD DD DD DD DD XX XX XX XX XX XX XX XX CC CC
+ CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD DD DD DD DD 00 00 00 00 00 00 00 00 00 01 00 00
+ 00 00 00 00 DD DD DD DD DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC
+ CC CC DD DD DD DD DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 DD DD DD DD DD DD XX XX
+ XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD DD DD DD DD 00 00 00 00
+ 00 00 00 00 00 01 00 E7 00 00 00 01 DD DD DD DD DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB
+ BB BB BB BB BB BB BB BB BB BB DD DD DD DD DD DD 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00
+ DD DD DD DD DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD
+ DD DD DD DD 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 DD DD DD DD DD DD XX XX XX XX XX XX
+ XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD DD DD DD DD 00 00 00 00 00 00 00 00
+ 00 01 00 00 00 00 00 00 DD DD DD DD DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC
+ CC CC CC CC CC CC DD DD DD DD DD DD 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 DD DD DD DD
+ DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD DD DD DD DD
+ 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 DD DD DD DD DD DD XX XX XX XX XX XX XX XX CC CC
+ CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD DD DD DD DD 00 00 00 00 00 00 00 00 00 01 00 00
+ 00 00 00 00 DD DD DD DD DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC
+ CC CC DD DD DD DD DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 DD DD DD DD DD DD XX XX
+ XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD DD DD DD DD 00 00 00 00
+ 00 00 00 00 00 01 00 00 00 00 00 00 DD DD DD DD DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC
+ CC CC CC CC CC CC CC CC CC CC DD DD DD DD DD DD 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00
+ DD DD DD DD DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD
+ DD DD DD DD 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 DD DD DD DD DD DD XX XX XX XX XX XX
+ XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD DD DD DD DD 00 00 00 00 00 00 00 00
+ 00 01 00 00 00 00 00 00 DD DD DD DD DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC
+ CC CC CC CC CC CC DD DD DD DD DD DD 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 DD DD DD DD
+ DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD DD DD DD DD
+ 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 DD DD DD DD DD DD XX XX XX XX XX XX XX XX CC CC
+ CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD DD DD DD DD 00 00 00 00 00 00 00 00 00 01 00 D9
+ 00 00 00 01 DD DD DD DD DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB
+ BB BB DD DD DD DD DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 DD DD DD DD DD DD XX XX
+ XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD DD DD DD DD 00 00 00 00
+ 00 00 00 00 00 01 00 00 00 00 00 00 DD DD DD DD DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC
+ CC CC CC CC CC CC CC CC CC CC DD DD DD DD DD DD 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00
+ DD DD DD DD DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD
+ DD DD DD DD 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 DD DD DD DD DD DD XX XX XX XX XX XX
+ XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD DD DD DD DD 00 00 00 00 00 00 00 00
+ 00 01 00 D4 00 00 00 01 DD DD DD DD DD DD XX XX XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB
+ BB BB BB BB BB BB DD DD DD DD DD DD 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 DD DD DD DD
+ DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD DD DD DD DD
+ 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 DD DD DD DD DD DD XX XX XX XX XX XX XX XX CC CC
+ CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD DD DD DD DD 00 00 00 00 00 00 00 00 00 01 00 00
+ 00 00 00 00 DD DD DD DD DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC
+ CC CC DD DD DD DD DD DD
+
+XXXXXXXX
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+ XX XX XX XX XX XX XX XX 00 00 00 00 00 00 00 00 00 01 00 30 00 00 00 01 DD DD DD DD DD DD XX XX
+ XX XX XX XX XX XX BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB DD DD DD DD DD DD 00 00 00 00
+ 00 00 00 00 00 01 00 00 00 00 00 00 DD DD DD DD DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC
+ CC CC CC CC CC CC CC CC CC CC DD DD DD DD DD DD 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00
+ DD DD DD DD DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD
+ DD DD DD DD 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 DD DD DD DD DD DD XX XX XX XX XX XX
+ XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD DD DD DD DD 00 00 00 00 00 00 00 00
+ 00 01 00 00 00 00 00 00 DD DD DD DD DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC
+ CC CC CC CC CC CC DD DD DD DD DD DD 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 DD DD DD DD
+ DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD DD DD DD DD
+ 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 DD DD DD DD DD DD XX XX XX XX XX XX XX XX CC CC
+ CC CC CC CC CC CC CC CC CC CC CC CC CC CC DD DD DD DD DD DD 00 00 00 00 00 00 00 00 00 01 00 00
+ 00 00 00 00 DD DD DD DD DD DD XX XX XX XX XX XX XX XX CC CC CC CC CC CC CC CC CC CC CC CC CC CC
+ CC CC DD DD DD DD DD DD
+
+43 pages freed
+
