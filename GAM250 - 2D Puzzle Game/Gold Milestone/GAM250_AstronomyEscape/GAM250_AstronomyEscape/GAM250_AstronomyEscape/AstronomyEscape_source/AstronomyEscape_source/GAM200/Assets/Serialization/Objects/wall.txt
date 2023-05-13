@@ -1,0 +1,46 @@
+#name
+n WALL
+
+#entity
+e WALL
+
+#shaderOption {shader option name}
+so FULL_TEXTURE
+
+#renderTexture {texture name , texture file}
+rt WALL Assets/images/wall_1.png
+rt WALL2 Assets/images/wall_2.png
+rt WALL3 Assets/images/wall_3.png
+rt WALL_MOSS_1 Assets/images/wall_moss_01.png
+rt WALL_MOSS_2 Assets/images/wall_moss_02.png
+rt WALL_MOSS_3 Assets/images/wall_moss_03.png
+
+#renderShape {shape}
+rs SQUARE
+
+#transform {scale , angle}
+t 100.0 100.0 0.0 0.0
+
+#position
+p 0.0 0.0 0.0
+
+#rigidbody {velocity, acceleration}
+rb 0.0 0.0 0.0 0.0 0.0 0.0
+
+#colour {colour}
+col 1.0 1.0 1.0
+
+#AABB 
+aabb 0.5 0.5
+
+#FLAG
+flag FLAG_ACTIVE FLAG_VISIBLE
+
+#Collision FLAG
+cflag
+
+#LIGHT
+light
+
+#LIGHTFLAG
+f_light 0 0 0 0 0

@@ -1,0 +1,47 @@
+#name
+n ENTRANCE_DOOR
+
+#entity
+e ENTRANCE_DOOR
+
+#shaderOption {shader option name}
+so FULL_TEXTURE
+
+#renderTexture {texture name , texture file}
+rt ENTRANCE_DOOR Assets/images/entrance_door.png
+
+#renderShape {shape}
+rs SQUARE
+
+#transform {scale , angle}
+t 100.0 100.0 0.0 0.0
+
+#position
+p 0.0 0.0 0.0
+
+#rigidbody {velocity, acceleration}
+rb 0.0 0.0 0.0 0.0 0.0 0.0
+
+#force {force, lifetime, inverse mass}
+f 0.0 0.0 0.0 0.0 1.0
+
+#colour {colour}
+col 0.0 1.0 1.0
+
+#AABB 
+aabb 0.5 0.5
+
+#STATE
+state
+
+#FLAG
+flag FLAG_INACTIVE
+
+#Collision FLAG
+cflag
+
+#LIGHT
+light
+
+#LIGHTFLAG
+f_light 1 1 0 0 0

@@ -1,0 +1,42 @@
+#name
+n POPUP
+
+#entity
+e POPUP
+
+#shaderOption {shader option name}
+so FULL_TEXTURE
+
+#renderTexture {texture name , texture file}
+rt POPUP_1 Assets/images/Level1_popup.png
+rt POPUP_2 Assets/images/Level2_popup.png
+rt POPUP_3 Assets/images/Level3_popup.png
+rt POPUP_4 Assets/images/Level4_popup.png
+rt POPUP_5 Assets/images/Level5_popup.png
+
+#renderShape {shape}
+rs SQUARE
+
+#transform {scale , angle}
+t 100.0 100.0 0.0 0.0
+
+#position
+p 0.0 0.0 0.0
+
+#colour {colour}
+col 0.0 0.0 0.0
+
+#AABB 
+aabb 0.5 0.5
+
+#FLAG
+flag FLAG_ACTIVE FLAG_VISIBLE
+
+#UI
+ui 1
+
+#LIGHT
+light 1.0 1.0 1.0 1.0 
+
+#LIGHTFLAG
+f_light 0 0 0 0 0

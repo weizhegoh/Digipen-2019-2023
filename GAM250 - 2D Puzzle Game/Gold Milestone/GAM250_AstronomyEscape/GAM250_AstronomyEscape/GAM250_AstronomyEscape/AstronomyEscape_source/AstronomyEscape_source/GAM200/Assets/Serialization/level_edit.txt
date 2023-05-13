@@ -1,0 +1,28 @@
+n RED_DOT
+#position
+p 0.0 0.0 0.0 0.0 0.0
+col 1.0 1.0 1.0
+
+#transform {scale , angle}
+t 100.0 100.0 0.0 0.0
+end
+
+n RED_DOT
+#position
+p 100.0 0.0 0.0 0.0 0.0
+
+col 1.0 1.0 1.0
+
+#transform {scale , angle}
+t 100.0 100.0 0.0 0.0
+end
+
+n SQUARE
+#position
+p 100.0 100.0 0.0 0.0 0.0
+
+col 1.0 1.0 1.0
+
+#transform {scale , angle}
+t 100.0 100.0 0.0 0.0
+end

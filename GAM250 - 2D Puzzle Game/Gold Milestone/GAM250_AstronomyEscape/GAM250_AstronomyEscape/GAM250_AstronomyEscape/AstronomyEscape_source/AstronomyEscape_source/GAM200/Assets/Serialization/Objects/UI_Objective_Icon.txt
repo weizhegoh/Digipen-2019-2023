@@ -1,0 +1,38 @@
+#name
+n UI_OBJECTIVE_ICON
+
+#entity
+e UI_OBJECTIVE_ICON
+
+#shaderOption {shader option name}
+so FULL_TEXTURE
+
+#renderTexture {texture name , texture file}
+rt UI_OBJECTIVE_ICON Assets/images/zzkey_objective.png
+
+#renderShape {shape}
+rs SQUARE
+
+#transform {scale , angle}
+t 100.0 100.0 0.0 0.0
+
+#position
+p 0.0 0.0 0.0
+
+#colour {colour}
+col 0.0 0.0 0.0
+
+#AABB 
+aabb 0.5 0.5
+
+#FLAG
+flag FLAG_ACTIVE FLAG_VISIBLE
+
+#UI
+ui 0
+
+#LIGHT
+light 1.0 1.0 1.0 1.0 
+
+#LIGHTFLAG
+f_light 0 0 0 0 0
