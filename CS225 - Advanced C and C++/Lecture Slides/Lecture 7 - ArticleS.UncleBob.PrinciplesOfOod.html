@@ -1,0 +1,310 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<title>ArticleS.UncleBob.PrinciplesOfOod</title>
+		<link rel="stylesheet" type="text/css" href="/files/css/fitnesse.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="/files/css/fitnesse_print.css" media="print"/>
+		<script src="/files/javascript/fitnesse.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="sidebar">
+			<div class="art_niche" onclick="document.location='FrontPage'"></div>
+			<div class="actions">
+				<!--Edit button-->
+				<a href="ArticleS.UncleBob.PrinciplesOfOod?edit" accesskey="e">Edit</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Properties button-->
+				<a href="ArticleS.UncleBob.PrinciplesOfOod?properties" accesskey="p">Properties</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Refactor button-->
+				<a href="ArticleS.UncleBob.PrinciplesOfOod?refactor" accesskey="r">Refactor</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Where Used button-->
+				<a href="ArticleS.UncleBob.PrinciplesOfOod?whereUsed" accesskey="w">Where Used</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Search button-->
+				<a href="?searchForm" accesskey="s">Search</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Files button-->
+				<a href="/files" accesskey="f">Files</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Versions button-->
+				<a href="ArticleS.UncleBob.PrinciplesOfOod?versions" accesskey="v">Versions</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Recent Changes button-->
+				<a href="/RecentChanges" accesskey="">Recent Changes</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--User Guide button-->
+				<a href=".FitNesse.UserGuide" accesskey="">User Guide</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Test History button-->
+				<a href="?testHistory" accesskey="">Test History</a>
+				<div class="nav_break">&nbsp;</div>
+				<div class="nav_break">&nbsp;</div>
+			</div>
+		</div>
+		<div class="mainbar">
+			<div class="header">
+				<a href="/ArticleS">ArticleS</a>.
+				<a href="/ArticleS.UncleBob">UncleBob</a>.
+				<br/><span class="page_title">PrinciplesOfOod</span>
+<a style="font-size:small;" onclick="popup('addChildPopup')"> [add child]</a>			</div>
+			<div class="main"><h3><div class="centered">The Principles of OOD</div></h3><hr/>
+<br/>What is object oriented design?  What is it all about?  What are it's benefits?  What are it's costs?  It may seem silly to ask these questions in a day and age when virtually every software developer is using an object oriented language of some kind.  Yet the question is important because, it seems to me, that most of us use those languages without knowing why, and without knowing how to get the the most benefit out of them.<br/><br/>Of all the revolutions that have occurred in our industry, two have been so successful that they have permeated our mentality to the extent that we take them for granted.  Structured Programming and Object Oriented Programming.  All of our mainstream modern languages are strongly influenced by these two disciplines.  Indeed, it has become difficult to write a program that does not have the external appearance of both structured programming and object oriented programming.  Our mainstream languages do not have <b>goto</b>, and therefore appear to obey the most famous proscription of structured programming.  Most of our mainstream languages are class based and do not support functions or variables that are not within a class, therefore they appear to obey the most obvious trappings of object oriented programming.<br/><br/>Programs written in these languages may look structured and object oriented, but looks can be decieving.  All too often today's programmers are unaware of the principles that are the foundation of the disciplines that their languages were derived around.  In another blog I'll discuss the principles of structured programming.  In this blog I want to talk about the principles of object oriented programming.<br/><br/>In March of 1995, in comp.object, I wrote an <a href="http://tinyurl.com/84emx">article</a> that was the first glimmer of a set of principles for OOD that I have written about many times since.  You'll see them documented in my <a href="https://www.amazon.com/Software-Development-Principles-Practices-Paperback/dp/B011DBKELY">PPP</a> book, and in many articles on <a href="http://www.objectmentor.com">the objectmentor website</a>, including a well known <a href="http://www.objectmentor.com/resources/articles/Principles_and_Patterns.pdf">summary</a>.<br/><br/>These principles expose the dependency management aspects of OOD as opposed to the conceptualization and modeling aspects.  This is not to say that OO is a poor tool for conceptualization of the problem space, or that it is not a good venue for creating models.  Certainly many people get value out of these aspects of OO.  The principles, however, focus very tightly on dependency management.<br/><br/>Dependency Management is an issue that most of us have faced.  Whenever we bring up on our screens a nasty batch of tangled legacy code, we are experiencing the results of poor dependency management.  Poor dependency managment leads to code that is hard to change, fragile, and non-reusable.  Indeed, I talk about several different <i>design smells</i> in the PPP book, all relating to dependency management.  On the other hand, when dependencies are well managed, the code remains flexible, robust, and reusable.  So dependency management, and therefore these principles, are at the foudation of the <i>-ilities</i> that software developers desire.<br/><br/>The first five principles are principles of <i>class design</i>.  They are:<br/><table border="1" cellspacing="0">
+<tr><td><b>SRP</b></td>
+<td><a href="https://drive.google.com/file/d/0ByOwmqah_nuGNHEtcU5OekdDMkk/view">The Single Responsibility Principle</a></td>
+<td><i>A class should have one, and only one, reason to change.</i></td>
+</tr>
+<tr><td><b>OCP</b></td>
+<td><a href="https://drive.google.com/file/d/0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1/view">The Open Closed Principle</a></td>
+<td><i>You should be able to extend a classes behavior, without modifying it.</i></td>
+</tr>
+<tr><td><b>LSP</b></td>
+<td><a href="https://drive.google.com/file/d/0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh/view">The Liskov Substitution Principle</a></td>
+<td><i>Derived classes must be substitutable for their base classes.</i></td>
+</tr>
+<tr><td><b>ISP</b></td>
+<td><a href="https://drive.google.com/file/d/0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi/view">The Interface Segregation Principle</a></td>
+<td><i>Make fine grained interfaces that are client specific.</i></td>
+</tr>
+<tr><td><b>DIP</b></td>
+<td><a href="https://drive.google.com/file/d/0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi/view">The Dependency Inversion Principle</a></td>
+<td><i>Depend on abstractions, not on concretions.</i></td>
+</tr>
+</table>
+<br/>The next six principles are about packages.  In this context a package is a binary deliverable like a .jar file, or a dll as opposed to a namespace like a java package or a C++ namespace.<br/><br/>The first three package principles are about package <i>cohesion</i>, they tell us what to put inside packages:<br/><br/><table border="1" cellspacing="0">
+<tr><td><b>REP</b></td>
+<td><a href="https://drive.google.com/file/d/0BwhCYaYDn8EgOGM2ZGFhNmYtNmE4ZS00OGY5LWFkZTYtMjE0ZGNjODQ0MjEx/view">The Release Reuse Equivalency Principle</a></td>
+<td><i>The granule of reuse is the granule of release.</i></td>
+</tr>
+<tr><td><b>CCP</b></td>
+<td><a href="https://drive.google.com/file/d/0BwhCYaYDn8EgOGM2ZGFhNmYtNmE4ZS00OGY5LWFkZTYtMjE0ZGNjODQ0MjEx/view">The Common Closure Principle</a></td>
+<td><i>Classes that change together are packaged together.</i></td>
+</tr>
+<tr><td><b>CRP</b></td>
+<td><a href="https://drive.google.com/file/d/0BwhCYaYDn8EgOGM2ZGFhNmYtNmE4ZS00OGY5LWFkZTYtMjE0ZGNjODQ0MjEx/view">The Common Reuse Principle</a></td>
+<td><i>Classes that are used together are packaged together.</i></td>
+</tr>
+</table>
+<br/>The last three principles are about the couplings between packages, and talk about metrics that evaluate the package structure of a system.<br/><br/><table border="1" cellspacing="0">
+<tr><td><b>ADP</b></td>
+<td><a href="https://drive.google.com/file/d/0BwhCYaYDn8EgOGM2ZGFhNmYtNmE4ZS00OGY5LWFkZTYtMjE0ZGNjODQ0MjEx/view">The Acyclic Dependencies Principle</a></td>
+<td><i>The dependency graph of packages must have no cycles.</i></td>
+</tr>
+<tr><td><b>SDP</b></td>
+<td><a href="https://drive.google.com/file/d/0BwhCYaYDn8EgZjI3OTU4ZTAtYmM4Mi00MWMyLTgxN2YtMzk5YTY1NTViNTBh/view">The Stable Dependencies Principle</a></td>
+<td><i>Depend in the direction of stability.</i></td>
+</tr>
+<tr><td><b>SAP</b></td>
+<td><a href="https://drive.google.com/file/d/0BwhCYaYDn8EgZjI3OTU4ZTAtYmM4Mi00MWMyLTgxN2YtMzk5YTY1NTViNTBh/view">The Stable Abstractions Principle</a></td>
+<td><i>Abstractness increases with stability.</i></td>
+</tr>
+</table>
+<br/><hr/>
+<br/><br/><br/><div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('1486144543964006067');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img1486144543964006067"/>
+	</a>
+&nbsp;<span class="meta">Wed, 11 May 2005 20:27:08, Shane, Buy the Book! </span>
+	<div class="collapsable" id="1486144543964006067">I would encourage anyone reading and thinking "I need to know more about this stuff" to buy the book that Bob wrote and refers to (PPP).</div>
+</div>
+<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('2773828823133760893');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img2773828823133760893"/>
+	</a>
+&nbsp;<span class="meta">Thu, 12 May 2005 10:37:50, Henrik Huttunen, Some praise </span>
+	<div class="collapsable" id="2773828823133760893">These principles are taught at our university in a course, where we take second big step toward OO-programming i.e. learning to program with design patterns. I consider the first five to be very important for to get deeper understanding of programming. They've changed my thinking somewhat, and it's nice to check your solution against those principles and see what they might reveal.<br/>Also, I have read many articles of yours, and I like them very much. The way you present the problems and different methods to handle them, are clear and profound. And you have made good points about why to write tests before any code; it surely makes programming less painful, when need of debuggin is decreased alot.<br/>It's a shame you haven't lately written large articles -- at least don't know any. But at least this blog and newgroup discussing are active.<br/><br/>Sincerely, Henrik</div>
+</div>
+<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('2370341430182352304');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img2370341430182352304"/>
+	</a>
+&nbsp;<span class="meta">Thu, 12 May 2005 11:41:21, Uncle Bob, Writing Large Articles. </span>
+	<div class="collapsable" id="2370341430182352304">Henrik,<br/><br/>I have a regular column in Software Development magazine.  It's called "The Crafstman".  In it I write a lot about TDD, Principles, Patterns, and life on a starship.  You can see a list of all these article at: <a href="http://www.objectmentor.com/resources/listArticles?key=topic&amp;topic=Craftsman">http://www.objectmentor.com/resources/listArticles?key=topic&amp;topic=Craftsman</a><br/><br/>I also write feature articles for this magazine from time to time, and for other magazines as well.  You can keep track of them, and all the articles the Object Mentors write at <a href="http://www.objectmentor.com/resources/articleIndex">http://www.objectmentor.com/resources/articleIndex</a><br/></div>
+</div>
+<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('3270940671438447919');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img3270940671438447919"/>
+	</a>
+&nbsp;<span class="meta">Thu, 12 May 2005 12:00:20, Henrik Huttunen, Articles </span>
+	<div class="collapsable" id="3270940671438447919">Robert,<br/><br/>yes thank you, I'm aware of those. I just wondered you hadn't done any article this year, that's all.<br/>Btw. I'm buying a new book about refactoring/TDD/design patterns in general, and would like to hear recommendations. Refactoring to Patterns by Joshua Kerievsky is often recommended, but someone said it has too application specific examples. If someone has read it, I'd like to hear comment on that.</div>
+</div>
+<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('5937723522483915219');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img5937723522483915219"/>
+	</a>
+&nbsp;<span class="meta">Sun, 15 May 2005 05:13:44, Mauro Marinilli, Praise again and a hint for Henrik </span>
+	<div class="collapsable" id="5937723522483915219">I use to read so much about OOP, but your advice always sounds proven and deep. It's something else!<br/>Keep up your good, honest work.<br/><br/>OOP is too flexible. You can use it for everything and the opposite of everything. That's why it got so popular, perhaps. Principles then are always controverse, though. What happened for example to the fundamentalists of encapsulation (those that refuse to design or even use setter/getters)? Also structured programming isn't a silver bullet, and exaggerating with it make things worse (at least this is what I try to teach to my students.. Shame on me!). That's why your advice is so important: because it is empirically grounded.<br/><br/>Henrik: as of Refactoring to Patterns, I'd suggest you to have a look at an earlier draft (<a href="http://scholar.google.com/url?sa=U&amp;q=http://www.tarrani.net/RefactoringToPatterns.pdf">http://scholar.google.com/url?sa=U&amp;q=http://www.tarrani.net/RefactoringToPatterns.pdf</a>) that contains half of the patterns but gives you a feeling of the overall approach (sorry if I use this space to reply to another reply).</div>
+</div>
+<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-8699924458955839190');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img-8699924458955839190"/>
+	</a>
+&nbsp;<span class="meta">Mon, 16 May 2005 07:32:54, Henrik Huttunen, Refactoring to Patterns </span>
+	<div class="collapsable" id="-8699924458955839190">Mauro, thanks for the link :).</div>
+</div>
+<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('8728631725294697270');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img8728631725294697270"/>
+	</a>
+&nbsp;<span class="meta">Fri, 20 May 2005 19:30:44, Mark Dalrymple, Refactoring to Patterns </span>
+	<div class="collapsable" id="8728631725294697270">Refactoring to Patterns is awesome.  The examples do deal with real domain-specific code, but the principles are applicable to other domains.</div>
+</div>
+<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('2308386482586053624');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img2308386482586053624"/>
+	</a>
+&nbsp;<span class="meta">Fri, 20 May 2005 23:15:19, JDCarroll, Almost right </span>
+	<div class="collapsable" id="2308386482586053624">You begin by talking about OOD and by the end of the first paragraph have made the most critical of errors: equating OOD with OOP. OOA/D is about THINKING. OOP is about DOING. The two are separate.<br/><ul>
+	<li><i>It took me over half a decade to realize that this wasn't true.  OOP and OOD are inseparable.  OOA is undefined.</i> <b>- UB</b></li>
+</ul>
+And the only criteria by which a OO programming language should be judged is the ability to move from one to the other.<br/>Then you move into the notion of Dependency Management as if the way that we think about and write the programs will make it right. Sorry. But whether you live in a Structured world or an Object world the notion of dependancies doesn't change. Folks write code that you depend on. You write code that other folks depend on.<br/><br/>Until that changes, we're stuck.<br/><br/><ul>
+	<li><i>No, we aren't stuck.  Dependencies are manageable.</i> <b>- UB</b></li>
+</ul>
+</div>
+</div>
+<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('5391939481730532868');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img5391939481730532868"/>
+	</a>
+&nbsp;<span class="meta">Tue, 7 Jun 2005 02:46:09, cheng jing, when and how add database </span>
+	<div class="collapsable" id="5391939481730532868">I read your wonderful book &lt; agile software development &gt;, At chapter 19, u implement the payroll system.<br/>Now I design a true PayRoll<a title="create page" href="ArticleS.UncleBob.PayRoll?edit&nonExistent=true">[?]</a> system, but i don't known when and how can i add database detail ?  i can add UI first then meet the client's requirement ?<br/><br/><ul>
+	<li>I recommend that you concentrate on the business rules first.  Don't worry about the UI or the Database at first.  Get the business rules (taxes, deductions, etc) to work.  Then you can add a database.  And finally you can add a UI.  - <b>UB</b></li>
+</ul>
+</div>
+</div>
+<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-4774178314981205893');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img-4774178314981205893"/>
+	</a>
+&nbsp;<span class="meta">Sun, 12 Jun 2005 04:31:44, Brad Appleton, Where does The Law of Demeter fit? </span>
+	<div class="collapsable" id="-4774178314981205893">Hi Bob!<br/>Granted, the "Law of Demeter" is a style guideline rather than a principle. Nonetheless, I would expect it to be something that could be readily derived from  a handful of these principles. Do you agree? if so, how would you derive it?<br/><br/><ul>
+	<li>LOD is a matter of dependencies.  A statement like system.trunk.line.lineCard.connect() concentrates too much information into a single place.  That one line of code knows about four classes!  Large knots of dependencies like this are a violation of the OCP.  Any change to the data structures causes changes to that line of code.</li>
+</ul>
+</div>
+</div>
+<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('366509186198476055');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img366509186198476055"/>
+	</a>
+&nbsp;<span class="meta">Mon, 13 Jun 2005 02:35:41, , </span>
+	<div class="collapsable" id="366509186198476055"></div>
+</div>
+<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-5578495188778985679');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img-5578495188778985679"/>
+	</a>
+&nbsp;<span class="meta">Fri, 17 Jun 2005 07:27:50, Denis Krukovsky, SRP with Observable model? </span>
+	<div class="collapsable" id="-5578495188778985679">Can we start a discussion here? Let's say we have a Model of some entity, say a ForumTopic<a title="create page" href="ArticleS.UncleBob.ForumTopic?edit&nonExistent=true">[?]</a>. We give it the responsibility to represent a forum topic. Now a classic case - we want our Models to be Observable. So we add a responsibility to notify its Observers on state change. SRP violation.<br/><br/>How to make ForumTopic<a title="create page" href="ArticleS.UncleBob.ForumTopic?edit&nonExistent=true">[?]</a> respect SRP while apply Observer pattern here?<br/><br/>Denis Krukovsky<br/><a href="http://dotuseful.sourceforge.net/">http://dotuseful.sourceforge.net/</a><br/><a href="http://dkrukovsky.blogspot.com/">http://dkrukovsky.blogspot.com/</a><br/><br/><ul>
+	<li>You could use the <i>class form</i> of the <i>Adapter Pattern</i> (i.e. Multiple Inheritance) as follows:</li>
+</ul>
+<pre><br/>    |ForumTopic|    |Observable|<br/>          A              A<br/>          |              |<br/>          +-------+------+<br/>                  |<br/>          |OservableForumTopic|<br/></pre> - <b>UB</b><br/></div>
+</div>
+<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-2675361945874697502');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img-2675361945874697502"/>
+	</a>
+&nbsp;<span class="meta">Mon, 20 Jun 2005 19:59:43, Don, ISP and accessing multiple non-cohesive interfaces </span>
+	<div class="collapsable" id="-2675361945874697502">Thanks for your Agile Software Development book - a great resource. I have a question concerning ISP. The second paragraph explicitly states that some objects require non-cohesive interfaces. So I have an object O with two non-cohesive interfaces A and B. My question is this - when a client has access to O as an instance of A, and then at some point needs access to O as an instance of B, how is that managed? My instinct tells me to use a factory for the conversion so that the knowledge that A and B are coresident in O is isolated (allowing adapters and other alternatives) but I am not confident. Any advice welcome. Thanks again.</div>
+</div>
+<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-8245043294278179912');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img-8245043294278179912"/>
+	</a>
+&nbsp;<span class="meta">Sat, 9 Jul 2005 00:40:56, Jay Levitt, Principles same w/dynamic languages? </span>
+	<div class="collapsable" id="-8245043294278179912">I'm reading through PPP tonight, and it's a fascinating book.  But the examples you use to illustrate design smells seem to be dependent on the use of a statically-typed language like C++, with solutions involving virtual base classes and/or MI.<br/><br/>I'm playing around with Ruby, which has none of the above, and at first blush it seems to me that a lot of the "binding" issues simply don't exist there; LSP is inherently enforced by "duck-typing", and classes can be extended repeatedly in different source files, providing ISP.  As such, SRP and OCP just don't seem to matter.  Have there been any discussions or articles about how these principles apply to dynamic languages?</div>
+</div>
+<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-4282623699799161711');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img-4282623699799161711"/>
+	</a>
+&nbsp;<span class="meta">Fri, 30 Sep 2005 08:03:26, Brijesh, I finished reading ur book PPP </span>
+	<div class="collapsable" id="-4282623699799161711">hi uncle bob,<br/>I am great fan of yours, i completed reading the book PPP , after reading that book,  the way I look at the solution for a given problem is changed , I mean my thought process is changed when i start thinking about the design, thanks a lot for ur marvellous work on this area.<br/><br/>thanks Brijesh<br/><br/></div>
+</div>
+<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('366814812476159637');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img366814812476159637"/>
+	</a>
+&nbsp;<span class="meta">Tue, 4 Oct 2005 21:39:38, JeanW<a title="create page" href="ArticleS.UncleBob.JeanW?edit&nonExistent=true">[?]</a>, Responsibility </span>
+	<div class="collapsable" id="366814812476159637">The book is great.  I do have some deeper questions.  The one I have been struggling with lately is defining a responsibility.  You write, "In the context of the SRP, we define a responsibility to be 'a reason for change.'"<br/><br/>However, the word "responsibility" suggests that the root meaning has to do with managing some sort of feature, and that change is just a *symptom* of managing that feature.  Other responsibilities lie undiscovered until a change exposes them.  But I've had trouble defining what it is.<br/><br/>I mean, if all you wanted to convey was "a reason for change," then you could have called it the "Single Reason to Change" principle.  So why did you use the word "responsibility"?  And is there a deeper definition than "a reason for change"?</div>
+</div>
+<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('1428038868559647598');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img1428038868559647598"/>
+	</a>
+&nbsp;<span class="meta">Thu, 6 Oct 2005 09:41:53, Uncle Bob, The Single Reason to Change Principle </span>
+	<div class="collapsable" id="1428038868559647598"><br/>The principle comes from the work of Tom DeMarco<a title="create page" href="ArticleS.UncleBob.DeMarco?edit&nonExistent=true">[?]</a>.  I don't know if he's responsible for the name or whether the name is an accident of some kind.  What I can tell you is that the definition of the principle has evolved over the last thirty years.  It began as:<br/><ul>
+	<li>A module should do one thing, do it well, and do it only.</li>
+</ul>
+And it has finally transformed into its current form:<br/><ul>
+	<li>A module should have one and only one reason to change.</li>
+</ul>
+Are these two phrases really synonyms?  I think so.  I think a reasponsibility boils down to a reason to change.  For example, consider a payroll module that pays an employee.  We could say that the responsibility is "pay employee".  However, over time the payment calculation rules change, even though the printed format of the paycheck does not.  Later, the format of the check changes but the calculation doesn't.  Clearly there are two different responsibilities.  Calculation, and format.</div>
+</div>
+<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-3527773525754443984');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img-3527773525754443984"/>
+	</a>
+&nbsp;<span class="meta">Mon, 3 Apr 2006 01:58:28, Amir Khan, Liskov principle related </span>
+	<div class="collapsable" id="-3527773525754443984">Hi Uncle Bob,<br/>I read with great interest the articles written by you. In fact we cover one technical article every monday morning. Today we did Liskov's Substitution Principle. Please forgive me if my question sound too naive. You talked about Factoring as being one way of making classes LSP compliant. For exampe you created LinearObject<a title="create page" href="ArticleS.UncleBob.LinearObject?edit&nonExistent=true">[?]</a> and sub-classed Line and LineSegment<a title="create page" href="ArticleS.UncleBob.LineSegment?edit&nonExistent=true">[?]</a> from it. I was wondering what if the derived classes have some methods that cannot be foctored out to a base class. For example if I factor Circle, Rectangle, and Square to make the Shape class and put the Draw method in it. What if I also need to rotate Rectangle and Square but not the Circle. So what would I do? Should I put the Rotate method in the base Shape class and write a degenerative Rotate method in Circle and solid implementations in Rectangle and Square?<br/><br/>In general what should I do if my to-be-factored classes have some common behavior yet also have some unique behavior.<br/><br/>I shall look forward to hear from you.<br/><br/>Regards<br/><br/>Amir Khan<br/>Karachi, Pakistan</div>
+</div>
+<br/><div class="footer">
+<a href="FrontPage">Front Page</a> | <a href="FitNesse.UserGuide">User Guide</a><br/><a href="root">root</a> (for global !path's, <i>etc.</i>)<br/>SetUp<a title="create page" href="ArticleS.UncleBob.PrinciplesOfOod.SetUp?edit&amp;nonExistent=true">[?]</a>TearDown<a title="create page" href="ArticleS.UncleBob.PrinciplesOfOod.TearDown?edit&amp;nonExistent=true">[?]</a></div>
+<div id="addChildPopup" class="popup_window">
+  <div class="popup_title">Add Child Page to PrinciplesOfOod</div>
+  <div class="popup_content">
+    <form action="ArticleS.UncleBob.PrinciplesOfOod" method="get">
+      <input type="hidden" name="responder" value="addChild"/>
+      <table border="0" cellspacing="0" width="100%" height="100%">
+        <tr>
+          <td>
+            <input type="radio" name="pageType" value="Normal"/> Normal<br/>
+            <input type="radio" name="pageType" value="Test"/> Test<br/>
+            <input type="radio" name="pageType" value="Suite"/> Suite<br/>
+            <input type="radio" name="pageType" value="Default" checked="checked"/> Default<br/>
+          </td>
+          <td>
+            <table border="0" cellspacing="0" width="100%">
+              <tr>
+                <td><label for="childName">Name</label></td?
+                <td><input size="50" id="childName" type="text" name="name"/></td>
+              </tr>
+              <tr>
+                <td><label for="childContent">Content</label></td>
+                <td><input size="50" id="childContent" type="text" name="content" value="!contents"/></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input TYPE="button" VALUE="Cancel" onClick="popdown('addChildPopup')"/>
+            <input value="Add" type="submit"/>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</div></div>
+		</div>
+	</body>
+</html>

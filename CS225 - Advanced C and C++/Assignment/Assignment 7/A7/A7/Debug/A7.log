@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\School\SIT Digipen - Desktop\Sem 2.1\CS225\Assignment\Assignment 7\A7\A7\main.cpp(101,7): error C2039: 'apply': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\functional(28): message : see declaration of 'std'
+C:\School\SIT Digipen - Desktop\Sem 2.1\CS225\Assignment\Assignment 7\A7\A7\main.cpp(101,12): error C3861: 'apply': identifier not found

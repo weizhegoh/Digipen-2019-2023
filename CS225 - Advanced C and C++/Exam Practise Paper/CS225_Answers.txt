@@ -1,0 +1,206 @@
+1)
+
+a)F
+b)T
+c)F
+d)T
+e)F
+f)T
+g)T
+h)T
+i)T
+j)T
+
+2)
+	template <typename T>
+	my_vector<T>::my_vector<T>(const my_vector<T>& rhs) :
+		_memory{new char[rhs._size]},
+		_size{rhs._size}
+	{
+		std::cout << "Copy constructor." << std::endl;
+		//memcpy(_memory, rhs._memory, _size);
+		for (int i = 0; i < _size; ++i)
+		{
+			_memory[i] = rhs._memory[i];
+		}
+	}
+	
+	template <typename T>
+	my_vector<T>::my_vector<T>(my_vector<T>&& rhs) noexcept :
+		_memory{nullptr},
+		_size{0}
+	{
+		std::cout << "Move constructor." << std::endl;
+		swap(rhs);
+	}
+
+	template <typename T>
+	my_vector<T>& my_vector<T>::operator=(const my_vector<T>& rhs)
+	{
+		std::cout << "Copy assignment." << std::endl;
+		char* memory = new char[rhs._size];				//Create space size of rhs
+		memcpy(memory, rhs._memory, rhs._size);			//Copy over data
+		delete[] _memory;								//Delete old data
+		_memory = memory;								//Update Pointer(s)
+		_size = rhs._size;
+		return (*this);
+	}
+
+	my_vector<T>& my_vector<T>::operator=(my_vector<T>&& rhs) noexcept
+	{
+		std::cout << "Move assignment." << std::endl;
+		swap(rhs);
+		return (*this);
+	}
+	
+	my_vector<T>::~my_vector<T>()
+	{
+		delete[] _data;
+	}
+	
+3)
+
+a) B_1
+b) B_2
+c) B_1
+d) B_2
+e) NC
+f) D2_1
+g) NC
+h) D1_14
+i) D1_12
+j) D2_31
+
+4)
+
+a) 5
+b) 4
+c) 1
+d) 6
+e) 2
+f) 7
+g) 1
+h) 3
+i) 2
+j) 7
+
+5)
+
+0) float&, float&, NC
+a) std::string, std::string&&, C
+b) float&, float&, NC
+c) float&, float&, NC
+d) float, float&&, NC -> float&
+e) float*&, float*&, NC  -> T = [float*]&
+f) float&, float&, NC
+g) float&&, float&&, C
+h) float&, float&, NC
+i) float&&, float&&, C
+j) float*, float*&&, C
+
+Rip cannot use typename, all C options not sure
+
+6)
+a) 1
+b) 1
+c) N
+d) 1
+e) 1
+f) N
+g) N
+h) N
+i) 80
+j) 0
+
+TBH not sure about this question
+
+7)
+
+A
+B
+D
+C
+E
+~E
+~C
+~D
+~B
+~A
+
+8)
+
+Holder<std::string>&
+Holder<std::string>
+ghi
+def
+No mem leaks
+
+Not sure about this tbh
+
+9)
+
+a-e)
+using namespace std;
+template <typename T, typename... Args>
+tuple<shared_ptr<T>,weak_ptr<T>> make_shared_and_weak(Args args)
+{
+	T value = T(args);
+	shared_ptr<T> sp = make_shared<T>(value);
+	weak_ptr<T> wp = sp;
+	return tuple<shared_ptr<T>, weak_ptr<T>>(sp, wp);
+}
+
+f)
+auto smartPtrs = make_shared_and_weak();
+s_ptr = smartPtrs[0]; //[] access the value in tuple directly
+w_ptr = smartPtrs[1]; //<sp,wp>
+
+g)
+auto smartPtrs = make_shared_and_weak();
+s_ptr = smartPtrs[0]; //[] access the value in tuple directly
+
+h)
+auto smartPtrs = make_shared_and_weak();
+s_ptr = smartPtrs[0]; //[] access the value in tuple directly
+w_ptr = smartPtrs[1]; //<sp,wp>
+
+i)
+*s_ptr = *u_ptr;
+
+j)
+delete s_ptr;
+
+10)
+
+a)
+Division(int x, int y)
+ : _value { y==0 ? 0: (x/y)}
+{}
+
+int Division::operator*()
+{
+	return value;
+}
+
+b)
+//Use auto if can
+std::function<double(double, double)> power = [](double x, double y)
+{
+	return std::pow(x,y);
+}
+
+c)
+
+for (unsigned i = 0; i < bases.size(); ++i)
+{
+	results.push_back(power(bases[i], exponents[i]));
+}
+
+d)
+
+for (unsigned i = 0; i < bases.size(); ++i)
+{
+	results.push_back(power(bases[i], 2));
+}
+
+

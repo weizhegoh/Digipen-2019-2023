@@ -1,0 +1,2 @@
+C:\School\SIT Digipen - Desktop\Sem 2.1\CS225\Test\Debug\Test.exe.lastcodeanalysissucceeded
+C:\School\SIT Digipen - Desktop\Sem 2.1\CS225\Test\Test\Debug\NativeCodeAnalysis.read.1.tlog

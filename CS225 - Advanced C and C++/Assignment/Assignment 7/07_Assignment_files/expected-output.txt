@@ -1,0 +1,31 @@
+Files:
+ * 0.res
+ * 1.res
+ * 2.res
+ * errors.log
+ * library.dll
+ * main.exe
+ * readme.txt
+ * save.bak
+
+Files that are not empty:
+ * 0.res
+ * 1.res
+ * 2.res
+ * library.dll
+ * main.exe
+ * readme.txt
+ There are 6 non-empty files.
+
+Files that are empty:
+ * errors.log
+ * save.bak
+ There are 2 empty files.
+
+Files after removing the empty ones:
+ * 0.res
+ * 1.res
+ * 2.res
+ * library.dll
+ * main.exe
+ * readme.txt

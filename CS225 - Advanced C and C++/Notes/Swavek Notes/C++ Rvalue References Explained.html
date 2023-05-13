@@ -1,0 +1,303 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<script type="text/javascript">
+<!--
+function tact_me_con(){
+ // To confuse the crawlers
+ var a, b1, b2, b3 ,c ,d ,e, f, g
+ // To confuse the crawlers
+ a='<a href=\"mai'
+ // To confuse the crawlers
+ b1='rva'
+ // To confuse the crawlers
+ b2='l'
+ // To confuse the crawlers
+ b3='uereferences'
+ // To confuse the crawlers
+ c='\">'
+ // To confuse the crawlers
+ a+='lto:'
+ // To confuse the crawlers
+ b3+='@'
+ // To confuse the crawlers
+ e='</a>'
+ // To confuse the crawlers
+ b3+='thbe'
+ // To confuse the crawlers
+ b3+='cker.net'
+ // To confuse the crawlers
+ d='contact'
+ // To confuse the crawlers
+ f=''
+ if(f)
+   g = 'blahblahblah'
+ else
+   g = a+b1+b2+b3+c+d+e
+ document.write(g)
+}
+
+function apply(){
+ // To confuse the crawlers
+ var a, b1, b2, b3 ,c ,d ,e, f, g
+ // To confuse the crawlers
+ a='<a href=\"mai'
+ // To confuse the crawlers
+ b1='rva'
+ // To confuse the crawlers
+ b2='luerefe'
+ // To confuse the crawlers
+ b3='rences'
+ // To confuse the crawlers
+ c='\">'
+ // To confuse the crawlers
+ a+='lto:'
+ // To confuse the crawlers
+ b3+='@'
+ // To confuse the crawlers
+ e='</a>'
+ // To confuse the crawlers
+ b3+='thbe'
+ // To confuse the crawlers
+ b3+='cker.net'
+ // To confuse the crawlers
+ d='send me your resume'
+ // To confuse the crawlers
+ f=''
+ if(f)
+   g = 'blahblahblah'
+ else
+   g = a+b1+b2+b3+c+d+e
+ document.write(g)
+}
+//-->
+</script>
+
+<head>
+
+  <META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+  <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+  <META HTTP-EQUIV="EXPIRES" CONTENT="-1">
+  
+  <title>
+    C++ Rvalue References Explained
+  </title>
+
+<style>
+  body, td, center, p, div { font-family: arial, helvetica, sans-serif; font-size: 16px;}
+  a:focus, a:active {
+  outline: none;
+  -moz-outline-style: none;
+  -webkit-outline-style: none;
+  }
+</style>
+
+<link type="text/css" href="css/all_article_pages.css?version=2" rel="stylesheet" />
+
+</head>
+
+<body lang=EN-US>
+
+<!-- Outer container defines width and centering -->
+<div style="margin: 0 auto 0 auto; width: 680px;">
+
+<a href="http://www.greaterthanzero.com" target="_blank">
+<div id="thb-banner-ad">
+
+    <div id="thb-ad-body" class="thb-ad-body-verbose">
+      Is your 401k bleeding money by not offering low-cost index funds?
+      Now there is a way to find out.
+    </div>
+
+  <div id="thb-logo-with-company-name">
+    <img src="../../images/gtz-logo-small.gif"/>
+    <span class="thb-first-part-of-company-name"> GreaterThanZero</span><span class="thb-second-part-of-company-name">.com </span>
+  </div>
+</div>
+</a>
+
+<hr>
+
+<a name="top"></a>
+
+<div class="thb-header-and-footer">
+  <a href="../../home.htm" ><image src="../../images/home.png"></a>
+  &nbsp;
+  <a href="../../start_page_showing_articles.html" ><image src="../../images/up.png"></a>
+  <a href="section_02.html" ><image src="../../images/next.png"></a>
+
+  <div class="thb-page-links thb-page-links-first-and-last">
+    1
+    <a href="section_02.html">2</a>
+    <a href="section_03.html">3</a>
+    <a href="section_04.html">4</a>
+    <a href="section_05.html">5</a>
+    <a href="section_06.html">6</a>
+    <a href="section_07.html">7</a>
+    <a href="section_08.html">8</a>
+    <a href="section_09.html">9</a>
+    <a href="section_10.html">10</a>
+    <a href="section_11.html">11</a>
+  </div>
+<!--  <a class="thb-pdf-link" href="rvalue_references.pdf">full article as pdf</a> -->
+</div>
+  
+<hr>
+
+<h2>
+  C++ Rvalue References Explained
+</h2>
+
+By Thomas Becker&nbsp;&nbsp;
+<a href="http://www.greaterthanzero.com/about" target="_blank">about me</a>&nbsp;&nbsp;
+<script type="text/javascript">
+<!--
+tact_me_con()
+//-->
+</script>
+
+<br>&nbsp;<br>
+Last updated: March 2013
+
+<hr>
+
+<h3>Contents</h3>
+
+<ol>
+<li><a href="#section_01">Introduction</a>
+<li><a href="section_02.html">Move Semantics</a>
+<li><a href="section_03.html">Rvalue References</a>
+<li><a href="section_04.html">Forcing Move Semantics</a>
+<li><a href="section_05.html">Is an Rvalue Reference an Rvalue?</a>
+<li><a href="section_06.html">Move Semantics and Compiler Optimizations</a>
+<li><a href="section_07.html">Perfect Forwarding: The Problem</a>
+<li><a href="section_08.html">Perfect Forwarding: The Solution</a>
+<li><a href="section_09.html">Rvalue References and Exceptions</a>
+<li><a href="section_10.html">The Case of the Implicit Move</a>
+<li><a href="section_11.html">Acknowledgments and Further Reading</a>
+</ol>
+
+<hr>
+
+<h4>
+  <a name="section_01"></a>Introduction
+</h4>
+
+<table>
+<tr>
+<td>
+
+Rvalue references are a feature of C++ that was added with the C++11 standard.
+What makes rvalue references a bit difficult to grasp is that when you first look at them,
+it is not clear what their purpose is or what problems they solve.
+Therefore, I will not jump right in and explain what rvalue references are. Instead,
+I will start with the problems that are to be solved and then show how rvalue
+references provide the solution. That way, the definition of rvalue references 
+will appear plausible and natural to you.
+
+<p>
+
+Rvalue references solve at least two problems:
+
+<ol>
+<li> Implementing move semantics
+<li> Perfect forwarding
+</ol>
+
+If you are not familiar with these problems, do not worry. Both of them will be explained in detail 
+below. We'll start with move semantics. But before we're ready to go, I need to remind you of what
+lvalues and rvalues are in C++. Giving a rigorous definition is surprisingly difficult, but the
+explanation below is good enough for the purpose at hand.
+
+<p>
+<a name="lrvalues"></a>
+The original definition of lvalues and rvalues from the earliest days of C is as follows:
+An <em>lvalue</em> is an expression <code>e</code> that may appear on the left or on the right
+hand side of an assignment, whereas an <em>rvalue</em> is an expression that can only appear on the
+right hand side of an assignment. For example,
+</p>
+
+<pre>
+  int a = 42;
+  int b = 43;
+
+  // a and b are both l-values:
+  a = b; // ok
+  b = a; // ok
+  a = a * b; // ok
+
+  // a * b is an rvalue:
+  int c = a * b; // ok, rvalue on right hand side of assignment
+  a * b = 42; // error, rvalue on left hand side of assignment
+</pre>
+
+<p>
+In C++, this is still useful as a first, intuitive approach to lvalues and rvalues. However,
+C++ with its user-defined types has introduced some subtleties regarding
+modifiability and assignability that cause this definition to be incorrect. There is no
+need for us to go further into this. Here is an alternate definition which,
+although it can still be argued with, will put you in a position to tackle rvalue
+references: An <em>lvalue</em> is an expression that refers to a memory location and allows us to take the 
+address of that memory location via the <code>&</code> operator.
+An <em>rvalue</em> is an expression that is not an lvalue.
+Examples are:
+</p>
+
+<pre>
+  // lvalues:
+  //
+  int i = 42;
+  i = 43; // ok, i is an lvalue
+  int* p = &i; // ok, i is an lvalue
+  int& foo();
+  foo() = 42; // ok, foo() is an lvalue
+  int* p1 = &foo(); // ok, foo() is an lvalue
+
+  // rvalues:
+  //
+  int foobar();
+  int j = 0;
+  j = foobar(); // ok, foobar() is an rvalue
+  int* p2 = &foobar(); // error, cannot take the address of an rvalue
+  j = 42; // ok, 42 is an rvalue
+</pre>
+
+If you are interested in a rigorous definition of rvalues and lvalues, a good place to start
+is Mikael Kilpeläinen's <a href="http://accu.org/index.php/journals/227">ACCU article</a> on
+the subject.
+</td>
+</tr>
+</table>
+
+<hr>
+
+<div class="thb-header-and-footer thb-footer">
+  <a href="../../home.htm" ><image src="../../images/home.png"></a>
+  &nbsp;
+  <a href="../../start_page_showing_articles.html" ><image src="../../images/up.png"></a>
+  <a href="section_02.html" ><image src="../../images/next.png"></a>
+
+  <div class="thb-page-links thb-page-links-first-and-last">
+    1
+    <a href="section_02.html">2</a>
+    <a href="section_03.html">3</a>
+    <a href="section_04.html">4</a>
+    <a href="section_05.html">5</a>
+    <a href="section_06.html">6</a>
+    <a href="section_07.html">7</a>
+    <a href="section_08.html">8</a>
+    <a href="section_09.html">9</a>
+    <a href="section_10.html">10</a>
+    <a href="section_11.html">11</a>
+  </div>
+
+  <a href="http://twitter.com/intent/user?screen_name=thomasintahoe" target="_blank">
+    <img src="../../images/follow-me-on-twitter-small.png" alt="Follow me on Twitter" class="thb-follow-me-on-twitter-button">
+  </a>
+</div>
+
+</div>
+<!-- end outer container -->
+
+</body>
+</html>

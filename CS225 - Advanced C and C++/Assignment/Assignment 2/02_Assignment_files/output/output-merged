@@ -1,0 +1,49 @@
+Assignment result
+This file represents an assignment result.
+
+Initial paragraph
+This is the first paragraph of the result file.
+
+Final paragraph
+This is the second paragraph of the result file.
+"This is a quote."
+This is the third paragraph of the result file.
+This is the last paragraph of the result file.
+
+# 1. Assignment result
+This file represents an assignment result.
+
+## 1.1. Initial paragraph
+This is the first paragraph of the result file.
+
+## 1.2. Final paragraph
+This is the second paragraph of the result file.
+> This is a quote.
+
+This is the third paragraph of the result file.
+This is the last paragraph of the result file.
+<!doctype html>
+<html lang=en>
+<style>blockquote { border-left: 4px solid #d0d0d0; padding: 4px; }</style>
+<head>
+	<meta charset=utf-8>
+	<title>Result</title>
+</head>
+<body>
+	<h1>1. Assignment result</h1>
+	<p>This file represents an assignment result.</p>
+	<h2>1.1. Initial paragraph</h2>
+	<p>This is the first paragraph of the result file.</p>
+	<h2>1.2. Final paragraph</h2>
+	<p>This is the second paragraph of the result file.</p>
+	<blockquote>This is a quote.</blockquote>
+	<p>This is the third paragraph of the result file.</p>
+	<p>This is the last paragraph of the result file.</p>
+</body>
+</html>
+
+NO FREE STORE LEAKS WERE FOUND
+
+NO FREE STORE LEAKS WERE FOUND
+
+NO FREE STORE LEAKS WERE FOUND

@@ -1,0 +1,39 @@
+test_bitset.cpp
+Allocate 2 elements.
+Deallocate 2 elements.
+Test 1 completed successfully.
+Allocate 2 elements.
+Deallocate 2 elements.
+Test 2 completed successfully.
+Allocate 2 elements.
+Deallocate 2 elements.
+Test 3 completed successfully.
+Allocate 2 elements.
+Deallocate 2 elements.
+Test 4 completed successfully.
+Allocate 2 elements.
+Deallocate 2 elements.
+Test 5 completed successfully.
+Allocate 1 elements.
+Deallocate 1 elements.
+Test 6 completed successfully.
+Allocate 2 elements.
+Deallocate 2 elements.
+Test 7 completed successfully.
+Allocate 1 elements.
+Deallocate 1 elements.
+Test 8 completed successfully.
+Allocate 1 elements.
+Deallocate 1 elements.
+Test 9 completed successfully.
+Allocate 1 elements.
+Deallocate 1 elements.
+Test 10 completed successfully.
+Allocate 1 elements.
+Deallocate 1 elements.
+Test 11 completed successfully.
+Allocate 7 elements.
+Deallocate 7 elements.
+Test 12 completed successfully.
+
+NO FREE STORE LEAKS WERE FOUND

@@ -1,0 +1,1262 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>
+              
+          Universal References in C++11 -- Scott Meyers :
+        
+            Standard C++
+    </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/favicon.ico" rel="shortcut icon">
+    <link rel="apple-touch-icon" href="apple-touch-icon-57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144.png">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Roboto|Roboto+Condensed:400,700&display=swap" rel="stylesheet">
+    <link href="/assets/css/app.css?v012" rel="stylesheet" media="all" type="text/css">
+    <link href="/assets/css/prettify.css" rel="stylesheet" media="all" type="text/css">
+
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>    
+    <script src="/mint/?js" type="text/javascript"></script>
+  </head>
+  
+  <body class="hide-sidebar">
+    <div id="root">
+    
+      <div id="crown">
+        <a id="sidebar-toggle" href="#sidebar">Show sidebar &raquo;</a>
+        <ul class="user">
+                          <li><a href="https://isocpp.org/member/login">Sign In / Suggest an Article</a></li>
+          <li><a href="https://isocpp.org/member/register">Register</a></li>
+                </ul>
+      </div>
+
+      <header id="top" role="banner">
+        <div class="container">
+          <h1>
+            <a href="https://isocpp.org/"><img src="/assets/images/cpp_logo.png" alt="Standard C++"></a>
+          </h1>
+          <nav role="navigation">
+            <ul id="nav-sub">
+<li class="first"><a href="https://isocpp.org/get-started">Get Started!</a></li>
+<li><a href="https://isocpp.org/tour">Tour</a></li>
+<li><a href="https://isocpp.org/guidelines">Core Guidelines</a></li>
+<li><a href="https://isocpp.org/faq">Super-FAQ</a></li>
+<li><a href="https://isocpp.org/std">Standardization</a></li>
+<li class="last"><a href="https://isocpp.org/about">About</a></li>
+</ul>
+          </nav>
+          <form action="/search/google">
+            <input type="text" name="q" id="q" maxlength="100" value="" class="textbox">
+            <input type="submit" value="Search" class="button">
+          </form>
+          <!--
+          <form method="post" action="https://isocpp.org/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="6" />
+<input type="hidden" name="XID" value="6786b46d484306cef1a0283617397f2254d58394" />
+<input type="hidden" name="RES" value="" />
+<input type="hidden" name="meta" value="YTo5OntzOjY6InN0YXR1cyI7czowOiIiO3M6NzoiY2hhbm5lbCI7czoxOToiYmxvZ3xwYWdlc3xmYXF8d2lraSI7czo4OiJjYXRlZ29yeSI7czowOiIiO3M6OToic2VhcmNoX2luIjtzOjEwOiJldmVyeXdoZXJlIjtzOjU6IndoZXJlIjtzOjM6ImFsbCI7czoxMjoic2hvd19leHBpcmVkIjtzOjA6IiI7czoxOToic2hvd19mdXR1cmVfZW50cmllcyI7YjowO3M6MTE6InJlc3VsdF9wYWdlIjtzOjE0OiJzZWFyY2gvcmVzdWx0cyI7czoxNToibm9fcmVzdWx0c19wYWdlIjtzOjE3OiJzZWFyY2gvbm9fcmVzdWx0cyI7fTNkZmE5MTM0YzRkODdjNWE2MDc5Y2YxZjA5OGYxOTRh" />
+<input type="hidden" name="site_id" value="1" />
+</div>
+
+
+            <input type="text" name="keywords" id="keywords" maxlength="100" value="M50o93H7pQ09L8X1t49cHY01Z5j4TT91fGfr" class="textbox">
+            <input type="submit" value="Search" class="button">
+          </form>
+          -->
+        </div>
+      </header>
+
+      <div id="content" class="hide-sidebar" role="main">
+        <div class="container">
+
+
+<div id="sidebar">
+        <section>
+              <header>Features</header>
+            <div class="sidebar-section-content prettify">
+        <p>
+	<a href="https://isocpp.org/std/status">Current ISO C++ status</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="https://isocpp.org/std/meetings-and-participation/upcoming-meetings">Upcoming ISO C++ meetings</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="https://isocpp.org/wiki/faq/conferences-worldwide">Upcoming C++ conferences</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="http://en.cppreference.com/w/cpp/compiler_support">Compiler conformance status</a></p>
+      </div>
+    </section>
+  
+  
+  
+  <nav>
+    <section>
+      <header>
+        Categories
+      </header>
+      <ul>
+      <ul id="nav_categories" class="nav_categories">
+			<li>
+        <li><a href="https://isocpp.org/blog/category/news">News</a></li>
+      </li>
+			<li>
+        <li><a href="https://isocpp.org/blog/category/product-news">Product News</a></li>
+      </li>
+			<li>
+        <li><a href="https://isocpp.org/blog/category/articles-books">Articles & Books</a></li>
+      </li>
+			<li>
+        <li><a href="https://isocpp.org/blog/category/video-on-demand">Video & On-Demand</a></li>
+      </li>
+			<li>
+        <li><a href="https://isocpp.org/blog/category/events">Events</a></li>
+      </li>
+			<li>
+        <li><a href="https://isocpp.org/blog/category/training">Training</a></li>
+      </li>
+			<li>
+        <li><a href="https://isocpp.org/blog/category/standardization">Standardization</a></li>
+      </li>
+		</ul>
+
+      </ul>
+    </section>
+    
+    <section>
+      <header>Tags</header>
+      <p class="tags">
+      
+        <a href="/blog/tag/basics">basics</a>
+      
+        <a href="/blog/tag/intermediate">intermediate</a>
+      
+        <a href="/blog/tag/advanced">advanced</a>
+      
+        <a href="/blog/tag/experimental">experimental</a>
+      
+      </p>
+    </section>
+    
+    <section>
+      <header>
+        Subscribe
+      </header>
+      <div>
+        <ul>
+          <li><a href="https://isocpp.org/blog/rss" class="icon rss">All Posts</a></li>
+          <li><a href="https://isocpp.org/blog/rss_comments" class="icon rss">All Comments</a></li>
+          
+            <li><a href="https://isocpp.org/blog/rss/category/news" class="icon rss">News</a></li>
+          
+            <li><a href="https://isocpp.org/blog/rss/category/product-news" class="icon rss">Product News</a></li>
+          
+            <li><a href="https://isocpp.org/blog/rss/category/articles-books" class="icon rss">Articles & Books</a></li>
+          
+            <li><a href="https://isocpp.org/blog/rss/category/video-on-demand" class="icon rss">Video & On-Demand</a></li>
+          
+            <li><a href="https://isocpp.org/blog/rss/category/events" class="icon rss">Events</a></li>
+          
+            <li><a href="https://isocpp.org/blog/rss/category/training" class="icon rss">Training</a></li>
+          
+            <li><a href="https://isocpp.org/blog/rss/category/standardization" class="icon rss">Standardization</a></li>
+          
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <header>
+        Archives
+      </header>
+      <ul>
+        <li><a href="https://isocpp.org/blog/2020/11">November 2020</a></li>
+<li><a href="https://isocpp.org/blog/2020/10">October 2020</a></li>
+<li><a href="https://isocpp.org/blog/2020/09">September 2020</a></li>
+<li><a href="https://isocpp.org/blog/2020/08">August 2020</a></li>
+<li><a href="https://isocpp.org/blog/2020/07">July 2020</a></li>
+<li><a href="https://isocpp.org/blog/2020/06">June 2020</a></li>
+<li><a href="https://isocpp.org/blog/2020/05">May 2020</a></li>
+<li><a href="https://isocpp.org/blog/2020/04">April 2020</a></li>
+<li><a href="https://isocpp.org/blog/2020/03">March 2020</a></li>
+<li><a href="https://isocpp.org/blog/2020/02">February 2020</a></li>
+<li><a href="https://isocpp.org/blog/2020/01">January 2020</a></li>
+<li><a href="https://isocpp.org/blog/2019/12">December 2019</a></li>
+
+      </ul>
+    </section>
+  </nav>
+    
+      <section>
+              <header>Upcoming Events</header>
+            <div class="sidebar-section-content">
+        <p>
+	<strong><a href="http://codedive.pl">code::dive 2020</a></strong></p>
+<p>
+	Nov 18, ONLINE EVENT</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong><a href="https://italiancpp.org/cppday20">C++ Day 2020</a></strong></p>
+<p>
+	Nov 28, ONLINE EVENT</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong><a href="https://accu.org/conf-news/2021/2020-10-20-accu2021cfpannouncement/">ACCU 2021</a></strong></p>
+<p>
+	Mar 9-13, ONLINE EVENT</p>
+      </div>
+    </section>
+  
+      <section>
+              <header>Twitter Timeline</header>
+            <div class="sidebar-section-content">
+        <div class="twitter-container">
+	<a class="twitter-timeline" data-chrome="transparent noheader nofooter" data-height="600" data-theme="dark" data-width="200" href="https://twitter.com/isocpp?ref_src=twsrc%5Etfw">Tweets by isocpp</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+      </div>
+    </section>
+  
+</div>
+
+<div id="mainbar">
+
+    
+
+    <header>
+      <div class="breadcrumbs">
+        <a href="/">Home</a> &raquo; 
+        <a href="/blog">Blog</a> &raquo; 
+        <a href="/blog/2012">2012</a> &raquo; 
+        <a href="/blog/2012/11">November</a> &raquo; 
+        Universal References in C++11 -- Scott Meyers
+      </div>
+      
+      <div class="pagination">
+        
+          <a href="/blog/2012/11/boost-1.52.0-expected-on-monday-november-5">&laquo; Prev</a>
+        
+        
+        
+          <a href="/blog/2012/11/ars-technica-c-coming-back-into-the-mainstream-with-more-specs-more-often-p">Next &raquo;</a>
+        
+      </div>
+      
+      <h2>Universal References in C++11 -- Scott Meyers</h2>
+      <p class="byline">By Blog Staff | 
+        Nov 1, 2012 01:07 PM 
+         | 
+        Tags: 
+                    <a href="https://isocpp.org/blog/tag/intermediate" class="tag">intermediate</a>
+                    <a href="https://isocpp.org/blog/tag/advanced" class="tag">advanced</a></p>
+      <div class="save-to-reader">
+        <div class="title">Save to:</div>
+        <a href="http://www.instapaper.com/hello2?url=https%3A%2F%2Fisocpp.org%2Fblog%2F2012%2F11%2Funiversal-references-in-c11-scott-meyers&title=Universal References in C++11 -- Scott Meyers" class="icon instapaper">Instapaper</a>
+        <a href="http://getpocket.com/create?url=https%3A%2F%2Fisocpp.org%2Fblog%2F2012%2F11%2Funiversal-references-in-c11-scott-meyers&action=save&k=3aNp2F20Aao4bvW884g224eUfud1nfI0" class="icon pocket">Pocket</a>
+        <a href="#" class="icon readability">Readability</a>
+        <div class="rdbWrapper" data-show-read="1" data-show-send-to-kindle="1" data-show-print="1" data-show-email="1" data-orientation="0" data-version="1" data-bg-color="#ffffff"></div><script type="text/javascript">(function() {var s = document.getElementsByTagName("script")[0],rdb = document.createElement("script"); rdb.type = "text/javascript"; rdb.async = true; rdb.src = document.location.protocol + "//www.readability.com/embed.js"; s.parentNode.insertBefore(rdb, s); })();</script>
+      </div>
+    </header>
+    
+    <article class="single prettify">
+      
+        <h1>
+	<img alt="" src="https://isocpp.org/images/uploads/meyers.PNG" style="width: 176px; height: 241px; float: right;" />Universal References in C++11</h1>
+<p>
+	<em>T&amp;&amp; Doesn&rsquo;t Always Mean &ldquo;Rvalue Reference&rdquo;</em></p>
+<p>
+	by Scott Meyers</p>
+<p>
+	&nbsp;</p>
+<blockquote>
+	<p>
+		Related materials:</p>
+	<ul>
+		<li>
+			A video of Scott&#39;s C&amp;B talk based on this material <a href="http://channel9.msdn.com/Shows/Going+Deep/Cpp-and-Beyond-2012-Scott-Meyers-Universal-References-in-Cpp11">is available on Channel 9</a>.</li>
+		<li>
+			A&nbsp;black-and-white PDF version of this article <a href="http://accu.org/var/uploads/journals/Overload111.pdf">is available in Overload 111</a>.</li>
+	</ul>
+</blockquote>
+<p>
+	&nbsp;</p>
+<p>
+	Perhaps the most significant new feature in C++11 is rvalue references; they&rsquo;re the foundation on which move semantics and perfect forwarding are built. (If you&rsquo;re unfamiliar with the basics of rvalue references, move semantics, or perfect forwarding, you may wish to read <a href="http://thbecker.net/articles/rvalue_references/section_01.html">Thomas Becker&rsquo;s overview</a> before continuing.)</p>
+<p>
+	Syntactically, rvalue references are declared like &ldquo;normal&rdquo; references (now known as <em>lvalue references</em>), except you use two ampersands instead of one.&nbsp; This function takes a parameter of type rvalue-reference-to-<code>Widget</code>:</p>
+<pre class="prettyprint lang-cpp">
+void f(<strong>Widget&amp;&amp;</strong> param);</pre>
+<p>
+	Given that rvalue references are declared using &ldquo;<code>&amp;&amp;</code>&rdquo;, it seems reasonable to assume that the presence of &ldquo;<code>&amp;&amp;</code>&rdquo; in a type declaration indicates an rvalue reference. That is not the case:</p>
+<pre class="prettyprint lang-cpp">
+Widget<strong>&amp;&amp;</strong> var1 = someWidget;      // here, &ldquo;&amp;&amp;&rdquo; means rvalue reference&#10;&#10;auto<strong>&amp;&amp;</strong> var2 = var1;              // here, &ldquo;&amp;&amp;&rdquo; does <em>not</em> mean rvalue reference&#10;&#10;template&lt;typename T&gt;&#10;void f(std::vector&lt;T&gt;<strong>&amp;&amp;</strong> param);  // here, &ldquo;&amp;&amp;&rdquo; means rvalue reference&#10;&#10;template&lt;typename T&gt;&#10;void f(T<strong>&amp;&amp;</strong> param);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // here, &ldquo;&amp;&amp;&rdquo;does <em>not</em> mean rvalue reference&#10;</pre>
+<p>
+	In this article, I describe the two meanings of &ldquo;<code>&amp;&amp;</code>&rdquo; in type declarations, explain how to tell them apart, and introduce new terminology that makes it possible to unambiguously communicate which meaning of &ldquo;<code>&amp;&amp;</code>&rdquo; is intended. Distinguishing the different meanings is important, because if you think &ldquo;rvalue reference&rdquo; whenever you see &ldquo;<code>&amp;&amp;</code>&rdquo; in a type declaration, you&rsquo;ll misread a lot of C++11 code.</p>
+<p>
+	The essence of the issue is that &ldquo;<code>&amp;&amp;</code>&rdquo; in a type declaration sometimes means rvalue reference, but sometimes it means <em>either</em> rvalue reference <em>or</em> lvalue reference. As such, some occurrences of &ldquo;<code>&amp;&amp;</code>&rdquo; in source code may actually have the meaning of &ldquo;<code>&amp;</code>&rdquo;, i.e., have the syntactic <em>appearance</em> of an rvalue reference (&ldquo;<code>&amp;&amp;</code>&rdquo;), but the <em>meaning</em> of an lvalue reference (&ldquo;<code>&amp;</code>&rdquo;).&nbsp; References where this is possible are more flexible than either lvalue references or rvalue references. Rvalue references may bind only to rvalues, for example, and lvalue references, in addition to being able to bind to lvalues, may bind to rvalues only under restricted circumstances.[1]&nbsp; In contrast, references declared with &ldquo;<code>&amp;&amp;</code>&rdquo; that may be either lvalue references or rvalue references may bind to <em>anything</em>.&nbsp; Such unusually flexible references deserve their own name. I call them <em>universal references</em>.</p>
+<p>
+	The details of when &ldquo;<code>&amp;&amp;</code>&rdquo; indicates a universal reference (i.e., when &ldquo;<code>&amp;&amp;</code>&rdquo; in source code might actually mean &ldquo;<code>&amp;</code>&rdquo;) are tricky, so I&rsquo;m going to postpone coverage of the minutiae until later. For now, let&rsquo;s focus on the following rule of thumb, because that is what you need to remember during day-to-day programming:</p>
+<blockquote>
+	<p>
+		If a variable or parameter is declared to have type <strong><code>T&amp;&amp;</code></strong> for some <strong>deduced type</strong> <code>T</code>, that variable or parameter is a <em>universal reference</em>.</p>
+</blockquote>
+<p>
+	The requirement that type deduction be involved limits the situations where universal references can be found. In practice, almost all universal references are parameters to function templates. Because the type deduction rules for <code>auto</code>-declared variables are essentially the same as for templates, it&rsquo;s also possible to have <code>auto</code>-declared universal references. These are uncommon in production code, but I show some in this article, because they are less verbose in examples than templates.&nbsp; In the <a href="#NittyGrittyDetails">Nitty Gritty Details section</a> of this article, I explain that it&rsquo;s also possible for universal references to arise in conjunction with uses of <code>typedef</code> and <code>decltype</code>, but until we get down to the nitty gritty details, I&rsquo;m going to proceed as if universal references pertained only to function template parameters and <code>auto</code>-declared variables.</p>
+<p>
+	The constraint that the form of a universal reference be <code>T&amp;&amp;</code> is more significant than it may appear, but I&rsquo;ll defer examination of that until a bit later. For now, please simply make a mental note of the requirement.</p>
+<p>
+	Like all references, universal references must be initialized, and it is a universal reference&rsquo;s initializer that determines whether it represents an lvalue reference or an rvalue reference:</p>
+<ul>
+	<li>
+		If the expression initializing a universal reference is an lvalue, the universal reference becomes an lvalue reference.</li>
+	<li>
+		If the expression initializing the universal reference is an rvalue, the universal reference becomes an rvalue reference.</li>
+</ul>
+<p>
+	This information is useful only if you are able to distinguish lvalues from rvalues.&nbsp; A precise definition for these terms is difficult to develop (the C++11 standard generally specifies whether an expression is an lvalue or an rvalue on a case-by-case basis), but in practice, the following suffices:</p>
+<ul>
+	<li>
+		If you can take the address of an expression, the expression is an lvalue.</li>
+	<li>
+		If the type of an expression is an lvalue reference (e.g., <code>T&amp;</code> or <code>const T&amp;</code>, etc.), that expression is an lvalue.&nbsp;</li>
+	<li>
+		Otherwise, the expression is an rvalue.&nbsp; Conceptually (and typically also in fact), rvalues correspond to temporary objects, such as those returned from functions or created through implicit type conversions. Most literal values (e.g., <code>10</code> and <code>5.3</code>) are also rvalues.</li>
+</ul>
+<p>
+	Consider again the following code from the beginning of this article:</p>
+<pre class="prettyprint lang-cpp">
+Widget&amp;&amp; var1 = someWidget;&#10;auto&amp;&amp; var2 = var1;</pre>
+<p>
+	You can take the address of <code>var1</code>, so <code>var1</code> is an lvalue.&nbsp; <code>var2</code>&rsquo;s type declaration of <code>auto&amp;&amp;</code> makes it a universal reference, and because it&rsquo;s being initialized with <code>var1</code> (an lvalue), <code>var2</code> becomes an lvalue reference.&nbsp; A casual reading of the source code could lead you to believe that <code>var2</code> was an rvalue reference; the &ldquo;<code>&amp;&amp;</code>&rdquo; in its declaration certainly suggests that conclusion.&nbsp; But because it is a universal reference being initialized with an lvalue, <code>var2</code> becomes an lvalue reference.&nbsp; It&rsquo;s as if <code>var2</code> were declared like this:</p>
+<pre class="prettyprint lang-cpp">
+Widget&amp; var2 = var1;</pre>
+<p>
+	As noted above, if an expression has type lvalue reference, it&rsquo;s an lvalue.&nbsp; Consider this example:</p>
+<pre class="prettyprint lang-cpp">
+std::vector&lt;int&gt; v;&#10;...&#10;auto&amp;&amp; val = v[0];               // val becomes an lvalue reference (see below)</pre>
+<p>
+	<code>val</code> is a universal reference, and it&rsquo;s being initialized with <code>v[0]</code>, i.e., with the result of a call to <code>std::vector&lt;int&gt;::operator[]</code>. That function returns an lvalue reference to an element of the vector.[2]&nbsp;&nbsp; Because all lvalue references are lvalues, and because this lvalue is used to initialize <code>val</code>, <code>val</code> becomes an lvalue reference, even though it&rsquo;s declared with what looks like an rvalue reference.</p>
+<p>
+	I remarked that universal references are most common as parameters in template functions.&nbsp; Consider again this template from the beginning of this article:</p>
+<pre class="prettyprint lang-cpp">
+template&lt;typename T&gt;&#10;void f(T&amp;&amp; param);               // &ldquo;&amp;&amp;&rdquo; <em>might</em> mean rvalue reference</pre>
+<p>
+	Given this call to f,</p>
+<pre class="prettyprint lang-cpp">
+f(10);                           // 10 is an rvalue</pre>
+<p>
+	<code>param</code> is initialized with the literal <code>10</code>, which, because you can&rsquo;t take its address, is an rvalue.&nbsp; That means that in the call to <code>f</code>, the universal reference <code>param</code> is initialized with an rvalue, so <code>param</code> becomes an rvalue reference -- in particular, <code>int&amp;&amp;</code>.</p>
+<p>
+	On the other hand, if <code>f</code> is called like this,</p>
+<pre class="prettyprint lang-cpp">
+int x = 10;&#10;f(x);                            // x is an lvalue</pre>
+<p>
+	<code>param</code> is initialized with the variable <code>x</code>, which, because you can take its address, is an lvalue.&nbsp; That means that in this call to <code>f</code>, the universal reference param is initialized with an lvalue, and param therefore becomes an lvalue reference -- <code>int&amp;</code>, to be precise.</p>
+<p>
+	The comment next to the declaration of <code>f</code> should now be clear:&nbsp; whether <code>param</code>&rsquo;s type is an lvalue reference or an rvalue reference depends on what is passed when <code>f</code> is called.&nbsp; Sometimes param becomes an lvalue reference, and sometimes it becomes an rvalue reference.&nbsp; <code>param</code> really is a <em>universal reference</em>.</p>
+<p>
+	Remember that &ldquo;<code>&amp;&amp;</code>&rdquo; indicates a universal reference <em>only where type deduction takes place</em>.&nbsp; Where there&rsquo;s no type deduction, there&rsquo;s no universal reference.&nbsp; In such cases, &ldquo;<code>&amp;&amp;</code>&rdquo; in type declarations always means rvalue reference.&nbsp; Hence:</p>
+<pre class="prettyprint lang-cpp">
+template&lt;typename T&gt;&#10;void f(T<strong>&amp;&amp;</strong> param);               // deduced parameter type &rArr; type deduction;&#10;                                 // &amp;&amp; &equiv; universal reference&#10;&#10;template&lt;typename T&gt;&#10;class Widget {&#10;    ...&#10;    Widget(Widget<strong>&amp;&amp;</strong> rhs);        // fully specified parameter type &rArr; no type deduction;&#10;    ...                          // &amp;&amp; &equiv; rvalue reference&#10;};&#10;&#10;template&lt;typename T1&gt;&#10;class Gadget {&#10;    ...&#10;    template&lt;typename T2&gt;&#10;    Gadget(T2<strong>&amp;&amp;</strong> rhs);            // deduced parameter type &rArr; type deduction;&#10;    ...                          // &amp;&amp; &equiv; universal reference&#10;};&#10;&#10;void f(Widget<strong>&amp;&amp;</strong> param);          // fully specified parameter type &rArr; no type deduction;&#10;                                 // &amp;&amp; &equiv; rvalue reference</pre>
+<p>
+	There&rsquo;s nothing surprising about these examples.&nbsp; In each case, if you see <code>T&amp;&amp;</code> (where <code>T</code> is a template parameter), there&rsquo;s type deduction, so you&rsquo;re looking at a universal reference.&nbsp; And if you see &ldquo;<code>&amp;&amp;</code>&rdquo; after a particular type name (e.g., <code>Widget&amp;&amp;</code>), you&rsquo;re looking at an rvalue reference.</p>
+<p>
+	I stated that the form of the reference declaration must be &ldquo;<code>T&amp;&amp;</code>&rdquo; in order for the reference to be universal. That&rsquo;s an important caveat.&nbsp; Look again at this declaration from the beginning of this article:</p>
+<pre class="prettyprint lang-cpp">
+template&lt;typename T&gt;&#10;void f(<strong>std::vector&lt;T&gt;</strong><strong>&amp;&amp;</strong> param);     // &ldquo;&amp;&amp;&rdquo; means rvalue reference</pre>
+<p>
+	Here, we have both type deduction and a &ldquo;<code>&amp;&amp;</code>&rdquo;-declared function parameter, but the form of the parameter declaration is not &ldquo;<code>T&amp;&amp;</code>&rdquo;, it&rsquo;s &ldquo;<code>std::vector&lt;t&gt;&amp;&amp;</code>&rdquo;.&nbsp; As a result, the parameter is a normal rvalue reference, not a universal reference.&nbsp; Universal references can only occur in the form &ldquo;<code>T&amp;&amp;</code>&rdquo;!&nbsp; Even the simple addition of a <code>const</code> qualifier is enough to disable the interpretation of &ldquo;<code>&amp;&amp;</code>&rdquo; as a universal reference:</p>
+<pre class="prettyprint lang-cpp">
+template&lt;typename T&gt;&#10;void f(<strong>const T&amp;&amp;</strong> param);               // &ldquo;&amp;&amp;&rdquo; means rvalue reference</pre>
+<p>
+	Now, &ldquo;<code>T&amp;&amp;</code>&rdquo; is simply the required <em>form</em> for a universal reference.&nbsp; It doesn&rsquo;t mean you have to use the name <code>T</code> for your template parameter:</p>
+<pre class="prettyprint lang-cpp">
+template&lt;typename <strong>MyTemplateParamType</strong>&gt;&#10;void f(<strong>MyTemplateParamType&amp;&amp;</strong> param);  // &ldquo;&amp;&amp;&rdquo; means universal reference</pre>
+<p>
+	Sometimes you can see <code>T&amp;&amp;</code> in a function template declaration where <code>T</code> is a template parameter, yet there&rsquo;s still no type deduction.&nbsp; Consider this <code>push_back</code> function in <code>std::vector</code>:[3]</p>
+<pre class="prettyprint lang-cpp">
+template &lt;class T, class Allocator = allocator&lt;T&gt; &gt;&#10;class vector {&#10;public:&#10;    ...&#10;    void push_back(T&amp;&amp; x);       // <em>fully specified parameter type</em> &rArr; no type deduction;&#10;    ...                          // &amp;&amp; &equiv; rvalue reference&#10;};</pre>
+<p>
+	Here, <code>T</code> is a template parameter, and <code>push_back</code> takes a <code>T&amp;&amp;</code>, yet the parameter is not a universal reference!&nbsp; How can that be?</p>
+<p>
+	The answer becomes apparent if we look at how <code>push_back</code> would be declared outside the class. I&rsquo;m going to pretend that <code>std::vector</code>&rsquo;s <code>Allocator</code> parameter doesn&rsquo;t exist, because it&rsquo;s irrelevant to the discussion, and it just clutters up the code.&nbsp; With that in mind, here&rsquo;s the declaration for this version of <code>std::vector::push_back</code>:</p>
+<pre class="prettyprint lang-cpp">
+template &lt;class T&gt;&#10;void vector&lt;T&gt;::push_back(T&amp;&amp; x);</pre>
+<p>
+	<code>push_back</code> can&rsquo;t exist without the class <code>std::vector&lt;T&gt;</code> that contains it.&nbsp; But if we have a class <code>std::vector&lt;T&gt;</code>, we already know what <code>T</code> is, so there&rsquo;s no need to deduce it.</p>
+<p>
+	An example will help.&nbsp; If I write</p>
+<pre class="prettyprint lang-cpp">
+Widget makeWidget();             // factory function for Widget&#10;std::vector&lt;Widget&gt; vw;&#10;...&#10;Widget w;&#10;vw.push_back(makeWidget());      // create Widget from factory, add it to vw</pre>
+<p>
+	my use of <code>push_back</code> will cause the compiler to instantiate that function for the class <code>std::vector&lt;Widget&gt;</code>. The declaration for that <code>push_back</code> looks like this:</p>
+<pre class="prettyprint lang-cpp">
+void std::vector&lt;Widget&gt;::push_back(Widget&amp;&amp; x);</pre>
+<p>
+	See?&nbsp; Once we know that the class is <code>std::vector&lt;Widget&gt;</code>, the type of <code>push_back</code>&rsquo;s parameter is fully determined:&nbsp; it&rsquo;s <code>Widget&amp;&amp;</code>.&nbsp; There&rsquo;s no role here for type deduction.</p>
+<p>
+	Contrast that with <code>std::vector</code>&rsquo;s <code>emplace_back</code>, which is declared like this:</p>
+<pre class="prettyprint lang-cpp">
+<code>template &lt;class T, class Allocator = allocator&lt;T&gt; &gt;&#10;class vector &#123;&#10;public:&#10;    ...&#10;    template &lt;class... Args&gt;&#10;    void emplace_back(Args&amp;&amp;... args); // deduced parameter types &rArr; type deduction;&#10;    ...                                // &amp;&amp; &equiv; universal references&#10;&#125;;</code></pre>
+<p>
+	Don&rsquo;t let the fact that <code>emplace_back</code> takes a variable number of arguments (as indicated by the ellipses in the declarations for <code>Args</code> and <code>args</code>) distract you from the fact that a type for each of those arguments must be deduced.&nbsp; The function template parameter <code>Args</code> is independent of the class template parameter <code>T</code>, so even if we know that the class is, say, <code>std::vector&lt;Widget&gt;</code>, that doesn&rsquo;t tell us the type(s) taken by <code>emplace_back</code>.&nbsp; The out-of-class declaration for <code>emplace_back</code> for <code>std::vector&lt;Widget&gt;</code> makes that clear (I&rsquo;m continuing to ignore the existence of the <code>Allocator</code> parameter):</p>
+<pre class="prettyprint lang-cpp">
+template&lt;class... <strong>Args</strong>&gt;&#10;void std::vector&lt;Widget&gt;::emplace_back(<strong>Args&amp;&amp;</strong>... args);</pre>
+<p>
+	Clearly, knowing that the class is <code>std::vector&lt;Widget&gt;</code> doesn&rsquo;t eliminate the need for the compiler to deduce the type(s) passed to <code>emplace_back</code>.&nbsp; As a result, <code>std::vector::emplace_back</code>&rsquo;s parameters are universal references, unlike the parameter to the version of <code>std::vector::push_back</code> we examined, which is an rvalue reference.</p>
+<p>
+	A final point is worth bearing in mind: the lvalueness or rvalueness of an expression is independent of its type. Consider the type <code>int</code>.&nbsp; There are lvalues of type <code>int</code> (e.g., variables declared to be <code>int</code>s), and there are rvalues of type <code>int</code> (e.g., literals like <code>10</code>).&nbsp; It&rsquo;s the same for user-defined types like <code>Widget</code>. A <code>Widget</code> object can be an lvalue (e.g., a <code>Widget</code> variable) or an rvalue (e.g., an object returned from a <code>Widget</code>-creating factory function). The type of an expression does not tell you whether it is an lvalue or an rvalue.<br />
+	Because the lvalueness or rvalueness of an expression is independent of its type, it&rsquo;s possible to have <em>lvalues</em> whose type is <em>rvalue reference</em>, and it&rsquo;s also possible to have <em>rvalues</em> of the type <em>rvalue reference</em>:</p>
+<pre class="prettyprint lang-cpp">
+Widget makeWidget();                       // factory function for Widget&#10;&#10;Widget&amp;&amp; <strong>var1</strong> = makeWidget()               // var1 is an lvalue, but&#10;                                           // its type is rvalue reference (to Widget)&#10;&#10;Widget var2 = <strong>static_cast&lt;Widget&amp;&amp;&gt;(var1)</strong>; // the cast expression yields an rvalue, but&#10;                                           // its type is rvalue reference  (to Widget)</pre>
+<p>
+	The conventional way to turn lvalues (such as <code>var1</code>) into rvalues is to use <code>std::move</code> on them, so <code>var2</code> could be defined like this:</p>
+<pre class="prettyprint lang-cpp">
+Widget var2 = <strong>std::move(var1)</strong>;             // equivalent to above</pre>
+<p>
+	I initially showed the code with <code>static_cast</code> only to make explicit that the type of the expression was an rvalue reference (<code>Widget&amp;&amp;</code>).</p>
+<p>
+	Named variables and parameters of rvalue reference type are lvalues. (You can take their addresses.) Consider again the <code>Widget</code> and <code>Gadget</code> templates from earlier:</p>
+<pre class="prettyprint lang-cpp">
+template&lt;typename T&gt;&#10;class Widget {&#10;    ...&#10;    Widget(Widget&amp;&amp; rhs);        // rhs&rsquo;s type is rvalue reference,&#10;    ...                          // but rhs itself is an lvalue&#10;};&#10;&#10;template&lt;typename T1&gt;&#10;class Gadget {&#10;    ...&#10;    template &lt;typename T2&gt;&#10;    Gadget(T2&amp;&amp; rhs);            // rhs is a universal reference whose type will&#10;    ...                          // eventually become an rvalue reference or&#10;};                               // an lvalue reference, but rhs itself is an lvalue</pre>
+<p>
+	In <code>Widget</code>&rsquo;s constructor, <code>rhs</code> is an rvalue reference, so we know it&rsquo;s bound to an rvalue (i.e., an rvalue was passed to it), but <code>rhs</code> itself is an lvalue, so we have to convert it back to an rvalue if we want to take advantage of the rvalueness of what it&rsquo;s bound to.&nbsp; Our motivation for this is generally to use it as the source of a move operation, and that&rsquo;s why the way to convert an lvalue to an rvalue is to use <code>std::move</code>.&nbsp; Similarly, <code>rhs</code> in <code>Gadget</code>&rsquo;s constructor is a universal reference, so it might be bound to an lvalue or to an rvalue, but regardless of what it&rsquo;s bound to, <code>rhs</code> itself is an lvalue.&nbsp; If it&rsquo;s bound to an rvalue and we want to take advantage of the rvalueness of what it&rsquo;s bound to, we have to convert <code>rhs</code> back into an rvalue. If it&rsquo;s bound to an lvalue, of course, we don&rsquo;t want to treat it like an rvalue.&nbsp; This ambiguity regarding the lvalueness and rvalueness of what a universal reference is bound to is the motivation for <code>std::forward</code>:&nbsp; to take a universal reference lvalue and convert it into an rvalue only if the expression it&rsquo;s bound to is an rvalue.&nbsp; The name of the function (&ldquo;<code>forward</code>&rdquo;) is an acknowledgment that our desire to perform such a conversion is virtually always to preserve the calling argument&rsquo;s lvalueness or rvalueness when passing -- <em>forwarding</em> -- it to another function.</p>
+<p>
+	But <code>std::move</code> and <code>std::forward</code> are not the focus of this article.&nbsp; The fact that &ldquo;<code>&amp;&amp;</code>&rdquo; in type declarations may or may not declare an rvalue reference is.&nbsp; To avoid diluting that focus, I&rsquo;ll refer you to the references in the <a href="#FurtherInformation">Further Information section</a> for information on <code>std::move</code> and <code>std::forward</code>.</p>
+<h2>
+	<a name="NittyGrittyDetails"> Nitty Gritty Details</a></h2>
+<p>
+	The true core of the issue is that some constructs in C++11 give rise to references to references, and references to references are not permitted in C++. If source code explicitly contains a reference to a reference, the code is invalid:</p>
+<pre class="prettyprint lang-cpp">
+Widget w1;&#10;...&#10;<strong>Widget&amp; &amp;</strong> w2 = w1;               // error! No such thing as &ldquo;reference to reference&rdquo;</pre>
+<p>
+	There are cases, however, where references to references arise as a result of type manipulations that take place during compilation, and in such cases, rejecting the code would be problematic. We know this from experience with the initial standard for C++, i.e., C++98/C++03.</p>
+<p>
+	During type deduction for a template parameter that is a universal reference, lvalues and rvalues of the same type are deduced to have slightly different types.&nbsp; In particular, lvalues of type <code>T</code> are deduced to be of type <code>T&amp;</code> (i.e., lvalue reference to <code>T</code>), while rvalues of type <code>T</code> are deduced to be simply of type <code>T</code>. (Note that while lvalues are deduced to be lvalue references, rvalues are not deduced to be rvalue references!) Consider what happens when a template function taking a universal reference is invoked with an rvalue and with an lvalue:</p>
+<pre class="prettyprint lang-cpp">
+template&lt;typename T&gt;&#10;void f(T&amp;&amp; param);&#10;&#10;...&#10;&#10;int x;&#10;&#10;...&#10;&#10;f(10);                           // invoke f on rvalue&#10;f(x);                            // invoke f on lvalue</pre>
+<p>
+	In the call to <code>f</code> with the rvalue <code>10</code>, <code>T</code> is deduced to be <code>int</code>, and the instantiated <code>f</code> looks like this:</p>
+<pre class="prettyprint lang-cpp">
+void f(<strong>int&amp;&amp;</strong> param);             // f instantiated from rvalue</pre>
+<p>
+	That&rsquo;s fine. In the call to <code>f</code> with the lvalue <code>x</code>, however, <code>T</code> is deduced to be <code>int&amp;</code>, and <code>f</code>&rsquo;s instantiation contains a reference to a reference:</p>
+<pre class="prettyprint lang-cpp">
+void f(<strong>int&amp; &amp;&amp;</strong> param);           // initial instantiation of f with lvalue</pre>
+<p>
+	Because of the reference-to-reference, this instantiated code is <em>prima facie</em> invalid, but the source code-- &ldquo;<code>f(x)</code>&rdquo; -- is completely reasonable.&nbsp; To avoid rejecting it, C++11 performs &ldquo;reference collapsing&rdquo; when references to references arise in contexts such as template instantiation.</p>
+<p>
+	Because there are two kinds of references (lvalue references and rvalue references), there are four possible reference-reference combinations: lvalue reference to lvalue reference, lvalue reference to rvalue reference, rvalue reference to lvalue reference, and rvalue reference to rvalue reference.&nbsp; There are only two reference-collapsing rules:</p>
+<ul>
+	<li>
+		An rvalue reference to an rvalue reference becomes (&ldquo;collapses into&rdquo;) an rvalue reference.</li>
+	<li>
+		All other references to references (i.e., all combinations involving an lvalue reference) collapse into an lvalue reference.</li>
+</ul>
+<p>
+	Applying these rules to the instantiation of f on an lvalue yields the following valid code, which is how the compiler treats the call:</p>
+<pre class="prettyprint lang-cpp">
+void f(<strong>int&amp;</strong> param);              // instantiation of f with lvalue after reference collapsing</pre>
+<p>
+	This demonstrates the precise mechanism by which a universal reference can, after type deduction and reference collapsing, become an lvalue reference. The truth is that a universal reference is really just an rvalue reference in a reference-collapsing context.</p>
+<p>
+	Things get subtler when deducing the type for a variable that is itself a reference. In that case, the reference part of the type is ignored.&nbsp; For example, given</p>
+<pre class="prettyprint lang-cpp">
+int x;&#10;&#10;...&#10;&#10;int&amp;&amp; r1 = 10;                   // r1&rsquo;s type is int&amp;&amp;&#10;&#10;int&amp; r2 = x;                     // r2&rsquo;s type is int&amp;</pre>
+<p>
+	the type for both <code>r1</code> and <code>r2</code> is considered to be <code>int</code> in a call to the template <code>f</code>.&nbsp; This reference-stripping behavior is independent of the rule that, during type deduction for universal references, lvalues are deduced to be of type <code>T&amp;</code> and rvalues of type <code>T</code>, so given these calls,</p>
+<pre class="prettyprint lang-cpp">
+f(r1);&#10;&#10;f(r2);</pre>
+<p>
+	the deduced type for both <code>r1</code> and <code>r2</code> is <code>int&amp;</code>. Why? First the reference parts of <code>r1</code>&rsquo;s and <code>r2</code>&rsquo;s types are stripped off (yielding <code>int</code> in both cases), then, because each is an lvalue, each is treated as <code>int&amp;</code> during type deduction for the universal reference parameter in the call to <code>f</code>.</p>
+<p>
+	Reference collapsing occurs, as I&rsquo;ve noted, in &ldquo;contexts such as template instantiation.&rdquo; A second such context is the definition of <code>auto</code> variables.&nbsp; Type deduction for <code>auto</code> variables that are universal references is essentially identical to type deduction for function template parameters that are universal references, so lvalues of type <code>T</code> are deduced to have type <code>T&amp;</code>, and rvalues of type <code>T</code> are deduced to have type <code>T</code>.&nbsp; Consider again this example from the beginning of this article:</p>
+<pre class="prettyprint lang-cpp">
+Widget&amp;&amp; var1 = someWidget;      // var1 is of type Widget&amp;&amp; (no use of auto here)&#10;&#10;auto&amp;&amp; var2 = var1;              // var2 is of type Widget&amp; (see below)</pre>
+<p>
+	<code>var1</code> is of type <code>Widget&amp;&amp;</code>, but its reference-ness is ignored during type deduction in the initialization of <code>var2</code>; it&rsquo;s considered to be of type <code>Widget</code>.&nbsp; Because it&rsquo;s an lvalue being used to initialize a universal reference (<code>var2</code>), its deduced type is <code>Widget&amp;</code>.&nbsp; Substituting <code>Widget&amp;</code> for <code>auto</code> in the definition for <code>var2</code> yields the following invalid code,</p>
+<pre class="prettyprint lang-cpp">
+<strong>Widget&amp; &amp;&amp;</strong> var2 = var1;          // note reference-to-reference</pre>
+<p>
+	which, after reference collapsing, becomes</p>
+<pre class="prettyprint lang-cpp">
+<strong>Widget&amp;</strong> var2 = var1;             // var2 is of type Widget&amp;</pre>
+<p>
+	A third reference-collapsing context is <code>typedef</code> formation and use. Given this class template,</p>
+<pre class="prettyprint lang-cpp">
+template&lt;typename T&gt;&#10;class Widget {&#10;    typedef T&amp; LvalueRefType;&#10;    ...&#10;};</pre>
+<p>
+	and this use of the template,</p>
+<pre class="prettyprint lang-cpp">
+Widget&lt;int&amp;&gt; w;</pre>
+<p>
+	the instantiated class would contain this (invalid) typedef:</p>
+<pre class="prettyprint lang-cpp">
+typedef <strong>int&amp; &amp;</strong> LvalueRefType;</pre>
+<p>
+	Reference-collapsing reduces it to this legitimate code:</p>
+<pre class="prettyprint lang-cpp">
+typedef int&amp; LvalueRefType;</pre>
+<p>
+	If we then use this <code>typedef</code> in a context where references are applied to it, e.g.,</p>
+<pre class="prettyprint lang-cpp">
+void f(Widget&lt;int&amp;&gt;::LvalueRefType<strong>&amp;&amp;</strong> param);</pre>
+<p>
+	the following invalid code is produced after expansion of the <code>typedef</code>,</p>
+<pre class="prettyprint lang-cpp">
+void f(<strong>int&amp; &amp;&amp;</strong> param);</pre>
+<p>
+	but reference-collapsing kicks in, so <code>f</code>&rsquo;s ultimate declaration is this:</p>
+<pre class="prettyprint lang-cpp">
+void f(int&amp; param);</pre>
+<p>
+	The final context in which reference-collapsing takes place is the use of <code>decltype</code>. As is the case with templates and <code>auto</code>, <code>decltype</code> performs type deduction on expressions that yield types that are either <code>T</code> or <code>T&amp;</code>, and <code>decltype</code> then applies C++11&rsquo;s reference-collapsing rules.&nbsp; Alas, the type-deduction rules employed by <code>decltype</code> are not the same as those used during template or <code>auto</code> type deduction.&nbsp; The details are too arcane for coverage here (the <a href="#FurtherInformation">Further Information section</a> provides pointers to, er, further information), but a noteworthy difference is that <code>decltype</code>, given a named variable of non-reference type, deduces the type <code>T</code> (i.e., a non-reference type), while under the same conditions, templates and <code>auto</code> deduce the type <code>T&amp;</code>.&nbsp; Another important difference is that <code>decltype</code>&rsquo;s type deduction depends only on the <code>decltype</code> expression; the type of the initializing expression (if any) is ignored. Ergo:</p>
+<pre class="prettyprint lang-cpp">
+Widget w1, w2;&#10;&#10;<strong>auto&amp;&amp;</strong> v1 = w1;                  // v1 is an auto-based universal reference being&#10;                                 // initialized with an lvalue, so v1 becomes an&#10;                                 // lvalue reference referring to w1.&#10;&#10;<strong>decltype(w1)&amp;&amp;</strong> v2 = w2;          // v2 is a decltype-based universal reference, and&#10;                                 // decltype(w1) is Widget, so v2 becomes an rvalue reference.&#10;                                 // w2 is an lvalue, and it&rsquo;s not legal to initialize an&#10;                                 // rvalue reference with an lvalue, so&#10;                                 // <strong>this code does not compile</strong>.</pre>
+<h2>
+	Summary</h2>
+<p>
+	In a type declaration, &ldquo;<code>&amp;&amp;</code>&rdquo; indicates either an rvalue reference or a <em>universal reference</em> -- a reference that may resolve to either an lvalue reference or an rvalue reference. Universal references always have the form <code>T&amp;&amp;</code> for some deduced type <code>T</code>.</p>
+<p>
+	<em>Reference collapsing</em> is the mechanism that leads to universal references (which are really just rvalue references in situations where reference-collapsing takes place) sometimes resolving to lvalue references and sometimes to rvalue references. It occurs in specified contexts where references to references may arise during compilation. Those contexts are template type deduction, <code>auto</code> type deduction, <code>typedef</code> formation and use, and <code>decltype</code> expressions.</p>
+<h2>
+	Acknowledgments</h2>
+<p>
+	Draft versions of this article were reviewed by Cassio Neri, Michal Mocny, Howard Hinnant, Andrei Alexandrescu, Stephan T. Lavavej, Roger Orr, Chris Oldwood, Jonathan Wakely, and Anthony Williams.&nbsp; Their comments contributed to substantial improvements in the content of the article as well as in its presentation.</p>
+<h2>
+	Notes</h2>
+<p>
+	[1]&nbsp;I discuss rvalues and their counterpart, lvalues, later in this article. The restriction on lvalue references binding to rvalues is that such binding is permitted only when the lvalue reference is declared as a reference-to-<code>const</code>, i.e., a <code>const T&amp;</code>.</p>
+<p>
+	[2]&nbsp;I&rsquo;m ignoring the possibility of bounds violations. They yield undefined behavior.</p>
+<p>
+	[3]&nbsp;<code>std::vector::push_back</code> is overloaded. The version shown is the only one that interests us in this article.</p>
+<h2>
+	<a name="FurtherInformation"> Further Information</a></h2>
+<p>
+	<a href="http://en.wikipedia.org/wiki/C%2B%2B11">C++11</a>, Wikipedia.</p>
+<p>
+	<a href="http://www.artima.com/shop/overview_of_the_new_cpp">Overview of the New C++ (C++11)</a>, Scott Meyers, Artima Press, last updated January 2012.</p>
+<p>
+	<a href="http://thbecker.net/articles/rvalue_references/section_01.html">C++ Rvalue References Explained</a>, Thomas Becker, last updated September 2011.</p>
+<p>
+	<a href="http://en.wikipedia.org/wiki/Decltype">decltype</a>, Wikipedia.</p>
+<p>
+	<a href="http://drdobbs.com/blogs/cpp/231002789">&ldquo;A Note About decltype,&rdquo;</a> Andrew Koenig, Dr. Dobb&rsquo;s, 27 July 2011.</p>
+      
+      
+                <div id="poll-3" class="poll">
+      </div>
+
+          </article>
+    
+    <div class="share-buttons">
+      <h4>Share this Article</h4>
+      <script type="text/javascript">
+        reddit_target='cpp';
+        reddit_title="Universal References in C++11 -- Scott Meyers";
+      </script>
+      <script type="text/javascript" src="//www.reddit.com/static/button/button3.js"></script>
+    </div>
+    
+    <div class="comment-add">
+      <h3>Add a Comment</h3>
+      Comments are closed.
+    </div>
+    
+    <div class="comments">
+      <h4>Comments (18)</h4>
+      
+  
+
+      
+        <div id="comment_50" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_50'>0</span>
+                <span id='dislikeeCount_c_50'>1</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              Scott Meyers
+            </strong> 
+            said on <strong>Nov 18, 2012 06:29 PM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                @Richardo Costa: Correct, but in order to know that, you have to recognize that "&&" in that example denotes an rvalue reference.
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_85" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_85'>0</span>
+                <span id='dislikeeCount_c_85'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              Thomas Becker
+            </strong> 
+            said on <strong>Nov 27, 2012 11:25 PM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                I'd like to point out one small thing, just to make sure there are no misunderstandings. The article uses the expression "take the address of" several times, as a quick test to see if something is an lvalue: if you can take it's address, then it must be an lvalue. In this context, "taking the address" is to be read as "taking the address via the & operator". That is relevant because in C++, it is perfectly possible (though not exactly advisable!) to *obtain* the address of an rvalue, by means other than the & operator. Here's some code:<br />
+<br />
+<pre><br />
+class Thing &#123;<br />
+public:<br />
+  Thing* getThis()&#123;<br />
+    return this;<br />
+  &#125;<br />
+&#125;;<br />
+<br />
+Thing t;<br />
+Thing foo() &#123;<br />
+  return t;<br />
+&#125;<br />
+<br />
+int main(int argc, char **argv) &#123;<br />
+  <br />
+  // Not good at all, but legal C++ (compiles without warning in clang)<br />
+  Thing* p = foo().getThis();<br />
+&#125;<br />
+</pre>
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_90" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_90'>0</span>
+                <span id='dislikeeCount_c_90'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              Paul Preney
+            </strong> 
+            said on <strong>Dec 2, 2012 04:00 PM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                @Thomas Becker: Cool point, however, I feel I should add something to your point since it involves playing games with pointers and references: the two are NOT the same since their underlying representations can be very different.<br />
+<br />
+While one can retrieve the address of a reference in some cases without the address-of operator, any time one explicitly acquires an address of a referent he/she will likely "force the hand" of the compiler in terms of its freedom to represent the referent. Specifically, I am referring to C++11's &sect;8.3.2 para. 4 where it states:<br />
+<br />
+[blockquote]It is unspecified whether or not a reference requires storage.[/blockquote]<br />
+<br />
+As long as something remains a l- or r-value reference and never has to make its internal representation explicit, then the compiler is safe to represent the referent in whatever ways it sees fit (e.g., in a register, as a compiler data structure construct that can be potentially optimized away at compile-time, etc.) [b]due to this paragraph in the standard[/b]. The moment one [b]explicitly demands its address[/b], however, the compiler must then [b]map[/b] it to a [b]suitable-for-runtime address[/b] (i.e., some type of pointer). A consequence is that the compiler now has potentially [b]fewer choices[/b] available to it with respect to [b]how it represents the referent[/b]. This is probably most especially true with respect the ability for the compiler to perform optimizations.<br />
+<br />
+This was part of the reason why I wrote what I did in my blog post [url="http://preney.ca/paul/archives/1051"]References and Pointers[/url]. I humbly suggest that [b]unless one actually &lt;u&gt;needs&lt;/u&gt; to use pointers[/b] (e.g., dynamic memory allocation, invalid memory addresses/nullptr) [b]modern C++ code should use references --not pointers--[/b] provided, upon initialization, the referent is a valid object.
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_116" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_116'>0</span>
+                <span id='dislikeeCount_c_116'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              gast128
+            </strong> 
+            said on <strong>Dec 14, 2012 10:03 AM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                Good article, but I really wonder how many programmers will use this. The rules are just too complicate to remember. I probably understand 80% of what was written in this article now. Next week I have a ton of other matters to discuss and think about and probably only 10% is left of this knowledge. A programming language should help the programmer and not the other way around. It was originally meant for move semantics and perfect forwarding and really couldn't this be solved simpler?
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_333" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_333'>0</span>
+                <span id='dislikeeCount_c_333'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              Ben Hekster
+            </strong> 
+            said on <strong>Apr 7, 2013 09:48 AM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                It seems to me that the reference collapsing rules that explain this behavior are very nearly analogous to 'const collapsing' rules.  One might just as well say that "T doesn't always mean non-const."  When you see a declaration of "template &lt;typename T&gt; void f(T)", T may be const or non-const; but somehow we don't need the concept of 'universal constness' to explain that?<br />
+<br />
+I don't know if this site allows links, but I've tried to explain my point in more detail on http://www.hekster.org/Professional/Universal-References.html .
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_337" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_337'>0</span>
+                <span id='dislikeeCount_c_337'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              Scott Meyers
+            </strong> 
+            said on <strong>Apr 10, 2013 10:54 PM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                @Ben Hekster: I apologize for the delayed reply. I didn't get any notification that you'd left a comment here.<br />
+<br />
+I'm introducing the notion of a universal reference, because I think it makes things easier to understand.  As I try to make clear in my talks and my articles on this topic, everything derives from the reference-collapsing rules, so if you've memorized those and can apply them unconsciously, there is no need for the concept of a universal reference. In my experience, however, many people struggle to understand why a move constructor or a move assignment operator works only with rvalues, yet functions like make_shared and std::vector&lt;T&gt;::emplace_back accept both lvalues and rvalues, even though their parameters are declared in exactly the same way. I believe that introducing the idea of universal references makes this fairly easy to understand.<br />
+<br />
+More importantly, I've found that other guidelines for effective C++11 use naturally fall out of the distinction between rvalue references and universal references.  When do you use std::move versus std::forward, for example?  You use std::move with rvalue references, and you use std::forward with universal references. What's a good guideline to follow when overloading rvalue references?  Well, overloading on lvalue and rvalue references is fine, but overloading on universal references is generally a very bad idea.<br />
+<br />
+My understanding is that during work on C++0x, the committee recognized the distinction between rvalue and universal references, and they considered using different syntax for them. Ultimately, they rejected this idea, which I personally think is unfortunate. <br />
+<br />
+<br />
+<br />
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_439" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_439'>0</span>
+                <span id='dislikeeCount_c_439'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              Todd Scott
+            </strong> 
+            said on <strong>Jun 27, 2013 02:44 PM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                Great article.  Two clarifying questions...<br />
+<br />
+For the example where push_back takes a T&& but it is not a universal reference, this is true because the std::vector is implemented in such a way that the type cannot be a reference (e.g. std::vector&lt;Widget&&gt; will not compile), right?  So, if std::vector were somehow re-written to allow for reference types it would be a universal reference even if the declaration of push_back were unchanged.  (I want to verify that there isn't anything else going on in this case.)<br />
+<br />
+You indicate that a universal reference must take the form "T&&" and that even adding const will make this an rvalue reference.  Is this because the rule is that a universal reference always takes the form "T&&", period, that's the rule.  Or, is there something else going on because of the const?<br />
+<br />
+Thank you for posting these articles.<br />
+<br />
+Best Regards,<br />
+Todd
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_442" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_442'>0</span>
+                <span id='dislikeeCount_c_442'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              Greg Marr
+            </strong> 
+            said on <strong>Jun 28, 2013 10:29 AM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                "For the example where push_back takes a T&& but it is not a universal reference, this is true because the std::vector is implemented in such a way that the type cannot be a reference (e.g. std::vector&lt;Widget&&gt; will not compile), right?"<br />
+<br />
+No, it is because T is not being deduced at the call site.  For std::vector&lt;Widget&gt;, push_back is not push_back(T &&), it is push_back(Widget &&), and Widget && is not T &&.  You need to do the T substitution right away, and then look at the parameter type.  The push_back function is not a template function, it is a member function of a template class.<br />
+<br />
+If it were template&lt;typename U&gt; push_back(U &&), then it would be a universal reference, as push_back is now a template function, and so the parameter type is deduced.<br />
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_444" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_444'>0</span>
+                <span id='dislikeeCount_c_444'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              Todd Scott
+            </strong> 
+            said on <strong>Jun 28, 2013 11:11 AM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                @Gregg<br />
+<br />
+"... it is because T is not being deduced at the call site."<br />
+<br />
+Ok, that is the key I just didn't absorb (though on re-reading the article I now find it quite clear on this point). So, if it were possible to create a standard vector using references like std::vector&lt;Widget&&gt;, then the member function push_back would have a declaration of push_back(Widget& widget) which would make it always an l-value reference for that class, and thus not a universal reference.<br />
+<br />
+Thank you for taking the time to clarify that for me.  (I'm realizing that a number of the points being made here are just now fully "gelling" for me.)
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_461" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_461'>1</span>
+                <span id='dislikeeCount_c_461'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              linas
+            </strong> 
+            said on <strong>Jul 18, 2013 09:18 PM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                Hi, I have some trouble.<br />
+ <pre><br />
+int intfun()<br />
+&#123;<br />
+  return 0;<br />
+&#125;<br />
+<br />
+template&lt;typename T&gt;<br />
+void IsUniversal(T&& t)<br />
+&#123;<br />
+&#125;<br />
+<br />
+template&lt;typename T&gt;<br />
+struct Test<br />
+&#123;<br />
+ template&lt;typename P&gt;<br />
+ Test(P&& t)<br />
+ &#123;<br />
+  <br />
+ &#125;<br />
+&#125;;<br />
+in vs2010:<br />
+IsUniversal(intfun); // OK.The name of a global function is lvalue and T&& is universal-reference, T=int (__cdecl &)(void).<br />
+<br />
+Test&lt;char&gt; t1(intfun); // The name of a global function is lvalue.But, error:cannot convert parameter 1 from 'int (__cdecl *)(void)' to 'int (__cdecl &&)(void).So, I think P is r-reference.<br />
+<br />
+Test&lt;char&gt; t2((int(&)())intfun); // P=int (__cdecl *)(void), P is not a reference.<br />
+</pre> <br />
+<br />
+How to understand these case?
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_486" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_486'>0</span>
+                <span id='dislikeeCount_c_486'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              Branko Radosavljevic
+            </strong> 
+            said on <strong>Oct 20, 2013 09:34 PM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                Hi Scott,<br />
+<br />
+In this article you wrote "if the type of an expression is an lvalue reference (e.g., T& or const T&, etc.), that expression is an lvalue," and later "the lvalueness or rvalueness of an expression is independent of its type."  Shouldn't you add a qualifier to the latter statement, something like "(unless the type is lvalue reference, in which case the expression is necessarily an lvalue)"?<br />
+<br />
+I do think your concept of universal reference is useful for understanding, and agree with you that it's unfortunate that different syntax wasn't used.  I saw your talk last week in Chicago at the CBOE; it was very clear and well-paced.  Thanks!
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_556" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_556'>0</span>
+                <span id='dislikeeCount_c_556'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              jeff wu
+            </strong> 
+            said on <strong>Feb 27, 2014 11:22 PM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                <pre><br />
+int x = 10;<br />
+auto&& y = std::move(x);<br />
+</pre><br />
+As what said in this article, std::move(x) returns a RRef, so auto&& y should be a RRef, but actually it is a LRef.
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_595" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_595'>0</span>
+                <span id='dislikeeCount_c_595'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              vlakov
+            </strong> 
+            said on <strong>Apr 22, 2014 02:53 PM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                @jeff wu:<br />
+gcc 4.8.2;<br />
+&gt; g++ -std=c++1y testp16.cpp -o a<br />
+&gt; ./a<br />
+<pre><br />
+  int x = 10;<br />
+  auto&& y = std::move(x);<br />
+  if(  std::is_same&lt;decltype(y), int&&&gt;::value )<br />
+    cout &lt;&lt; "&&" &lt;&lt; endl;<br />
+  if(  std::is_same&lt;decltype(y), int&&gt;::value )<br />
+    cout &lt;&lt; "&" &lt;&lt; endl;<br />
+</pre><br />
+Result is: && - rvalue reference.<br />
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_758" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_758'>0</span>
+                <span id='dislikeeCount_c_758'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              MihailNaydenov
+            </strong> 
+            said on <strong>Feb 10, 2015 01:11 AM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                Thank You, for the article. <br />
+It would be nice to include information about <pre>const</pre> however!<br />
+<br />
+I was a bit surprised when moving from const& (using std::move) failed to actually do any move.<br />
+I know it makes sense and is probably the right thing, but this points out the fact that std::move is more then "just a cast", and although it is an explicit user request, it might get ignored.<br />
+<br />
+Compilers should warn when moving from const! This goes silent now (latest gcc, clang), but can have dramatic effect obviously.
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_763" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_763'>0</span>
+                <span id='dislikeeCount_c_763'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              Scott Meyers
+            </strong> 
+            said on <strong>Feb 10, 2015 12:21 PM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                @MihailNaydenov: In [i][url="http://www.jdoqocy.com/click-7708709-11290546?url=http://shop.oreilly.com/product/0636920033707.do?cmp=af-code-books-video-product_cj_0636920033707_%zp&"]Effective Modern C++[/url][/i], I explain in Item 23 ("Understand std::move and std::forward") that applying std::move to a const object yields a const rvalue. When an attempt is made to copy that rvalue, it's copied by the copy constructor or copy assignment operator, not the move constructor or move assignment operator, because the move functions require non-const arguments. In fact, std::move [i]is[/i] just a cast, and that's why applying std::move to a const object doesn't remove the constness.<br />
+<br />
+I agree that it would have been a good idea to discuss this in the article posted here, but I wrote that article over two years ago, and my understanding of how to explain the topic was less developed then than it is now. I think you'd find the treatment in [i]Effective Modern C++[/i] more comprehensive.
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_817" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_817'>0</span>
+                <span id='dislikeeCount_c_817'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              kamikaze
+            </strong> 
+            said on <strong>Jul 1, 2015 05:00 AM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                I find the statement that f(x) is reasonable code shocking. To me it seems a violation of the programmers intention. I would want compilation to fail, if I had written that code.<br />
+<br />
+In FreeBSD we'd call that a POLA* violation.<br />
+<br />
+*principal of least astonishment
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_853" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_853'>0</span>
+                <span id='dislikeeCount_c_853'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              Florian Muecke
+            </strong> 
+            said on <strong>Oct 2, 2015 02:59 PM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                Herb Sutter suggested the term 'forward reference' instead of 'universal reference' in his talk at cppcon 14  because it better matches its usage.
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+        <div id="comment_1082" class="comment">
+          <div class="comment-voting">
+            
+                              <span id='likeeCount_c_1082'>0</span>
+                <span id='dislikeeCount_c_1082'>0</span>
+                          
+          </div>
+          <p class="comment-author">
+            <strong>
+              Akshay Kalaria
+            </strong> 
+            said on <strong>May 14, 2016 06:09 AM:</strong>
+          </p>
+          <div class="comment-text">
+            <div class="comment_body">
+              
+                Excellent content. Two making clear concerns...<br />
+<br />
+For the example where push_back requires a T&& but it is not a worldwide referrals, this is real because the std::vector is applied in such a way that the kind cannot be a referrals (e.g. std::vector&lt;Widget&&gt; will not compile), right? So, if std::vector were somehow re-written to allow for referrals kinds it would be a worldwide referrals even if the announcement of push_back were the same. (I want to ensure that there isn't anything else going on in this situation.)<br />
+<br />
+You indicate that a worldwide referrals must take the kind "T&&" and that even including const will create this an rvalue referrals. Is this because the concept is that a worldwide referrals always requires the kind "T&&", interval, that's the concept. Or, is there something else going on because of the const?<br />
+<br />
+Thank you for publishing these content content.<br />
+              
+            </div>
+            
+                      </div>
+          
+        </div>
+      
+
+  
+
+    </div>
+
+    <footer>
+      
+      <div class="pagination">
+        
+          <a href="/blog/2012/11/boost-1.52.0-expected-on-monday-november-5">&laquo; Prev</a>
+        
+        
+        
+          <a href="/blog/2012/11/ars-technica-c-coming-back-into-the-mainstream-with-more-specs-more-often-p">Next &raquo;</a>
+        
+      </div>
+      
+      <div class="back-to-top">
+        <a href="#">Back to Top</a>
+      </div>
+      
+    </footer>
+  
+
+</div>
+
+        </div>
+        
+        <div id="root-footer"></div>
+      </div>
+    </div>
+
+    <footer id="bottom" role="contentinfo">
+      <div class="container">
+        &copy; <a href="/home/terms-of-use">Copyright</a> 2020 Standard C++ Foundation. 
+        All rights reserved.
+        <ul id="nav-sub">
+<li class="first"><a href="https://isocpp.org/home/terms-of-use">Terms of Use</a></li>
+<li class="last"><a href="https://isocpp.org/home/privacy-policy">Privacy Policy</a></li>
+</ul>
+        <br>Hosted by <a href="https://m.do.co/c/32f291566cf7" target="_blank">DigitalOcean</a>
+      </div>
+    </footer>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="https://isocpp.org/javascript/jquery.min"><\/script>')</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
+    <script>window.jQuery.ui || document.write('<script src="https://isocpp.org/javascript/jquery-ui.min"><\/script>')</script>
+    
+    <script type="text/javascript" charset="utf-8" src="https://isocpp.org/?ACT=comment_editor"></script>
+    <script type="text/javascript">
+	        					$(document).ready(function() {
+									$("*[id^=likee_]").click(function(){
+										var ids = $(this).attr("id").split("_");
+										if (ids[1]=="c"){
+											id=ids[2];
+											c="c_";
+											isCom="true";
+										} else {
+											id=ids[1];
+											c="";
+											isCom="false";
+										}
+										
+										$.ajax({
+	   										type: "POST",
+	   										url: "/blog/2012/11/universal-references-in-c11-scott-meyers",
+	   										data: "likee=true&entry_id="+id+"&isCom="+isCom,
+	   										success: function(msg){
+	     										//alert( "Data Saved: " + msg );
+	   										}
+	 									});
+	 									
+	 									$(this).replaceWith("<strong>"+$(this).html()+"</strong>");
+	 									$("#dislikee_"+c+id).replaceWith("<span>"+$("#dislikee_"+c+id).html()+"</span>");
+	 									$("#scoreeCount_"+c+id).html(parseInt($("#scoreeCount_"+c+id).html())+1);
+	 									$("#likeeCount_"+c+id).html(parseInt($("#likeeCount_"+c+id).html())+1);
+	 									$("#likeeReplace_"+c+id).replaceWith("");
+	 									$("#likeeShow_"+c+id).replaceWith($("#likeeShow_"+c+id).html());
+									});
+									
+									$("*[id^=dislikee_]").click(function(){
+										var ids = $(this).attr("id").split("_");
+										if (ids[1]=="c"){
+											id=ids[2];
+											c="c_";
+											isCom="true";
+										} else {
+											id=ids[1];
+											c="";
+											isCom="false";
+										}
+										$.ajax({
+	   										type: "POST",
+	   										url: "/blog/2012/11/universal-references-in-c11-scott-meyers",
+	   										data: "dislikee=true&entry_id="+id+"&isCom="+isCom,
+	   										success: function(msg){
+	     										//alert( "Data Saved: " + msg );
+	   										}
+	 									});
+	 									
+	 									$(this).replaceWith("<strong>"+$(this).html()+"</strong>");
+	 									$("#likee_"+c+id).replaceWith("<span>"+$("#likee_"+c+id).html()+"</span>");
+	 									$("#scoreeCount_"+c+id).html(parseInt($("#scoreeCount_"+c+id).html())-1);
+	 									$("#dislikeeCount_"+c+id).html(parseInt($("#dislikeeCount_"+c+id).html())+1);
+	 									$("#likeeReplace_"+c+id).replaceWith("");
+	 									$("#likeeShow_"+c+id).replaceWith($("#likeeShow_"+c+id).html());
+									});
+								
+								});	
+	        			  </script>
+    
+    <script type="text/javascript" src="/js/isocpp.lib.min.js"></script>
+    <script type="text/javascript" src="/js/global.js"></script>
+
+        
+    <script type="text/javascript">
+      $("#top nav a").each(function() {
+        var aSeg1 = $(this).attr("href").replace("http://", "").replace("https://", "").split("/")[1];
+        if (aSeg1 == "blog") {$(this).parent().addClass("here");}
+      });
+    </script>
+
+  </body>
+</html>

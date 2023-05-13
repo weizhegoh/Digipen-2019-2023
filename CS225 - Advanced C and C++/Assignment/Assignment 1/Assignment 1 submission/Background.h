@@ -1,0 +1,1 @@
+// Provide the interface of the Background class.
