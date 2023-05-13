@@ -1,0 +1,19 @@
+////////////////////////////////////////////////////////////////////////////////
+#ifndef Q_H
+#define Q_H
+////////////////////////////////////////////////////////////////////////////////
+
+namespace CS330
+{
+  namespace dp
+  {
+
+    // Functions that are to be implemented    
+    int charm_bracelet(int M, std::vector<int> const& W, std::vector<int> const& D); 
+    int coin_changes(int change, std::vector<int> const& denominations);
+    int tree_tower(int rows, int cols, int *weights);    
+  }
+}
+
+#endif
+////////////////////////////////////////////////////////////////////////////////
