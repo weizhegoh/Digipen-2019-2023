@@ -1,0 +1,181 @@
+{
+    "Entities": [
+        {
+            "Name": "mplight.prefab",
+            "Mapped ID": 0,
+            "ComponentDescriptors": [
+                {
+                    "ID": 0,
+                    "Name": "Entity",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 560062247872353558,
+                    "Name": "Debug Draw",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4517180040855548506,
+                    "Name": "Static Mesh",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 8524248933160047964,
+                    "Name": "LightProperties",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 9365789973950508172,
+                    "Name": "QuadraticFunction",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10648412085420057678,
+                    "Name": "Colour",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10665287539752122145,
+                    "Name": "Position",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 11418666248982899671,
+                    "Name": "Transform",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 12393267759677145085,
+                    "Name": "Prefab",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 14939455891620228605,
+                    "Name": "Render Settings",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 8011325290042205806,
+                    "Name": "Prefab Tag",
+                    "Type": "ExclusiveTag"
+                }
+            ],
+            "Components": [
+                {
+                    "Debug Draw": {
+                        "temp": false
+                    }
+                },
+                {
+                    "Static Mesh": {
+                        "Asset": {
+                            "Resource Key": {
+                                "Key": 14256802636339086925
+                            }
+                        },
+                        "Unit Scales": {
+                            "x": 10.0,
+                            "y": 10.0,
+                            "z": 10.0
+                        }
+                    }
+                },
+                {
+                    "LightProperties": {
+                        "Ambient": {
+                            "x": 0.5617021322250366,
+                            "y": 1.0,
+                            "z": 0.6363059282302856,
+                            "w": 1.5
+                        },
+                        "Diffuse": {
+                            "x": 0.4658759534358978,
+                            "y": 0.8553191423416138,
+                            "z": 0.8503475785255432,
+                            "w": 1.5
+                        },
+                        "Specular": {
+                            "x": 0.8297872543334961,
+                            "y": 0.5861476063728333,
+                            "z": 0.5861476063728333,
+                            "w": 1.5
+                        },
+                        "Radius": 50.0,
+                        "Near Plane": 0.009999999776482582,
+                        "Far Plane": 200.0,
+                        "Bound": 200.0,
+                        "View Up": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "View At": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "Light Render Shadow": false
+                    }
+                },
+                {
+                    "QuadraticFunction": {
+                        "Constant": 1.0,
+                        "Linear": 0.009999999776482582,
+                        "Quadratic": 0.009999999776482582
+                    }
+                },
+                {
+                    "Colour": {
+                        "Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Initial Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Position": {
+                        "Position": {
+                            "x": 926.6739501953125,
+                            "y": 47.28920364379883,
+                            "z": 775.798095703125
+                        },
+                        "Speed": 0.5,
+                        "shaky": false
+                    }
+                },
+                {
+                    "Transform": {
+                        "Scale": {
+                            "x": 0.10000000149011612,
+                            "y": 0.10000000149011612,
+                            "z": 0.10000000149011612
+                        },
+                        "Axis": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Prefab": {
+                        "Referenced Entities": []
+                    }
+                },
+                {
+                    "Render Settings": {
+                        "transparent": 1.0,
+                        "onLight": false,
+                        "onRender": true
+                    }
+                }
+            ]
+        }
+    ]
+}

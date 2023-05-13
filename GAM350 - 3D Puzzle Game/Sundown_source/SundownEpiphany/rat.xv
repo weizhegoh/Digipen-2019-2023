@@ -1,0 +1,2013 @@
+{
+    "ComponentDescriptors": [
+        {
+            "ID": 0,
+            "Name": "Entity",
+            "Type": "Data"
+        },
+        {
+            "ID": 185107916917646601,
+            "Name": "UI",
+            "Type": "Data"
+        },
+        {
+            "ID": 300977152666118249,
+            "Name": "Mass",
+            "Type": "Data"
+        },
+        {
+            "ID": 313106095095090566,
+            "Name": "Direction",
+            "Type": "Data"
+        },
+        {
+            "ID": 560062247872353558,
+            "Name": "Debug Draw",
+            "Type": "Data"
+        },
+        {
+            "ID": 735073682111509920,
+            "Name": "Material",
+            "Type": "Data"
+        },
+        {
+            "ID": 1381832709373037049,
+            "Name": "AABB",
+            "Type": "Data"
+        },
+        {
+            "ID": 1617644355853899326,
+            "Name": "Angular Velocity",
+            "Type": "Data"
+        },
+        {
+            "ID": 2387196290691801195,
+            "Name": "Torque",
+            "Type": "Data"
+        },
+        {
+            "ID": 2749045923863756690,
+            "Name": "Physic Material",
+            "Type": "Data"
+        },
+        {
+            "ID": 2790988871431800744,
+            "Name": "SkyBox Material",
+            "Type": "Data"
+        },
+        {
+            "ID": 4094028027500184039,
+            "Name": "Gravity",
+            "Type": "Data"
+        },
+        {
+            "ID": 4219641914652989460,
+            "Name": "Parent",
+            "Type": "Data"
+        },
+        {
+            "ID": 4517180040855548506,
+            "Name": "Static Mesh",
+            "Type": "Data"
+        },
+        {
+            "ID": 5159707721400732197,
+            "Name": "Referenced Prefab",
+            "Type": "Data"
+        },
+        {
+            "ID": 5753391451219826169,
+            "Name": "UI Drag",
+            "Type": "Data"
+        },
+        {
+            "ID": 5987635642972365904,
+            "Name": "Child",
+            "Type": "Data"
+        },
+        {
+            "ID": 7146299578504058711,
+            "Name": "Local To Parent",
+            "Type": "Data"
+        },
+        {
+            "ID": 7664832615816729317,
+            "Name": "Shared Filter",
+            "Type": "Data"
+        },
+        {
+            "ID": 7778741977382814018,
+            "Name": "Camera",
+            "Type": "Data"
+        },
+        {
+            "ID": 7808846320554847421,
+            "Name": "Particle Emitter",
+            "Type": "Data"
+        },
+        {
+            "ID": 8294896961556537226,
+            "Name": "Inertia Inverse",
+            "Type": "Data"
+        },
+        {
+            "ID": 8372783340885974236,
+            "Name": "Animator",
+            "Type": "Data"
+        },
+        {
+            "ID": 8524248933160047964,
+            "Name": "LightProperties",
+            "Type": "Data"
+        },
+        {
+            "ID": 8607013193575108530,
+            "Name": "Pushable Object",
+            "Type": "Data"
+        },
+        {
+            "ID": 8613594661891486169,
+            "Name": "Door",
+            "Type": "Data"
+        },
+        {
+            "ID": 8644390666535470522,
+            "Name": "UI Hover",
+            "Type": "Data"
+        },
+        {
+            "ID": 8680166306478852710,
+            "Name": "UI Trigger",
+            "Type": "Data"
+        },
+        {
+            "ID": 9365789973950508172,
+            "Name": "QuadraticFunction",
+            "Type": "Data"
+        },
+        {
+            "ID": 9595523025899528643,
+            "Name": "UI Check Box",
+            "Type": "Data"
+        },
+        {
+            "ID": 10030650020255047140,
+            "Name": "Linear Velocity",
+            "Type": "Data"
+        },
+        {
+            "ID": 10098803538241145553,
+            "Name": "Orientation",
+            "Type": "Data"
+        },
+        {
+            "ID": 10161406361622946661,
+            "Name": "Player Controls",
+            "Type": "Data"
+        },
+        {
+            "ID": 10648412085420057678,
+            "Name": "Colour",
+            "Type": "Data"
+        },
+        {
+            "ID": 10665287539752122145,
+            "Name": "Position",
+            "Type": "Data"
+        },
+        {
+            "ID": 10902804296127487268,
+            "Name": "Player State",
+            "Type": "Data"
+        },
+        {
+            "ID": 11154670902978483193,
+            "Name": "Object",
+            "Type": "Data"
+        },
+        {
+            "ID": 11418666248982899671,
+            "Name": "Transform",
+            "Type": "Data"
+        },
+        {
+            "ID": 12070372573023869485,
+            "Name": "Velocity",
+            "Type": "Data"
+        },
+        {
+            "ID": 12393267759677145085,
+            "Name": "Prefab",
+            "Type": "Data"
+        },
+        {
+            "ID": 12469516292377766736,
+            "Name": "Reference Count",
+            "Type": "Data"
+        },
+        {
+            "ID": 12703783349219678335,
+            "Name": "Restitution",
+            "Type": "Data"
+        },
+        {
+            "ID": 13444155602693000570,
+            "Name": "SpotLight_cutOff",
+            "Type": "Data"
+        },
+        {
+            "ID": 13652015321639104392,
+            "Name": "Animation State",
+            "Type": "Data"
+        },
+        {
+            "ID": 14005701927332787636,
+            "Name": "Audio3D",
+            "Type": "Data"
+        },
+        {
+            "ID": 14092314867081778292,
+            "Name": "Animation Mesh",
+            "Type": "Data"
+        },
+        {
+            "ID": 14536050121472787247,
+            "Name": "Inertia",
+            "Type": "Data"
+        },
+        {
+            "ID": 14939455891620228605,
+            "Name": "Render Settings",
+            "Type": "Data"
+        },
+        {
+            "ID": 15835140855047411457,
+            "Name": "Force",
+            "Type": "Data"
+        },
+        {
+            "ID": 16178913061416235885,
+            "Name": "Inertia World Inverse",
+            "Type": "Data"
+        },
+        {
+            "ID": 16746042627599956237,
+            "Name": "Button",
+            "Type": "Data"
+        },
+        {
+            "ID": 16783082452481381293,
+            "Name": "Audio2D",
+            "Type": "Data"
+        },
+        {
+            "ID": 17156974844300411984,
+            "Name": "Physic Transform",
+            "Type": "Data"
+        },
+        {
+            "ID": 17357486087806025733,
+            "Name": "Particle Settings",
+            "Type": "Data"
+        },
+        {
+            "ID": 464873277151804691,
+            "Name": "Prefab Root",
+            "Type": "Tag"
+        },
+        {
+            "ID": 3143799015706943846,
+            "Name": "UI Interactable Tag",
+            "Type": "Tag"
+        },
+        {
+            "ID": 5789478599700867134,
+            "Name": "GUI Active Tag",
+            "Type": "Tag"
+        },
+        {
+            "ID": 8256979173712425591,
+            "Name": "Collidable Tag",
+            "Type": "Tag"
+        },
+        {
+            "ID": 8681894170641198160,
+            "Name": "Window Tag",
+            "Type": "Tag"
+        },
+        {
+            "ID": 9146545795540847508,
+            "Name": "Kinematic Body Tag",
+            "Type": "Tag"
+        },
+        {
+            "ID": 9195492270503132616,
+            "Name": "Collided Tag",
+            "Type": "Tag"
+        },
+        {
+            "ID": 9222463140061126672,
+            "Name": "Dynamic Body Tag",
+            "Type": "Tag"
+        },
+        {
+            "ID": 9872521743044498545,
+            "Name": "Static Body Tag",
+            "Type": "Tag"
+        },
+        {
+            "ID": 10546678081760353314,
+            "Name": "Canvas Tag",
+            "Type": "Tag"
+        },
+        {
+            "ID": 10771723023748516930,
+            "Name": "Root",
+            "Type": "Tag"
+        },
+        {
+            "ID": 14303226394911955607,
+            "Name": "Interactable Tag",
+            "Type": "Tag"
+        },
+        {
+            "ID": 8011325290042205806,
+            "Name": "Prefab Tag",
+            "Type": "ExclusiveTag"
+        },
+        {
+            "ID": 15989607090904169780,
+            "Name": "Share As Data",
+            "Type": "ExclusiveTag"
+        }
+    ],
+    "EntitiesCount": 6,
+    "EntitiesBoundaries": 5,
+    "EntitiesDescriptor": [
+        {
+            "Name": "Entity_0",
+            "Validation": {
+                "Value": 1
+            }
+        },
+        {
+            "Name": "Entity_1",
+            "Validation": {
+                "Value": 1
+            }
+        },
+        {
+            "Name": "Cube",
+            "Validation": {
+                "Value": 1
+            }
+        },
+        {
+            "Name": "Player",
+            "Validation": {
+                "Value": 1
+            }
+        },
+        {
+            "Name": "Directional Lighting",
+            "Validation": {
+                "Value": 1
+            }
+        },
+        {
+            "Name": "Cube",
+            "Validation": {
+                "Value": 3
+            }
+        }
+    ],
+    "Archetypes": {
+        "Total": 10,
+        "List": [
+            {
+                "Name": "",
+                "Details": {
+                    "ID": 14655001003792327687,
+                    "TotalFamily": 1,
+                    "TotalDataComponents": 4,
+                    "TotalSharedComponents": 0,
+                    "TotalTagComponents": 0
+                },
+                "ComponentDescriptors": [
+                    {
+                        "ID": 0,
+                        "Name": "Entity",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 2790988871431800744,
+                        "Name": "SkyBox Material",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 4517180040855548506,
+                        "Name": "Static Mesh",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 11418666248982899671,
+                        "Name": "Transform",
+                        "Type": "Data"
+                    }
+                ],
+                "Families": [
+                    {
+                        "Details": {
+                            "ID": 42,
+                            "TotalEntities": 0
+                        },
+                        "Pool": []
+                    }
+                ]
+            },
+            {
+                "Name": "",
+                "Details": {
+                    "ID": 4607134443169245110,
+                    "TotalFamily": 1,
+                    "TotalDataComponents": 5,
+                    "TotalSharedComponents": 0,
+                    "TotalTagComponents": 0
+                },
+                "ComponentDescriptors": [
+                    {
+                        "ID": 0,
+                        "Name": "Entity",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 2790988871431800744,
+                        "Name": "SkyBox Material",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 4517180040855548506,
+                        "Name": "Static Mesh",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 11418666248982899671,
+                        "Name": "Transform",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 14939455891620228605,
+                        "Name": "Render Settings",
+                        "Type": "Data"
+                    }
+                ],
+                "Families": [
+                    {
+                        "Details": {
+                            "ID": 42,
+                            "TotalEntities": 1
+                        },
+                        "Pool": [
+                            {
+                                "EntityName": "Entity_0",
+                                "Components": [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 0,
+                                            "Validation": {
+                                                "Value": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "SkyBox Material": {
+                                            "skybox_LT": {
+                                                "Resource Key": {
+                                                    "Key": 8453956803944047902
+                                                }
+                                            },
+                                            "skybox_RT": {
+                                                "Resource Key": {
+                                                    "Key": 4448801668410437228
+                                                }
+                                            },
+                                            "skybox_DN": {
+                                                "Resource Key": {
+                                                    "Key": 8203415454518042683
+                                                }
+                                            },
+                                            "skybox_UP": {
+                                                "Resource Key": {
+                                                    "Key": 14783803570095519825
+                                                }
+                                            },
+                                            "skybox_BK": {
+                                                "Resource Key": {
+                                                    "Key": 3397130026994866332
+                                                }
+                                            },
+                                            "skybox_FT": {
+                                                "Resource Key": {
+                                                    "Key": 4002470565445770801
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Static Mesh": {
+                                            "Asset": {
+                                                "Resource Key": {
+                                                    "Key": 9873813724217270066
+                                                }
+                                            },
+                                            "Unit Scales": {
+                                                "x": 10.0,
+                                                "y": 10.0,
+                                                "z": 10.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Transform": {
+                                            "Scale": {
+                                                "x": 10.0,
+                                                "y": 10.0,
+                                                "z": 10.0
+                                            },
+                                            "Axis": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Render Settings": {
+                                            "transparent": 1.0,
+                                            "onLight": false,
+                                            "onRender": false
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Name": "Clone",
+                "Details": {
+                    "ID": 398147134645577213,
+                    "TotalFamily": 1,
+                    "TotalDataComponents": 18,
+                    "TotalSharedComponents": 0,
+                    "TotalTagComponents": 2
+                },
+                "ComponentDescriptors": [
+                    {
+                        "ID": 0,
+                        "Name": "Entity",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 300977152666118249,
+                        "Name": "Mass",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 313106095095090566,
+                        "Name": "Direction",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 735073682111509920,
+                        "Name": "Material",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 1381832709373037049,
+                        "Name": "AABB",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 4094028027500184039,
+                        "Name": "Gravity",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 7778741977382814018,
+                        "Name": "Camera",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 8372783340885974236,
+                        "Name": "Animator",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10030650020255047140,
+                        "Name": "Linear Velocity",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10161406361622946661,
+                        "Name": "Player Controls",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10648412085420057678,
+                        "Name": "Colour",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10665287539752122145,
+                        "Name": "Position",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10902804296127487268,
+                        "Name": "Player State",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 11418666248982899671,
+                        "Name": "Transform",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 13652015321639104392,
+                        "Name": "Animation State",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 14092314867081778292,
+                        "Name": "Animation Mesh",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 14939455891620228605,
+                        "Name": "Render Settings",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 15835140855047411457,
+                        "Name": "Force",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 9146545795540847508,
+                        "Name": "Kinematic Body Tag",
+                        "Type": "Tag"
+                    },
+                    {
+                        "ID": 9222463140061126672,
+                        "Name": "Dynamic Body Tag",
+                        "Type": "Tag"
+                    }
+                ],
+                "Families": [
+                    {
+                        "Details": {
+                            "ID": 42,
+                            "TotalEntities": 2
+                        },
+                        "Pool": [
+                            {
+                                "EntityName": "Entity_1",
+                                "Components": [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 1,
+                                            "Validation": {
+                                                "Value": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Mass": {
+                                            "Mass": 1.0
+                                        }
+                                    },
+                                    {
+                                        "Direction": {
+                                            "Direction": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "Offset": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "Speed": 0.009999999776482582,
+                                            "EndPoint": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Material": {
+                                            "shinness": 128.0,
+                                            "diffuse": {
+                                                "Resource Key": {
+                                                    "Key": 16957369829382588394
+                                                }
+                                            },
+                                            "specular": {
+                                                "Resource Key": {
+                                                    "Key": 16957369829382588394
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "AABB": {
+                                            "AABB minScale": {
+                                                "x": 0.5,
+                                                "y": 0.5,
+                                                "z": 0.5
+                                            },
+                                            "AABB maxScale": {
+                                                "x": 0.5,
+                                                "y": 0.5,
+                                                "z": 0.5
+                                            },
+                                            "Collision Type": "AABB",
+                                            "AABB min": {
+                                                "x": -5.0,
+                                                "y": -5.0,
+                                                "z": -5.0
+                                            },
+                                            "AABB max": {
+                                                "x": 5.0,
+                                                "y": 5.0,
+                                                "z": 5.0
+                                            },
+                                            "AABB center": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Gravity": {
+                                            "Gravity Force": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Camera": {
+                                            "Free Cam": false,
+                                            "OriginalZoom": 0.44999998807907104,
+                                            "Fov": 45.0,
+                                            "Far": 10000.0,
+                                            "Near": 0.10000000149011612,
+                                            "Zoom Sentivity": 0.800000011920929,
+                                            "Max Zoom Multiplyer": 90.0,
+                                            "Min Zoom Multiplyer": 20.0,
+                                            "maxDistance": 10.0,
+                                            "minDistance": 1.0,
+                                            "distance": 10.0,
+                                            "Height offset": 0.5,
+                                            "Rotate Sentivity": 0.699999988079071,
+                                            "Mouse Sentivity": 0.019999999552965164
+                                        }
+                                    },
+                                    {
+                                        "Animator": {
+                                            "Speed": 1.0
+                                        }
+                                    },
+                                    {
+                                        "Linear Velocity": {
+                                            "Linear Velocity": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "Velocity limit": 5.0
+                                        }
+                                    },
+                                    {
+                                        "Player Controls": {
+                                            "Player 1": false,
+                                            "Speed": 1.0,
+                                            "Sprint Multiplier": 2.0,
+                                            "Jump": 5.0,
+                                            "Growth Jump": 1200.0,
+                                            "Original Jump": 500.0,
+                                            "Shrink scale": 3.0,
+                                            "Grow scale": 2.0
+                                        }
+                                    },
+                                    {
+                                        "Colour": {
+                                            "Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            },
+                                            "Initial Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Position": {
+                                            "Position": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Player State": {
+                                            "State": 0
+                                        }
+                                    },
+                                    {
+                                        "Transform": {
+                                            "Scale": {
+                                                "x": 10.0,
+                                                "y": 10.0,
+                                                "z": 10.0
+                                            },
+                                            "Axis": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Animation State": {}
+                                    },
+                                    {
+                                        "Animation Mesh": {
+                                            "Model": {
+                                                "Resource Key": {
+                                                    "Key": 1089055141251600995
+                                                }
+                                            },
+                                            "Unit Scales": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Render Settings": {
+                                            "transparent": 1.0,
+                                            "onLight": true,
+                                            "onRender": false
+                                        }
+                                    },
+                                    {
+                                        "Force": {
+                                            "Total Force": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "EntityName": "Player",
+                                "Components": [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 3,
+                                            "Validation": {
+                                                "Value": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Mass": {
+                                            "Mass": 1.0
+                                        }
+                                    },
+                                    {
+                                        "Direction": {
+                                            "Direction": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "Offset": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "Speed": 0.009999999776482582,
+                                            "EndPoint": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Material": {
+                                            "shinness": 128.0,
+                                            "diffuse": {
+                                                "Resource Key": {
+                                                    "Key": 16957369829382588394
+                                                }
+                                            },
+                                            "specular": {
+                                                "Resource Key": {
+                                                    "Key": 16957369829382588394
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "AABB": {
+                                            "AABB minScale": {
+                                                "x": 0.10000000149011612,
+                                                "y": 0.20000000298023224,
+                                                "z": 0.10000000149011612
+                                            },
+                                            "AABB maxScale": {
+                                                "x": 0.10000000149011612,
+                                                "y": 0.20000000298023224,
+                                                "z": 0.10000000149011612
+                                            },
+                                            "Collision Type": "AABB",
+                                            "AABB min": {
+                                                "x": 9.0,
+                                                "y": 8.0,
+                                                "z": -1.0
+                                            },
+                                            "AABB max": {
+                                                "x": 11.0,
+                                                "y": 12.0,
+                                                "z": 1.0
+                                            },
+                                            "AABB center": {
+                                                "x": 10.0,
+                                                "y": 10.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Gravity": {
+                                            "Gravity Force": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Camera": {
+                                            "Free Cam": false,
+                                            "OriginalZoom": 0.44999998807907104,
+                                            "Fov": 45.0,
+                                            "Far": 10000.0,
+                                            "Near": 0.10000000149011612,
+                                            "Zoom Sentivity": 0.800000011920929,
+                                            "Max Zoom Multiplyer": 90.0,
+                                            "Min Zoom Multiplyer": 20.0,
+                                            "maxDistance": 10.0,
+                                            "minDistance": 1.0,
+                                            "distance": 10.0,
+                                            "Height offset": 0.5,
+                                            "Rotate Sentivity": 0.699999988079071,
+                                            "Mouse Sentivity": 0.019999999552965164
+                                        }
+                                    },
+                                    {
+                                        "Animator": {
+                                            "Speed": 1.0
+                                        }
+                                    },
+                                    {
+                                        "Linear Velocity": {
+                                            "Linear Velocity": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "Velocity limit": 5.0
+                                        }
+                                    },
+                                    {
+                                        "Player Controls": {
+                                            "Player 1": true,
+                                            "Speed": 1.0,
+                                            "Sprint Multiplier": 2.0,
+                                            "Jump": 5.0,
+                                            "Growth Jump": 1200.0,
+                                            "Original Jump": 500.0,
+                                            "Shrink scale": 3.0,
+                                            "Grow scale": 2.0
+                                        }
+                                    },
+                                    {
+                                        "Colour": {
+                                            "Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            },
+                                            "Initial Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Position": {
+                                            "Position": {
+                                                "x": 10.0,
+                                                "y": 10.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Player State": {
+                                            "State": 0
+                                        }
+                                    },
+                                    {
+                                        "Transform": {
+                                            "Scale": {
+                                                "x": 10.0,
+                                                "y": 10.0,
+                                                "z": 10.0
+                                            },
+                                            "Axis": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Animation State": {}
+                                    },
+                                    {
+                                        "Animation Mesh": {
+                                            "Model": {
+                                                "Resource Key": {
+                                                    "Key": 1089055141251600995
+                                                }
+                                            },
+                                            "Unit Scales": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Render Settings": {
+                                            "transparent": 1.0,
+                                            "onLight": true,
+                                            "onRender": true
+                                        }
+                                    },
+                                    {
+                                        "Force": {
+                                            "Total Force": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Name": "Static Renders",
+                "Details": {
+                    "ID": 13912570945346694261,
+                    "TotalFamily": 1,
+                    "TotalDataComponents": 9,
+                    "TotalSharedComponents": 0,
+                    "TotalTagComponents": 0
+                },
+                "ComponentDescriptors": [
+                    {
+                        "ID": 0,
+                        "Name": "Entity",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 313106095095090566,
+                        "Name": "Direction",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 735073682111509920,
+                        "Name": "Material",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 1381832709373037049,
+                        "Name": "AABB",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 4517180040855548506,
+                        "Name": "Static Mesh",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10648412085420057678,
+                        "Name": "Colour",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10665287539752122145,
+                        "Name": "Position",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 11418666248982899671,
+                        "Name": "Transform",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 14939455891620228605,
+                        "Name": "Render Settings",
+                        "Type": "Data"
+                    }
+                ],
+                "Families": [
+                    {
+                        "Details": {
+                            "ID": 42,
+                            "TotalEntities": 0
+                        },
+                        "Pool": []
+                    }
+                ]
+            },
+            {
+                "Name": "",
+                "Details": {
+                    "ID": 7328482533969533926,
+                    "TotalFamily": 1,
+                    "TotalDataComponents": 9,
+                    "TotalSharedComponents": 0,
+                    "TotalTagComponents": 1
+                },
+                "ComponentDescriptors": [
+                    {
+                        "ID": 0,
+                        "Name": "Entity",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 313106095095090566,
+                        "Name": "Direction",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 735073682111509920,
+                        "Name": "Material",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 1381832709373037049,
+                        "Name": "AABB",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 4517180040855548506,
+                        "Name": "Static Mesh",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10648412085420057678,
+                        "Name": "Colour",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10665287539752122145,
+                        "Name": "Position",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 11418666248982899671,
+                        "Name": "Transform",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 14939455891620228605,
+                        "Name": "Render Settings",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 9872521743044498545,
+                        "Name": "Static Body Tag",
+                        "Type": "Tag"
+                    }
+                ],
+                "Families": [
+                    {
+                        "Details": {
+                            "ID": 42,
+                            "TotalEntities": 1
+                        },
+                        "Pool": [
+                            {
+                                "EntityName": "Cube",
+                                "Components": [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 2,
+                                            "Validation": {
+                                                "Value": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Direction": {
+                                            "Direction": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "Offset": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "Speed": 0.009999999776482582,
+                                            "EndPoint": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Material": {
+                                            "shinness": 128.0,
+                                            "diffuse": {
+                                                "Resource Key": {
+                                                    "Key": 16957369829382588394
+                                                }
+                                            },
+                                            "specular": {
+                                                "Resource Key": {
+                                                    "Key": 16957369829382588394
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "AABB": {
+                                            "AABB minScale": {
+                                                "x": 0.5,
+                                                "y": 0.5,
+                                                "z": 0.5
+                                            },
+                                            "AABB maxScale": {
+                                                "x": 0.5,
+                                                "y": 0.5,
+                                                "z": 0.5
+                                            },
+                                            "Collision Type": "AABB",
+                                            "AABB min": {
+                                                "x": -290.0,
+                                                "y": -5.0,
+                                                "z": -300.0
+                                            },
+                                            "AABB max": {
+                                                "x": 310.0,
+                                                "y": 5.0,
+                                                "z": 300.0
+                                            },
+                                            "AABB center": {
+                                                "x": 9.999999046325684,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Static Mesh": {
+                                            "Asset": {
+                                                "Resource Key": {
+                                                    "Key": 14396802014816048736
+                                                }
+                                            },
+                                            "Unit Scales": {
+                                                "x": 10.0,
+                                                "y": 10.0,
+                                                "z": 10.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Colour": {
+                                            "Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            },
+                                            "Initial Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Position": {
+                                            "Position": {
+                                                "x": 9.999999046325684,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Transform": {
+                                            "Scale": {
+                                                "x": 60.0,
+                                                "y": 1.0,
+                                                "z": 60.0
+                                            },
+                                            "Axis": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Render Settings": {
+                                            "transparent": 1.0,
+                                            "onLight": true,
+                                            "onRender": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Name": "Directional Lighting",
+                "Details": {
+                    "ID": 2838721005041885734,
+                    "TotalFamily": 1,
+                    "TotalDataComponents": 9,
+                    "TotalSharedComponents": 0,
+                    "TotalTagComponents": 0
+                },
+                "ComponentDescriptors": [
+                    {
+                        "ID": 0,
+                        "Name": "Entity",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 313106095095090566,
+                        "Name": "Direction",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 560062247872353558,
+                        "Name": "Debug Draw",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 4517180040855548506,
+                        "Name": "Static Mesh",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 8524248933160047964,
+                        "Name": "LightProperties",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10648412085420057678,
+                        "Name": "Colour",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10665287539752122145,
+                        "Name": "Position",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 11418666248982899671,
+                        "Name": "Transform",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 14939455891620228605,
+                        "Name": "Render Settings",
+                        "Type": "Data"
+                    }
+                ],
+                "Families": [
+                    {
+                        "Details": {
+                            "ID": 42,
+                            "TotalEntities": 1
+                        },
+                        "Pool": [
+                            {
+                                "EntityName": "Directional Lighting",
+                                "Components": [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4,
+                                            "Validation": {
+                                                "Value": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Direction": {
+                                            "Direction": {
+                                                "x": 92.533203125,
+                                                "y": -137.529296875,
+                                                "z": 23.005477905273438
+                                            },
+                                            "Offset": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "Speed": 0.009999999776482582,
+                                            "EndPoint": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Debug Draw": {
+                                            "temp": false
+                                        }
+                                    },
+                                    {
+                                        "Static Mesh": {
+                                            "Asset": {
+                                                "Resource Key": {
+                                                    "Key": 14396802014816048736
+                                                }
+                                            },
+                                            "Unit Scales": {
+                                                "x": 10.0,
+                                                "y": 10.0,
+                                                "z": 10.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "LightProperties": {
+                                            "Ambient": {
+                                                "x": 0.44999998807907104,
+                                                "y": 0.44999998807907104,
+                                                "z": 0.44999998807907104
+                                            },
+                                            "Diffuse": {
+                                                "x": 0.4000000059604645,
+                                                "y": 0.4000000059604645,
+                                                "z": 0.4000000059604645
+                                            },
+                                            "Specular": {
+                                                "x": 0.5,
+                                                "y": 0.5,
+                                                "z": 0.5
+                                            },
+                                            "Radius": 0.0
+                                        }
+                                    },
+                                    {
+                                        "Colour": {
+                                            "Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            },
+                                            "Initial Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Position": {
+                                            "Position": {
+                                                "x": -92.533203125,
+                                                "y": 137.529296875,
+                                                "z": -23.005477905273438
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Transform": {
+                                            "Scale": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            },
+                                            "Axis": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Render Settings": {
+                                            "transparent": 1.0,
+                                            "onLight": false,
+                                            "onRender": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Name": "",
+                "Details": {
+                    "ID": 8245385253388092041,
+                    "TotalFamily": 1,
+                    "TotalDataComponents": 10,
+                    "TotalSharedComponents": 0,
+                    "TotalTagComponents": 1
+                },
+                "ComponentDescriptors": [
+                    {
+                        "ID": 0,
+                        "Name": "Entity",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 313106095095090566,
+                        "Name": "Direction",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 735073682111509920,
+                        "Name": "Material",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 1381832709373037049,
+                        "Name": "AABB",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 4517180040855548506,
+                        "Name": "Static Mesh",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 8613594661891486169,
+                        "Name": "Door",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10648412085420057678,
+                        "Name": "Colour",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10665287539752122145,
+                        "Name": "Position",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 11418666248982899671,
+                        "Name": "Transform",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 14939455891620228605,
+                        "Name": "Render Settings",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 9872521743044498545,
+                        "Name": "Static Body Tag",
+                        "Type": "Tag"
+                    }
+                ],
+                "Families": [
+                    {
+                        "Details": {
+                            "ID": 42,
+                            "TotalEntities": 0
+                        },
+                        "Pool": []
+                    }
+                ]
+            },
+            {
+                "Name": "",
+                "Details": {
+                    "ID": 6994932914888905230,
+                    "TotalFamily": 1,
+                    "TotalDataComponents": 10,
+                    "TotalSharedComponents": 0,
+                    "TotalTagComponents": 1
+                },
+                "ComponentDescriptors": [
+                    {
+                        "ID": 0,
+                        "Name": "Entity",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 313106095095090566,
+                        "Name": "Direction",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 735073682111509920,
+                        "Name": "Material",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 1381832709373037049,
+                        "Name": "AABB",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 4517180040855548506,
+                        "Name": "Static Mesh",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 8607013193575108530,
+                        "Name": "Pushable Object",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10648412085420057678,
+                        "Name": "Colour",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10665287539752122145,
+                        "Name": "Position",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 11418666248982899671,
+                        "Name": "Transform",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 14939455891620228605,
+                        "Name": "Render Settings",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 9872521743044498545,
+                        "Name": "Static Body Tag",
+                        "Type": "Tag"
+                    }
+                ],
+                "Families": [
+                    {
+                        "Details": {
+                            "ID": 42,
+                            "TotalEntities": 0
+                        },
+                        "Pool": []
+                    }
+                ]
+            },
+            {
+                "Name": "",
+                "Details": {
+                    "ID": 9671862771514327381,
+                    "TotalFamily": 1,
+                    "TotalDataComponents": 10,
+                    "TotalSharedComponents": 0,
+                    "TotalTagComponents": 0
+                },
+                "ComponentDescriptors": [
+                    {
+                        "ID": 0,
+                        "Name": "Entity",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 313106095095090566,
+                        "Name": "Direction",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 735073682111509920,
+                        "Name": "Material",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 1381832709373037049,
+                        "Name": "AABB",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 4517180040855548506,
+                        "Name": "Static Mesh",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 8607013193575108530,
+                        "Name": "Pushable Object",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10648412085420057678,
+                        "Name": "Colour",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10665287539752122145,
+                        "Name": "Position",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 11418666248982899671,
+                        "Name": "Transform",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 14939455891620228605,
+                        "Name": "Render Settings",
+                        "Type": "Data"
+                    }
+                ],
+                "Families": [
+                    {
+                        "Details": {
+                            "ID": 42,
+                            "TotalEntities": 0
+                        },
+                        "Pool": []
+                    }
+                ]
+            },
+            {
+                "Name": "",
+                "Details": {
+                    "ID": 3986029108189208593,
+                    "TotalFamily": 1,
+                    "TotalDataComponents": 11,
+                    "TotalSharedComponents": 0,
+                    "TotalTagComponents": 0
+                },
+                "ComponentDescriptors": [
+                    {
+                        "ID": 0,
+                        "Name": "Entity",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 313106095095090566,
+                        "Name": "Direction",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 735073682111509920,
+                        "Name": "Material",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 1381832709373037049,
+                        "Name": "AABB",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 4517180040855548506,
+                        "Name": "Static Mesh",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 8607013193575108530,
+                        "Name": "Pushable Object",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10648412085420057678,
+                        "Name": "Colour",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10665287539752122145,
+                        "Name": "Position",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 11418666248982899671,
+                        "Name": "Transform",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 14939455891620228605,
+                        "Name": "Render Settings",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 15835140855047411457,
+                        "Name": "Force",
+                        "Type": "Data"
+                    }
+                ],
+                "Families": [
+                    {
+                        "Details": {
+                            "ID": 42,
+                            "TotalEntities": 1
+                        },
+                        "Pool": [
+                            {
+                                "EntityName": "Cube",
+                                "Components": [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 5,
+                                            "Validation": {
+                                                "Value": 3
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Direction": {
+                                            "Direction": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "Offset": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "Speed": 0.009999999776482582,
+                                            "EndPoint": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Material": {
+                                            "shinness": 128.0,
+                                            "diffuse": {
+                                                "Resource Key": {
+                                                    "Key": 16957369829382588394
+                                                }
+                                            },
+                                            "specular": {
+                                                "Resource Key": {
+                                                    "Key": 16957369829382588394
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "AABB": {
+                                            "AABB minScale": {
+                                                "x": 0.5,
+                                                "y": 0.5,
+                                                "z": 0.5
+                                            },
+                                            "AABB maxScale": {
+                                                "x": 0.5,
+                                                "y": 0.5,
+                                                "z": 0.5
+                                            },
+                                            "Collision Type": "AABB",
+                                            "AABB min": {
+                                                "x": 5.0,
+                                                "y": 5.0,
+                                                "z": 5.0
+                                            },
+                                            "AABB max": {
+                                                "x": 15.0,
+                                                "y": 15.0,
+                                                "z": 15.0
+                                            },
+                                            "AABB center": {
+                                                "x": 10.0,
+                                                "y": 10.0,
+                                                "z": 10.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Static Mesh": {
+                                            "Asset": {
+                                                "Resource Key": {
+                                                    "Key": 14396802014816048736
+                                                }
+                                            },
+                                            "Unit Scales": {
+                                                "x": 10.0,
+                                                "y": 10.0,
+                                                "z": 10.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Pushable Object": {
+                                            "Is it Linked To Player": false,
+                                            "Distance Grabbed": 2.0
+                                        }
+                                    },
+                                    {
+                                        "Colour": {
+                                            "Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            },
+                                            "Initial Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Position": {
+                                            "Position": {
+                                                "x": 10.0,
+                                                "y": 10.0,
+                                                "z": 10.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Transform": {
+                                            "Scale": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            },
+                                            "Axis": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Render Settings": {
+                                            "transparent": 1.0,
+                                            "onLight": true,
+                                            "onRender": true
+                                        }
+                                    },
+                                    {
+                                        "Force": {
+                                            "Total Force": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

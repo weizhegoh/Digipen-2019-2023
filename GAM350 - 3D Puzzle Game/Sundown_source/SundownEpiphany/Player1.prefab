@@ -1,0 +1,418 @@
+{
+    "Entities": [
+        {
+            "Name": "Player1_prefab",
+            "Mapped ID": 0,
+            "ComponentDescriptors": [
+                {
+                    "ID": 0,
+                    "Name": "Entity",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 300977152666118249,
+                    "Name": "Mass",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 313106095095090566,
+                    "Name": "Direction",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 735073682111509920,
+                    "Name": "Material",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 1381832709373037049,
+                    "Name": "AABB",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4094028027500184039,
+                    "Name": "Gravity",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 7778741977382814018,
+                    "Name": "Camera",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 7808846320554847421,
+                    "Name": "Particle Emitter",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 8372783340885974236,
+                    "Name": "Animator",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10030650020255047140,
+                    "Name": "Linear Velocity",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10161406361622946661,
+                    "Name": "Player Controls",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10648412085420057678,
+                    "Name": "Colour",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10665287539752122145,
+                    "Name": "Position",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10902804296127487268,
+                    "Name": "Player State",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 11418666248982899671,
+                    "Name": "Transform",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 12393267759677145085,
+                    "Name": "Prefab",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 13652015321639104392,
+                    "Name": "Animation State",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 14092314867081778292,
+                    "Name": "Animation Mesh",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 14939455891620228605,
+                    "Name": "Render Settings",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 15835140855047411457,
+                    "Name": "Force",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 17357486087806025733,
+                    "Name": "Particle Settings",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 9146545795540847508,
+                    "Name": "Kinematic Body Tag",
+                    "Type": "Tag"
+                },
+                {
+                    "ID": 9222463140061126672,
+                    "Name": "Dynamic Body Tag",
+                    "Type": "Tag"
+                },
+                {
+                    "ID": 8011325290042205806,
+                    "Name": "Prefab Tag",
+                    "Type": "ExclusiveTag"
+                }
+            ],
+            "Components": [
+                {
+                    "Mass": {
+                        "Mass": 1.0
+                    }
+                },
+                {
+                    "Direction": {
+                        "Direction": {
+                            "x": -0.41767415404319763,
+                            "y": 0.0,
+                            "z": -0.6992801427841187
+                        },
+                        "Offset": {
+                            "x": -0.4267868399620056,
+                            "y": 0.0,
+                            "z": -0.7193908095359802
+                        },
+                        "Speed": 0.009999999776482582,
+                        "EndPoint": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Material": {
+                        "shinness": 128.0,
+                        "diffuse": {
+                            "Resource Key": {
+                                "Key": 1088205916952748552
+                            }
+                        },
+                        "specular": {
+                            "Resource Key": {
+                                "Key": 1088205916952748552
+                            }
+                        }
+                    }
+                },
+                {
+                    "AABB": {
+                        "AABB minScale": {
+                            "x": 0.10000000149011612,
+                            "y": 0.20000000298023224,
+                            "z": 0.10000000149011612
+                        },
+                        "AABB maxScale": {
+                            "x": 0.10000000149011612,
+                            "y": 0.20000000298023224,
+                            "z": 0.10000000149011612
+                        },
+                        "Collision Type": "AABB",
+                        "AABB min": {
+                            "x": -1.7611418962478638,
+                            "y": -2.0430545806884766,
+                            "z": -0.4603036046028137
+                        },
+                        "AABB max": {
+                            "x": 0.23885881900787354,
+                            "y": 1.956946849822998,
+                            "z": 1.5396971702575684
+                        },
+                        "AABB center": {
+                            "x": -1.1746336221694946,
+                            "y": 9.135164260864258,
+                            "z": 9.916729927062988
+                        }
+                    }
+                },
+                {
+                    "Gravity": {
+                        "Gravity Force": {
+                            "x": 0.0,
+                            "y": -9.800000190734863,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Camera": {
+                        "Free Cam": false,
+                        "OriginalZoom": 90.0,
+                        "Fov": 90.0,
+                        "Far": 10000.0,
+                        "Near": 0.10000000149011612,
+                        "Zoom Sentivity": 0.800000011920929,
+                        "Max Zoom Multiplyer": 90.0,
+                        "Min Zoom Multiplyer": 20.0,
+                        "maxDistance": 5.0,
+                        "minDistance": 1.0,
+                        "distance": 10.0,
+                        "Height offset": 0.5,
+                        "Rotate Sentivity": 0.699999988079071,
+                        "Mouse Sentivity": 0.019999999552965164
+                    }
+                },
+                {
+                    "Particle Emitter": {
+                        "isActive": true,
+                        "Debug Draw": false,
+                        "Model": {
+                            "Resource Key": {
+                                "Key": 12121188997815070923
+                            }
+                        },
+                        "Unit Scales": {
+                            "x": 10.0,
+                            "y": 10.0,
+                            "z": 10.0
+                        },
+                        "Shinness": 128.0,
+                        "Diffuse": {
+                            "Resource Key": {
+                                "Key": 16957369829382588394
+                            }
+                        },
+                        "Specular": {
+                            "Resource Key": {
+                                "Key": 16957369829382588394
+                            }
+                        }
+                    }
+                },
+                {
+                    "Animator": {
+                        "Speed": 1.0
+                    }
+                },
+                {
+                    "Linear Velocity": {
+                        "Linear Velocity": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Velocity limit": 5.0
+                    }
+                },
+                {
+                    "Player Controls": {
+                        "Player 1": true,
+                        "Speed": 500.0,
+                        "Sprint Multiplier": 2.0,
+                        "Jump": 500.0,
+                        "Growth Jump": 1200.0,
+                        "Original Jump": 500.0,
+                        "Shrink scale": 3.0,
+                        "Grow scale": 2.0
+                    }
+                },
+                {
+                    "Colour": {
+                        "Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Initial Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Position": {
+                        "Position": {
+                            "x": -0.7611415386199951,
+                            "y": -0.043053921312093735,
+                            "z": 0.5396967530250549
+                        }
+                    }
+                },
+                {
+                    "Player State": {
+                        "State": 0
+                    }
+                },
+                {
+                    "Transform": {
+                        "Scale": {
+                            "x": 10.000003814697266,
+                            "y": 10.000003814697266,
+                            "z": 10.000003814697266
+                        },
+                        "Axis": {
+                            "x": 0.0,
+                            "y": 149.15048217773438,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Prefab": {
+                        "Referenced Entities": []
+                    }
+                },
+                {
+                    "Animation State": {}
+                },
+                {
+                    "Animation Mesh": {
+                        "Model": {
+                            "Resource Key": {
+                                "Key": 1089055141251600995
+                            }
+                        },
+                        "Unit Scales": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Render Settings": {
+                        "transparent": 1.0,
+                        "onLight": true,
+                        "onRender": true
+                    }
+                },
+                {
+                    "Force": {
+                        "Total Force": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Particle Settings": {
+                        "Count": 20,
+                        "Rate Over Distance": 2,
+                        "Rate of Spawn": 5,
+                        "Spawn Interval": 1.0,
+                        "Direction": {
+                            "First": {
+                                "x": 0.0,
+                                "y": 0.5,
+                                "z": 0.0
+                            },
+                            "Second": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        "Speed": {
+                            "First": 1.0,
+                            "Second": 0.5
+                        },
+                        "Life Time": {
+                            "First": 2.0,
+                            "Second": 0.5
+                        },
+                        "Start Time": {
+                            "First": 0.0,
+                            "Second": 0.0
+                        },
+                        "Transparency": {
+                            "First": 0.20000000298023224,
+                            "Second": 0.5
+                        },
+                        "Scale": {
+                            "First": 0.5,
+                            "Second": 0.20000000298023224
+                        },
+                        "Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Position Spawn OffSet": {
+                            "x": 0.0,
+                            "y": 1.7000000476837158,
+                            "z": 0.0
+                        },
+                        "Position Spawn OffSet2": {
+                            "x": 0.0,
+                            "y": 1.7000000476837158,
+                            "z": 0.0
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,3003 @@
+{
+    "Entities": [
+        {
+            "Name": "ToUse_MainMenu.prefab",
+            "Mapped ID": 0,
+            "ComponentDescriptors": [
+                {
+                    "ID": 0,
+                    "Name": "Entity",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 185107916917646601,
+                    "Name": "UI",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 560062247872353558,
+                    "Name": "Debug Draw",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 1381832709373037049,
+                    "Name": "AABB",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4517180040855548506,
+                    "Name": "Static Mesh",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 5987635642972365904,
+                    "Name": "Child",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10648412085420057678,
+                    "Name": "Colour",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10665287539752122145,
+                    "Name": "Position",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 11418666248982899671,
+                    "Name": "Transform",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 12393267759677145085,
+                    "Name": "Prefab",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 14939455891620228605,
+                    "Name": "Render Settings",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 8681894170641198160,
+                    "Name": "Window Tag",
+                    "Type": "Tag"
+                },
+                {
+                    "ID": 10771723023748516930,
+                    "Name": "Root",
+                    "Type": "Tag"
+                },
+                {
+                    "ID": 8011325290042205806,
+                    "Name": "Prefab Tag",
+                    "Type": "ExclusiveTag"
+                }
+            ],
+            "Components": [
+                {
+                    "UI": {
+                        "transparency": 0.0
+                    }
+                },
+                {
+                    "Debug Draw": {
+                        "temp": false
+                    }
+                },
+                {
+                    "AABB": {
+                        "AABB minScale": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        },
+                        "AABB maxScale": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        },
+                        "Collision Type": "AABB",
+                        "AABB min": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "AABB max": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "AABB center": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Static Mesh": {
+                        "Asset": {
+                            "Resource Key": {
+                                "Key": 17047569883171969821
+                            }
+                        },
+                        "Unit Scales": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Child": [
+                        1
+                    ]
+                },
+                {
+                    "Colour": {
+                        "Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Initial Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Position": {
+                        "Position": {
+                            "x": 1.0,
+                            "y": -4.371395334601402e-8,
+                            "z": 9.313225746154785e-10
+                        },
+                        "Speed": 0.5,
+                        "shaky": false
+                    }
+                },
+                {
+                    "Transform": {
+                        "Scale": {
+                            "x": 12.899998664855957,
+                            "y": 12.899998664855957,
+                            "z": 0.001290000043809414
+                        },
+                        "Axis": {
+                            "x": 0.0,
+                            "y": -90.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Prefab": {
+                        "Referenced Entities": []
+                    }
+                },
+                {
+                    "Render Settings": {
+                        "transparent": 1.0,
+                        "onLight": true,
+                        "onRender": true
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "MainMenu_prefab",
+            "Mapped ID": 1,
+            "ComponentDescriptors": [
+                {
+                    "ID": 0,
+                    "Name": "Entity",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 185107916917646601,
+                    "Name": "UI",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 560062247872353558,
+                    "Name": "Debug Draw",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 735073682111509920,
+                    "Name": "Material",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 1381832709373037049,
+                    "Name": "AABB",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4219641914652989460,
+                    "Name": "Parent",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4517180040855548506,
+                    "Name": "Static Mesh",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 5987635642972365904,
+                    "Name": "Child",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 7146299578504058711,
+                    "Name": "Local To Parent",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10648412085420057678,
+                    "Name": "Colour",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10665287539752122145,
+                    "Name": "Position",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 11418666248982899671,
+                    "Name": "Transform",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 12393267759677145085,
+                    "Name": "Prefab",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 14939455891620228605,
+                    "Name": "Render Settings",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 3266854503378265484,
+                    "Name": "MainMenuCanvasTag",
+                    "Type": "Tag"
+                },
+                {
+                    "ID": 5789478599700867134,
+                    "Name": "GUI Active Tag",
+                    "Type": "Tag"
+                },
+                {
+                    "ID": 10546678081760353314,
+                    "Name": "Canvas Tag",
+                    "Type": "Tag"
+                },
+                {
+                    "ID": 8011325290042205806,
+                    "Name": "Prefab Tag",
+                    "Type": "ExclusiveTag"
+                }
+            ],
+            "Components": [
+                {
+                    "UI": {
+                        "transparency": 0.0
+                    }
+                },
+                {
+                    "Debug Draw": {
+                        "temp": false
+                    }
+                },
+                {
+                    "Material": {
+                        "shinness": 128.0,
+                        "diffuse": {
+                            "Resource Key": {
+                                "Key": 14092109423691255179
+                            }
+                        },
+                        "specular": {
+                            "Resource Key": {
+                                "Key": 14092109423691255179
+                            }
+                        },
+                        "normal": {
+                            "Resource Key": {
+                                "Key": 0
+                            }
+                        },
+                        "bump": {
+                            "Resource Key": {
+                                "Key": 0
+                            }
+                        },
+                        "Parallax Map": false,
+                        "Height Scale": 0.0
+                    }
+                },
+                {
+                    "AABB": {
+                        "AABB minScale": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        },
+                        "AABB maxScale": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        },
+                        "Collision Type": "AABB",
+                        "AABB min": {
+                            "x": 2.5999999046325684,
+                            "y": -1.0,
+                            "z": -1.1299999952316284
+                        },
+                        "AABB max": {
+                            "x": -0.6000000238418579,
+                            "y": 0.9999999403953552,
+                            "z": 1.1299999952316284
+                        },
+                        "AABB center": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Parent": 0
+                },
+                {
+                    "Static Mesh": {
+                        "Asset": {
+                            "Resource Key": {
+                                "Key": 17047569883171969821
+                            }
+                        },
+                        "Unit Scales": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Child": [
+                        2,
+                        4,
+                        6,
+                        8,
+                        10
+                    ]
+                },
+                {
+                    "Local To Parent": {
+                        "Position": {
+                            "x": 0.0,
+                            "y": 2.5650592760939617e-12,
+                            "z": -9.313225746154785e-10
+                        },
+                        "scale": {
+                            "x": -4.031249523162842,
+                            "y": 6.4499993324279785,
+                            "z": 0.0005707964883185923
+                        },
+                        "axis": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Colour": {
+                        "Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Initial Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Position": {
+                        "Position": {
+                            "x": 1.0,
+                            "y": -4.371138828673793e-8,
+                            "z": 0.0
+                        },
+                        "Speed": 0.5,
+                        "shaky": false
+                    }
+                },
+                {
+                    "Transform": {
+                        "Scale": {
+                            "x": -3.200000047683716,
+                            "y": 2.0,
+                            "z": 2.259999990463257
+                        },
+                        "Axis": {
+                            "x": 0.0,
+                            "y": -90.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Prefab": {
+                        "Referenced Entities": []
+                    }
+                },
+                {
+                    "Render Settings": {
+                        "transparent": 1.0,
+                        "onLight": true,
+                        "onRender": true
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "StartGame_prefab",
+            "Mapped ID": 2,
+            "ComponentDescriptors": [
+                {
+                    "ID": 0,
+                    "Name": "Entity",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 185107916917646601,
+                    "Name": "UI",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 560062247872353558,
+                    "Name": "Debug Draw",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 735073682111509920,
+                    "Name": "Material",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 1381832709373037049,
+                    "Name": "AABB",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4219641914652989460,
+                    "Name": "Parent",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4517180040855548506,
+                    "Name": "Static Mesh",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 5987635642972365904,
+                    "Name": "Child",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 7146299578504058711,
+                    "Name": "Local To Parent",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 8644390666535470522,
+                    "Name": "UI Hover",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 8680166306478852710,
+                    "Name": "UI Trigger",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10648412085420057678,
+                    "Name": "Colour",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10665287539752122145,
+                    "Name": "Position",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 11418666248982899671,
+                    "Name": "Transform",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 12393267759677145085,
+                    "Name": "Prefab",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 14939455891620228605,
+                    "Name": "Render Settings",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 3143799015706943846,
+                    "Name": "UI Interactable Tag",
+                    "Type": "Tag"
+                },
+                {
+                    "ID": 5789478599700867134,
+                    "Name": "GUI Active Tag",
+                    "Type": "Tag"
+                },
+                {
+                    "ID": 8011325290042205806,
+                    "Name": "Prefab Tag",
+                    "Type": "ExclusiveTag"
+                }
+            ],
+            "Components": [
+                {
+                    "UI": {
+                        "transparency": 0.0
+                    }
+                },
+                {
+                    "Debug Draw": {
+                        "temp": false
+                    }
+                },
+                {
+                    "Material": {
+                        "shinness": 128.0,
+                        "diffuse": {
+                            "Resource Key": {
+                                "Key": 6642302202492414017
+                            }
+                        },
+                        "specular": {
+                            "Resource Key": {
+                                "Key": 6642302202492414017
+                            }
+                        },
+                        "normal": {
+                            "Resource Key": {
+                                "Key": 0
+                            }
+                        },
+                        "bump": {
+                            "Resource Key": {
+                                "Key": 0
+                            }
+                        },
+                        "Parallax Map": false,
+                        "Height Scale": 0.0
+                    }
+                },
+                {
+                    "AABB": {
+                        "AABB minScale": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        },
+                        "AABB maxScale": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        },
+                        "Collision Type": "AABB",
+                        "AABB min": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "AABB max": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "AABB center": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Parent": 1
+                },
+                {
+                    "Static Mesh": {
+                        "Asset": {
+                            "Resource Key": {
+                                "Key": 17047569883171969821
+                            }
+                        },
+                        "Unit Scales": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Child": [
+                        3
+                    ]
+                },
+                {
+                    "Local To Parent": {
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.5500000715255737,
+                            "z": 1.100000023841858
+                        },
+                        "scale": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "axis": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "UI Hover": {
+                        "FuncKey": "Hover Start",
+                        "FuncKeyUnhover": "Normal Start"
+                    }
+                },
+                {
+                    "UI Trigger": {
+                        "FuncKey": "Trigger Start"
+                    }
+                },
+                {
+                    "Colour": {
+                        "Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Initial Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Position": {
+                        "Position": {
+                            "x": 1.0,
+                            "y": 0.550000011920929,
+                            "z": 1.100000023841858
+                        },
+                        "Speed": 0.5,
+                        "shaky": false
+                    }
+                },
+                {
+                    "Transform": {
+                        "Scale": {
+                            "x": 0.6000000238418579,
+                            "y": 0.20000000298023224,
+                            "z": 0.0
+                        },
+                        "Axis": {
+                            "x": 0.0,
+                            "y": -90.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Prefab": {
+                        "Referenced Entities": []
+                    }
+                },
+                {
+                    "Render Settings": {
+                        "transparent": 1.0,
+                        "onLight": true,
+                        "onRender": true
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Text_StartGame_prefab",
+            "Mapped ID": 3,
+            "ComponentDescriptors": [
+                {
+                    "ID": 0,
+                    "Name": "Entity",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 185107916917646601,
+                    "Name": "UI",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 560062247872353558,
+                    "Name": "Debug Draw",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 735073682111509920,
+                    "Name": "Material",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 1381832709373037049,
+                    "Name": "AABB",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4219641914652989460,
+                    "Name": "Parent",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4517180040855548506,
+                    "Name": "Static Mesh",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 7146299578504058711,
+                    "Name": "Local To Parent",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10648412085420057678,
+                    "Name": "Colour",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10665287539752122145,
+                    "Name": "Position",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 11418666248982899671,
+                    "Name": "Transform",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 12393267759677145085,
+                    "Name": "Prefab",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 14939455891620228605,
+                    "Name": "Render Settings",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 5789478599700867134,
+                    "Name": "GUI Active Tag",
+                    "Type": "Tag"
+                },
+                {
+                    "ID": 8011325290042205806,
+                    "Name": "Prefab Tag",
+                    "Type": "ExclusiveTag"
+                }
+            ],
+            "Components": [
+                {
+                    "UI": {
+                        "transparency": 0.0
+                    }
+                },
+                {
+                    "Debug Draw": {
+                        "temp": false
+                    }
+                },
+                {
+                    "Material": {
+                        "shinness": 128.0,
+                        "diffuse": {
+                            "Resource Key": {
+                                "Key": 5991368977115584811
+                            }
+                        },
+                        "specular": {
+                            "Resource Key": {
+                                "Key": 5991368977115584811
+                            }
+                        },
+                        "normal": {
+                            "Resource Key": {
+                                "Key": 0
+                            }
+                        },
+                        "bump": {
+                            "Resource Key": {
+                                "Key": 0
+                            }
+                        },
+                        "Parallax Map": false,
+                        "Height Scale": 0.0
+                    }
+                },
+                {
+                    "AABB": {
+                        "AABB minScale": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        },
+                        "AABB maxScale": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        },
+                        "Collision Type": "AABB",
+                        "AABB min": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "AABB max": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "AABB center": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Parent": 2
+                },
+                {
+                    "Static Mesh": {
+                        "Asset": {
+                            "Resource Key": {
+                                "Key": 17047569883171969821
+                            }
+                        },
+                        "Unit Scales": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Local To Parent": {
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "axis": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Colour": {
+                        "Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Initial Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Position": {
+                        "Position": {
+                            "x": 1.0,
+                            "y": 0.550000011920929,
+                            "z": 1.100000023841858
+                        },
+                        "Speed": 0.5,
+                        "shaky": false
+                    }
+                },
+                {
+                    "Transform": {
+                        "Scale": {
+                            "x": -0.46000000834465027,
+                            "y": 0.4000000059604645,
+                            "z": 0.0
+                        },
+                        "Axis": {
+                            "x": 0.0,
+                            "y": -90.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Prefab": {
+                        "Referenced Entities": []
+                    }
+                },
+                {
+                    "Render Settings": {
+                        "transparent": 1.0,
+                        "onLight": true,
+                        "onRender": true
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Instruction_prefab",
+            "Mapped ID": 4,
+            "ComponentDescriptors": [
+                {
+                    "ID": 0,
+                    "Name": "Entity",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 185107916917646601,
+                    "Name": "UI",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 560062247872353558,
+                    "Name": "Debug Draw",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 735073682111509920,
+                    "Name": "Material",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 1381832709373037049,
+                    "Name": "AABB",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4219641914652989460,
+                    "Name": "Parent",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4517180040855548506,
+                    "Name": "Static Mesh",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 5987635642972365904,
+                    "Name": "Child",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 7146299578504058711,
+                    "Name": "Local To Parent",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 8644390666535470522,
+                    "Name": "UI Hover",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 8680166306478852710,
+                    "Name": "UI Trigger",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10648412085420057678,
+                    "Name": "Colour",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10665287539752122145,
+                    "Name": "Position",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 11418666248982899671,
+                    "Name": "Transform",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 12393267759677145085,
+                    "Name": "Prefab",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 14939455891620228605,
+                    "Name": "Render Settings",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 3143799015706943846,
+                    "Name": "UI Interactable Tag",
+                    "Type": "Tag"
+                },
+                {
+                    "ID": 5789478599700867134,
+                    "Name": "GUI Active Tag",
+                    "Type": "Tag"
+                },
+                {
+                    "ID": 8011325290042205806,
+                    "Name": "Prefab Tag",
+                    "Type": "ExclusiveTag"
+                }
+            ],
+            "Components": [
+                {
+                    "UI": {
+                        "transparency": 0.0
+                    }
+                },
+                {
+                    "Debug Draw": {
+                        "temp": false
+                    }
+                },
+                {
+                    "Material": {
+                        "shinness": 128.0,
+                        "diffuse": {
+                            "Resource Key": {
+                                "Key": 6642302202492414017
+                            }
+                        },
+                        "specular": {
+                            "Resource Key": {
+                                "Key": 6642302202492414017
+                            }
+                        },
+                        "normal": {
+                            "Resource Key": {
+                                "Key": 0
+                            }
+                        },
+                        "bump": {
+                            "Resource Key": {
+                                "Key": 0
+                            }
+                        },
+                        "Parallax Map": false,
+                        "Height Scale": 0.0
+                    }
+                },
+                {
+                    "AABB": {
+                        "AABB minScale": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        },
+                        "AABB maxScale": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        },
+                        "Collision Type": "AABB",
+                        "AABB min": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "AABB max": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "AABB center": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Parent": 1
+                },
+                {
+                    "Static Mesh": {
+                        "Asset": {
+                            "Resource Key": {
+                                "Key": 17047569883171969821
+                            }
+                        },
+                        "Unit Scales": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Child": [
+                        5
+                    ]
+                },
+                {
+                    "Local To Parent": {
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.27500003576278687,
+                            "z": 1.100000023841858
+                        },
+                        "scale": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "axis": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "UI Hover": {
+                        "FuncKey": "Hover Instruction",
+                        "FuncKeyUnhover": "Normal Instruction"
+                    }
+                },
+                {
+                    "UI Trigger": {
+                        "FuncKey": "Trigger Instruction"
+                    }
+                },
+                {
+                    "Colour": {
+                        "Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Initial Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Position": {
+                        "Position": {
+                            "x": 1.0,
+                            "y": 0.2750000059604645,
+                            "z": 1.100000023841858
+                        },
+                        "Speed": 0.5,
+                        "shaky": false
+                    }
+                },
+                {
+                    "Transform": {
+                        "Scale": {
+                            "x": 0.6000000238418579,
+                            "y": 0.20000000298023224,
+                            "z": 0.0
+                        },
+                        "Axis": {
+                            "x": 0.0,
+                            "y": -90.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Prefab": {
+                        "Referenced Entities": []
+                    }
+                },
+                {
+                    "Render Settings": {
+                        "transparent": 1.0,
+                        "onLight": true,
+                        "onRender": true
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Text_Instruction_prefab",
+            "Mapped ID": 5,
+            "ComponentDescriptors": [
+                {
+                    "ID": 0,
+                    "Name": "Entity",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 185107916917646601,
+                    "Name": "UI",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 560062247872353558,
+                    "Name": "Debug Draw",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 735073682111509920,
+                    "Name": "Material",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 1381832709373037049,
+                    "Name": "AABB",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4219641914652989460,
+                    "Name": "Parent",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4517180040855548506,
+                    "Name": "Static Mesh",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 7146299578504058711,
+                    "Name": "Local To Parent",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10648412085420057678,
+                    "Name": "Colour",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10665287539752122145,
+                    "Name": "Position",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 11418666248982899671,
+                    "Name": "Transform",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 12393267759677145085,
+                    "Name": "Prefab",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 14939455891620228605,
+                    "Name": "Render Settings",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 5789478599700867134,
+                    "Name": "GUI Active Tag",
+                    "Type": "Tag"
+                },
+                {
+                    "ID": 8011325290042205806,
+                    "Name": "Prefab Tag",
+                    "Type": "ExclusiveTag"
+                }
+            ],
+            "Components": [
+                {
+                    "UI": {
+                        "transparency": 0.0
+                    }
+                },
+                {
+                    "Debug Draw": {
+                        "temp": false
+                    }
+                },
+                {
+                    "Material": {
+                        "shinness": 128.0,
+                        "diffuse": {
+                            "Resource Key": {
+                                "Key": 6342671574057133723
+                            }
+                        },
+                        "specular": {
+                            "Resource Key": {
+                                "Key": 6342671574057133723
+                            }
+                        },
+                        "normal": {
+                            "Resource Key": {
+                                "Key": 0
+                            }
+                        },
+                        "bump": {
+                            "Resource Key": {
+                                "Key": 0
+                            }
+                        },
+                        "Parallax Map": false,
+                        "Height Scale": 0.0
+                    }
+                },
+                {
+                    "AABB": {
+                        "AABB minScale": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        },
+                        "AABB maxScale": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        },
+                        "Collision Type": "AABB",
+                        "AABB min": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "AABB max": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "AABB center": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Parent": 4
+                },
+                {
+                    "Static Mesh": {
+                        "Asset": {
+                            "Resource Key": {
+                                "Key": 17047569883171969821
+                            }
+                        },
+                        "Unit Scales": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Local To Parent": {
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "axis": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Colour": {
+                        "Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Initial Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Position": {
+                        "Position": {
+                            "x": 1.0,
+                            "y": 0.2750000059604645,
+                            "z": 1.100000023841858
+                        },
+                        "Speed": 0.5,
+                        "shaky": false
+                    }
+                },
+                {
+                    "Transform": {
+                        "Scale": {
+                            "x": -0.46000000834465027,
+                            "y": 0.4000000059604645,
+                            "z": 0.0
+                        },
+                        "Axis": {
+                            "x": 0.0,
+                            "y": -90.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Prefab": {
+                        "Referenced Entities": []
+                    }
+                },
+                {
+                    "Render Settings": {
+                        "transparent": 1.0,
+                        "onLight": true,
+                        "onRender": true
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Settings_prefab",
+            "Mapped ID": 6,
+            "ComponentDescriptors": [
+                {
+                    "ID": 0,
+                    "Name": "Entity",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 185107916917646601,
+                    "Name": "UI",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 560062247872353558,
+                    "Name": "Debug Draw",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 735073682111509920,
+                    "Name": "Material",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 1381832709373037049,
+                    "Name": "AABB",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4219641914652989460,
+                    "Name": "Parent",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4517180040855548506,
+                    "Name": "Static Mesh",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 5987635642972365904,
+                    "Name": "Child",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 7146299578504058711,
+                    "Name": "Local To Parent",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 8644390666535470522,
+                    "Name": "UI Hover",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 8680166306478852710,
+                    "Name": "UI Trigger",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10648412085420057678,
+                    "Name": "Colour",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10665287539752122145,
+                    "Name": "Position",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 11418666248982899671,
+                    "Name": "Transform",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 12393267759677145085,
+                    "Name": "Prefab",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 14939455891620228605,
+                    "Name": "Render Settings",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 3143799015706943846,
+                    "Name": "UI Interactable Tag",
+                    "Type": "Tag"
+                },
+                {
+                    "ID": 5789478599700867134,
+                    "Name": "GUI Active Tag",
+                    "Type": "Tag"
+                },
+                {
+                    "ID": 8011325290042205806,
+                    "Name": "Prefab Tag",
+                    "Type": "ExclusiveTag"
+                }
+            ],
+            "Components": [
+                {
+                    "UI": {
+                        "transparency": 0.0
+                    }
+                },
+                {
+                    "Debug Draw": {
+                        "temp": false
+                    }
+                },
+                {
+                    "Material": {
+                        "shinness": 128.0,
+                        "diffuse": {
+                            "Resource Key": {
+                                "Key": 6642302202492414017
+                            }
+                        },
+                        "specular": {
+                            "Resource Key": {
+                                "Key": 6642302202492414017
+                            }
+                        },
+                        "normal": {
+                            "Resource Key": {
+                                "Key": 0
+                            }
+                        },
+                        "bump": {
+                            "Resource Key": {
+                                "Key": 0
+                            }
+                        },
+                        "Parallax Map": false,
+                        "Height Scale": 0.0
+                    }
+                },
+                {
+                    "AABB": {
+                        "AABB minScale": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        },
+                        "AABB maxScale": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        },
+                        "Collision Type": "AABB",
+                        "AABB min": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "AABB max": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "AABB center": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Parent": 1
+                },
+                {
+                    "Static Mesh": {
+                        "Asset": {
+                            "Resource Key": {
+                                "Key": 17047569883171969821
+                            }
+                        },
+                        "Unit Scales": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Child": [
+                        7
+                    ]
+                },
+                {
+                    "Local To Parent": {
+                        "Position": {
+                            "x": 0.0,
+                            "y": 4.371138828673793e-8,
+                            "z": 1.100000023841858
+                        },
+                        "scale": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "axis": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "UI Hover": {
+                        "FuncKey": "Hover Settings",
+                        "FuncKeyUnhover": "Normal Settings"
+                    }
+                },
+                {
+                    "UI Trigger": {
+                        "FuncKey": "Trigger Settings"
+                    }
+                },
+                {
+                    "Colour": {
+                        "Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Initial Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Position": {
+                        "Position": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 1.100000023841858
+                        },
+                        "Speed": 0.5,
+                        "shaky": false
+                    }
+                },
+                {
+                    "Transform": {
+                        "Scale": {
+                            "x": 0.6000000238418579,
+                            "y": 0.20000000298023224,
+                            "z": 0.0
+                        },
+                        "Axis": {
+                            "x": 0.0,
+                            "y": -90.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Prefab": {
+                        "Referenced Entities": []
+                    }
+                },
+                {
+                    "Render Settings": {
+                        "transparent": 1.0,
+                        "onLight": true,
+                        "onRender": true
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Text_Settings_prefab",
+            "Mapped ID": 7,
+            "ComponentDescriptors": [
+                {
+                    "ID": 0,
+                    "Name": "Entity",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 185107916917646601,
+                    "Name": "UI",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 560062247872353558,
+                    "Name": "Debug Draw",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 735073682111509920,
+                    "Name": "Material",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 1381832709373037049,
+                    "Name": "AABB",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4219641914652989460,
+                    "Name": "Parent",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4517180040855548506,
+                    "Name": "Static Mesh",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 7146299578504058711,
+                    "Name": "Local To Parent",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10648412085420057678,
+                    "Name": "Colour",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10665287539752122145,
+                    "Name": "Position",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 11418666248982899671,
+                    "Name": "Transform",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 12393267759677145085,
+                    "Name": "Prefab",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 14939455891620228605,
+                    "Name": "Render Settings",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 5789478599700867134,
+                    "Name": "GUI Active Tag",
+                    "Type": "Tag"
+                },
+                {
+                    "ID": 8011325290042205806,
+                    "Name": "Prefab Tag",
+                    "Type": "ExclusiveTag"
+                }
+            ],
+            "Components": [
+                {
+                    "UI": {
+                        "transparency": 0.0
+                    }
+                },
+                {
+                    "Debug Draw": {
+                        "temp": false
+                    }
+                },
+                {
+                    "Material": {
+                        "shinness": 128.0,
+                        "diffuse": {
+                            "Resource Key": {
+                                "Key": 14022100676609550396
+                            }
+                        },
+                        "specular": {
+                            "Resource Key": {
+                                "Key": 14022100676609550396
+                            }
+                        },
+                        "normal": {
+                            "Resource Key": {
+                                "Key": 0
+                            }
+                        },
+                        "bump": {
+                            "Resource Key": {
+                                "Key": 0
+                            }
+                        },
+                        "Parallax Map": false,
+                        "Height Scale": 0.0
+                    }
+                },
+                {
+                    "AABB": {
+                        "AABB minScale": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        },
+                        "AABB maxScale": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        },
+                        "Collision Type": "AABB",
+                        "AABB min": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "AABB max": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "AABB center": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Parent": 6
+                },
+                {
+                    "Static Mesh": {
+                        "Asset": {
+                            "Resource Key": {
+                                "Key": 17047569883171969821
+                            }
+                        },
+                        "Unit Scales": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Local To Parent": {
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "axis": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Colour": {
+                        "Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Initial Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Position": {
+                        "Position": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 1.100000023841858
+                        },
+                        "Speed": 0.5,
+                        "shaky": false
+                    }
+                },
+                {
+                    "Transform": {
+                        "Scale": {
+                            "x": -0.46000000834465027,
+                            "y": 0.4000000059604645,
+                            "z": 0.0
+                        },
+                        "Axis": {
+                            "x": 0.0,
+                            "y": -90.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Prefab": {
+                        "Referenced Entities": []
+                    }
+                },
+                {
+                    "Render Settings": {
+                        "transparent": 1.0,
+                        "onLight": true,
+                        "onRender": true
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Credits_prefab",
+            "Mapped ID": 8,
+            "ComponentDescriptors": [
+                {
+                    "ID": 0,
+                    "Name": "Entity",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 185107916917646601,
+                    "Name": "UI",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 560062247872353558,
+                    "Name": "Debug Draw",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 735073682111509920,
+                    "Name": "Material",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 1381832709373037049,
+                    "Name": "AABB",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4219641914652989460,
+                    "Name": "Parent",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4517180040855548506,
+                    "Name": "Static Mesh",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 5987635642972365904,
+                    "Name": "Child",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 7146299578504058711,
+                    "Name": "Local To Parent",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 8644390666535470522,
+                    "Name": "UI Hover",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 8680166306478852710,
+                    "Name": "UI Trigger",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10648412085420057678,
+                    "Name": "Colour",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10665287539752122145,
+                    "Name": "Position",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 11418666248982899671,
+                    "Name": "Transform",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 12393267759677145085,
+                    "Name": "Prefab",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 14939455891620228605,
+                    "Name": "Render Settings",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 3143799015706943846,
+                    "Name": "UI Interactable Tag",
+                    "Type": "Tag"
+                },
+                {
+                    "ID": 5789478599700867134,
+                    "Name": "GUI Active Tag",
+                    "Type": "Tag"
+                },
+                {
+                    "ID": 8011325290042205806,
+                    "Name": "Prefab Tag",
+                    "Type": "ExclusiveTag"
+                }
+            ],
+            "Components": [
+                {
+                    "UI": {
+                        "transparency": 0.0
+                    }
+                },
+                {
+                    "Debug Draw": {
+                        "temp": false
+                    }
+                },
+                {
+                    "Material": {
+                        "shinness": 128.0,
+                        "diffuse": {
+                            "Resource Key": {
+                                "Key": 6642302202492414017
+                            }
+                        },
+                        "specular": {
+                            "Resource Key": {
+                                "Key": 6642302202492414017
+                            }
+                        },
+                        "normal": {
+                            "Resource Key": {
+                                "Key": 0
+                            }
+                        },
+                        "bump": {
+                            "Resource Key": {
+                                "Key": 0
+                            }
+                        },
+                        "Parallax Map": false,
+                        "Height Scale": 0.0
+                    }
+                },
+                {
+                    "AABB": {
+                        "AABB minScale": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        },
+                        "AABB maxScale": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        },
+                        "Collision Type": "AABB",
+                        "AABB min": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "AABB max": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "AABB center": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Parent": 1
+                },
+                {
+                    "Static Mesh": {
+                        "Asset": {
+                            "Resource Key": {
+                                "Key": 17047569883171969821
+                            }
+                        },
+                        "Unit Scales": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Child": [
+                        9
+                    ]
+                },
+                {
+                    "Local To Parent": {
+                        "Position": {
+                            "x": 0.0,
+                            "y": -0.2749999761581421,
+                            "z": 1.100000023841858
+                        },
+                        "scale": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "axis": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "UI Hover": {
+                        "FuncKey": "Hover Credits",
+                        "FuncKeyUnhover": "Normal Credits"
+                    }
+                },
+                {
+                    "UI Trigger": {
+                        "FuncKey": "Trigger Credits"
+                    }
+                },
+                {
+                    "Colour": {
+                        "Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Initial Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Position": {
+                        "Position": {
+                            "x": 1.0,
+                            "y": -0.2750000059604645,
+                            "z": 1.100000023841858
+                        },
+                        "Speed": 0.5,
+                        "shaky": false
+                    }
+                },
+                {
+                    "Transform": {
+                        "Scale": {
+                            "x": 0.6000000238418579,
+                            "y": 0.20000000298023224,
+                            "z": 0.0
+                        },
+                        "Axis": {
+                            "x": 0.0,
+                            "y": -90.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Prefab": {
+                        "Referenced Entities": []
+                    }
+                },
+                {
+                    "Render Settings": {
+                        "transparent": 1.0,
+                        "onLight": true,
+                        "onRender": true
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Text_Credits_prefab",
+            "Mapped ID": 9,
+            "ComponentDescriptors": [
+                {
+                    "ID": 0,
+                    "Name": "Entity",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 185107916917646601,
+                    "Name": "UI",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 560062247872353558,
+                    "Name": "Debug Draw",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 735073682111509920,
+                    "Name": "Material",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 1381832709373037049,
+                    "Name": "AABB",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4219641914652989460,
+                    "Name": "Parent",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4517180040855548506,
+                    "Name": "Static Mesh",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 7146299578504058711,
+                    "Name": "Local To Parent",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10648412085420057678,
+                    "Name": "Colour",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10665287539752122145,
+                    "Name": "Position",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 11418666248982899671,
+                    "Name": "Transform",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 12393267759677145085,
+                    "Name": "Prefab",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 14939455891620228605,
+                    "Name": "Render Settings",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 5789478599700867134,
+                    "Name": "GUI Active Tag",
+                    "Type": "Tag"
+                },
+                {
+                    "ID": 8011325290042205806,
+                    "Name": "Prefab Tag",
+                    "Type": "ExclusiveTag"
+                }
+            ],
+            "Components": [
+                {
+                    "UI": {
+                        "transparency": 0.0
+                    }
+                },
+                {
+                    "Debug Draw": {
+                        "temp": false
+                    }
+                },
+                {
+                    "Material": {
+                        "shinness": 128.0,
+                        "diffuse": {
+                            "Resource Key": {
+                                "Key": 16803236594541490395
+                            }
+                        },
+                        "specular": {
+                            "Resource Key": {
+                                "Key": 16803236594541490395
+                            }
+                        },
+                        "normal": {
+                            "Resource Key": {
+                                "Key": 0
+                            }
+                        },
+                        "bump": {
+                            "Resource Key": {
+                                "Key": 0
+                            }
+                        },
+                        "Parallax Map": false,
+                        "Height Scale": 0.0
+                    }
+                },
+                {
+                    "AABB": {
+                        "AABB minScale": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        },
+                        "AABB maxScale": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        },
+                        "Collision Type": "AABB",
+                        "AABB min": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "AABB max": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "AABB center": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Parent": 8
+                },
+                {
+                    "Static Mesh": {
+                        "Asset": {
+                            "Resource Key": {
+                                "Key": 17047569883171969821
+                            }
+                        },
+                        "Unit Scales": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Local To Parent": {
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "axis": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Colour": {
+                        "Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Initial Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Position": {
+                        "Position": {
+                            "x": 1.0,
+                            "y": -0.2750000059604645,
+                            "z": 1.100000023841858
+                        },
+                        "Speed": 0.5,
+                        "shaky": false
+                    }
+                },
+                {
+                    "Transform": {
+                        "Scale": {
+                            "x": -0.46000000834465027,
+                            "y": 0.4000000059604645,
+                            "z": 0.0
+                        },
+                        "Axis": {
+                            "x": 0.0,
+                            "y": -90.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Prefab": {
+                        "Referenced Entities": []
+                    }
+                },
+                {
+                    "Render Settings": {
+                        "transparent": 1.0,
+                        "onLight": true,
+                        "onRender": true
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Quit_prefab",
+            "Mapped ID": 10,
+            "ComponentDescriptors": [
+                {
+                    "ID": 0,
+                    "Name": "Entity",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 185107916917646601,
+                    "Name": "UI",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 560062247872353558,
+                    "Name": "Debug Draw",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 735073682111509920,
+                    "Name": "Material",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 1381832709373037049,
+                    "Name": "AABB",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4219641914652989460,
+                    "Name": "Parent",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4517180040855548506,
+                    "Name": "Static Mesh",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 5987635642972365904,
+                    "Name": "Child",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 7146299578504058711,
+                    "Name": "Local To Parent",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 8644390666535470522,
+                    "Name": "UI Hover",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 8680166306478852710,
+                    "Name": "UI Trigger",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10648412085420057678,
+                    "Name": "Colour",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10665287539752122145,
+                    "Name": "Position",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 11418666248982899671,
+                    "Name": "Transform",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 12393267759677145085,
+                    "Name": "Prefab",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 14939455891620228605,
+                    "Name": "Render Settings",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 3143799015706943846,
+                    "Name": "UI Interactable Tag",
+                    "Type": "Tag"
+                },
+                {
+                    "ID": 5789478599700867134,
+                    "Name": "GUI Active Tag",
+                    "Type": "Tag"
+                },
+                {
+                    "ID": 8011325290042205806,
+                    "Name": "Prefab Tag",
+                    "Type": "ExclusiveTag"
+                }
+            ],
+            "Components": [
+                {
+                    "UI": {
+                        "transparency": 0.0
+                    }
+                },
+                {
+                    "Debug Draw": {
+                        "temp": false
+                    }
+                },
+                {
+                    "Material": {
+                        "shinness": 128.0,
+                        "diffuse": {
+                            "Resource Key": {
+                                "Key": 6642302202492414017
+                            }
+                        },
+                        "specular": {
+                            "Resource Key": {
+                                "Key": 6642302202492414017
+                            }
+                        },
+                        "normal": {
+                            "Resource Key": {
+                                "Key": 0
+                            }
+                        },
+                        "bump": {
+                            "Resource Key": {
+                                "Key": 0
+                            }
+                        },
+                        "Parallax Map": false,
+                        "Height Scale": 0.0
+                    }
+                },
+                {
+                    "AABB": {
+                        "AABB minScale": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        },
+                        "AABB maxScale": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        },
+                        "Collision Type": "AABB",
+                        "AABB min": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "AABB max": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "AABB center": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Parent": 1
+                },
+                {
+                    "Static Mesh": {
+                        "Asset": {
+                            "Resource Key": {
+                                "Key": 17047569883171969821
+                            }
+                        },
+                        "Unit Scales": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Child": [
+                        11
+                    ]
+                },
+                {
+                    "Local To Parent": {
+                        "Position": {
+                            "x": 0.0,
+                            "y": -0.5499999523162842,
+                            "z": 1.100000023841858
+                        },
+                        "scale": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "axis": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "UI Hover": {
+                        "FuncKey": "Hover ExitGame",
+                        "FuncKeyUnhover": "Normal ExitGame"
+                    }
+                },
+                {
+                    "UI Trigger": {
+                        "FuncKey": "Trigger ExitGame"
+                    }
+                },
+                {
+                    "Colour": {
+                        "Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Initial Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Position": {
+                        "Position": {
+                            "x": 1.0,
+                            "y": -0.550000011920929,
+                            "z": 1.100000023841858
+                        },
+                        "Speed": 0.5,
+                        "shaky": false
+                    }
+                },
+                {
+                    "Transform": {
+                        "Scale": {
+                            "x": 0.6000000238418579,
+                            "y": 0.20000000298023224,
+                            "z": 0.0
+                        },
+                        "Axis": {
+                            "x": 0.0,
+                            "y": -90.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Prefab": {
+                        "Referenced Entities": []
+                    }
+                },
+                {
+                    "Render Settings": {
+                        "transparent": 1.0,
+                        "onLight": true,
+                        "onRender": true
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Text_Quit_prefab",
+            "Mapped ID": 11,
+            "ComponentDescriptors": [
+                {
+                    "ID": 0,
+                    "Name": "Entity",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 185107916917646601,
+                    "Name": "UI",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 560062247872353558,
+                    "Name": "Debug Draw",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 735073682111509920,
+                    "Name": "Material",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 1381832709373037049,
+                    "Name": "AABB",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4219641914652989460,
+                    "Name": "Parent",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4517180040855548506,
+                    "Name": "Static Mesh",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 7146299578504058711,
+                    "Name": "Local To Parent",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10648412085420057678,
+                    "Name": "Colour",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10665287539752122145,
+                    "Name": "Position",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 11418666248982899671,
+                    "Name": "Transform",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 12393267759677145085,
+                    "Name": "Prefab",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 14939455891620228605,
+                    "Name": "Render Settings",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 5789478599700867134,
+                    "Name": "GUI Active Tag",
+                    "Type": "Tag"
+                },
+                {
+                    "ID": 8011325290042205806,
+                    "Name": "Prefab Tag",
+                    "Type": "ExclusiveTag"
+                }
+            ],
+            "Components": [
+                {
+                    "UI": {
+                        "transparency": 0.0
+                    }
+                },
+                {
+                    "Debug Draw": {
+                        "temp": false
+                    }
+                },
+                {
+                    "Material": {
+                        "shinness": 128.0,
+                        "diffuse": {
+                            "Resource Key": {
+                                "Key": 4312414976606958157
+                            }
+                        },
+                        "specular": {
+                            "Resource Key": {
+                                "Key": 4312414976606958157
+                            }
+                        },
+                        "normal": {
+                            "Resource Key": {
+                                "Key": 0
+                            }
+                        },
+                        "bump": {
+                            "Resource Key": {
+                                "Key": 0
+                            }
+                        },
+                        "Parallax Map": false,
+                        "Height Scale": 0.0
+                    }
+                },
+                {
+                    "AABB": {
+                        "AABB minScale": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        },
+                        "AABB maxScale": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        },
+                        "Collision Type": "AABB",
+                        "AABB min": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "AABB max": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "AABB center": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Parent": 10
+                },
+                {
+                    "Static Mesh": {
+                        "Asset": {
+                            "Resource Key": {
+                                "Key": 17047569883171969821
+                            }
+                        },
+                        "Unit Scales": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Local To Parent": {
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "axis": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Colour": {
+                        "Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Initial Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Position": {
+                        "Position": {
+                            "x": 1.0,
+                            "y": -0.550000011920929,
+                            "z": 1.100000023841858
+                        },
+                        "Speed": 0.5,
+                        "shaky": false
+                    }
+                },
+                {
+                    "Transform": {
+                        "Scale": {
+                            "x": -0.46000000834465027,
+                            "y": 0.4000000059604645,
+                            "z": 0.0
+                        },
+                        "Axis": {
+                            "x": 0.0,
+                            "y": -90.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Prefab": {
+                        "Referenced Entities": []
+                    }
+                },
+                {
+                    "Render Settings": {
+                        "transparent": 1.0,
+                        "onLight": true,
+                        "onRender": true
+                    }
+                }
+            ]
+        }
+    ]
+}
