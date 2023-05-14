@@ -1,0 +1,4000 @@
+{
+    "ComponentDescriptors": [
+        {
+            "ID": 0,
+            "Name": "Entity",
+            "Type": "Data"
+        },
+        {
+            "ID": 185107916917646601,
+            "Name": "UI",
+            "Type": "Data"
+        },
+        {
+            "ID": 313106095095090566,
+            "Name": "Direction",
+            "Type": "Data"
+        },
+        {
+            "ID": 560062247872353558,
+            "Name": "Debug Draw",
+            "Type": "Data"
+        },
+        {
+            "ID": 735073682111509920,
+            "Name": "Material",
+            "Type": "Data"
+        },
+        {
+            "ID": 1381832709373037049,
+            "Name": "AABB",
+            "Type": "Data"
+        },
+        {
+            "ID": 2080701638543777743,
+            "Name": "EntityDirection",
+            "Type": "Data"
+        },
+        {
+            "ID": 2790988871431800744,
+            "Name": "SkyBox Material",
+            "Type": "Data"
+        },
+        {
+            "ID": 2821115465464646471,
+            "Name": "Waypoints",
+            "Type": "Data"
+        },
+        {
+            "ID": 3570262759731228274,
+            "Name": "NewPosition",
+            "Type": "Data"
+        },
+        {
+            "ID": 4219641914652989460,
+            "Name": "Parent",
+            "Type": "Data"
+        },
+        {
+            "ID": 4351609486098709270,
+            "Name": "FallingFloor",
+            "Type": "Data"
+        },
+        {
+            "ID": 4517180040855548506,
+            "Name": "Static Mesh",
+            "Type": "Data"
+        },
+        {
+            "ID": 5159707721400732197,
+            "Name": "Referenced Prefab",
+            "Type": "Data"
+        },
+        {
+            "ID": 5747621404910662400,
+            "Name": "NewTransform",
+            "Type": "Data"
+        },
+        {
+            "ID": 5753391451219826169,
+            "Name": "UI Drag",
+            "Type": "Data"
+        },
+        {
+            "ID": 5987635642972365904,
+            "Name": "Child",
+            "Type": "Data"
+        },
+        {
+            "ID": 6493893549328120272,
+            "Name": "EntityType",
+            "Type": "Data"
+        },
+        {
+            "ID": 6993839208139315860,
+            "Name": "Lock",
+            "Type": "Data"
+        },
+        {
+            "ID": 7146299578504058711,
+            "Name": "Local To Parent",
+            "Type": "Data"
+        },
+        {
+            "ID": 7664832615816729317,
+            "Name": "Shared Filter",
+            "Type": "Data"
+        },
+        {
+            "ID": 7778741977382814018,
+            "Name": "Camera",
+            "Type": "Data"
+        },
+        {
+            "ID": 7808846320554847421,
+            "Name": "Particle Emitter",
+            "Type": "Data"
+        },
+        {
+            "ID": 8372783340885974236,
+            "Name": "Animator",
+            "Type": "Data"
+        },
+        {
+            "ID": 8524248933160047964,
+            "Name": "LightProperties",
+            "Type": "Data"
+        },
+        {
+            "ID": 8607013193575108530,
+            "Name": "Pushable Object",
+            "Type": "Data"
+        },
+        {
+            "ID": 8644390666535470522,
+            "Name": "UI Hover",
+            "Type": "Data"
+        },
+        {
+            "ID": 8680166306478852710,
+            "Name": "UI Trigger",
+            "Type": "Data"
+        },
+        {
+            "ID": 9365789973950508172,
+            "Name": "QuadraticFunction",
+            "Type": "Data"
+        },
+        {
+            "ID": 9595523025899528643,
+            "Name": "UI Check Box",
+            "Type": "Data"
+        },
+        {
+            "ID": 10161406361622946661,
+            "Name": "Player Controls",
+            "Type": "Data"
+        },
+        {
+            "ID": 10648412085420057678,
+            "Name": "Colour",
+            "Type": "Data"
+        },
+        {
+            "ID": 10665287539752122145,
+            "Name": "Position",
+            "Type": "Data"
+        },
+        {
+            "ID": 10902804296127487268,
+            "Name": "Player State",
+            "Type": "Data"
+        },
+        {
+            "ID": 11154670902978483193,
+            "Name": "Object",
+            "Type": "Data"
+        },
+        {
+            "ID": 11172605492044600318,
+            "Name": "Switch",
+            "Type": "Data"
+        },
+        {
+            "ID": 11418666248982899671,
+            "Name": "Transform",
+            "Type": "Data"
+        },
+        {
+            "ID": 11484533430162987206,
+            "Name": "GridPosition",
+            "Type": "Data"
+        },
+        {
+            "ID": 12070372573023869485,
+            "Name": "Velocity",
+            "Type": "Data"
+        },
+        {
+            "ID": 12393267759677145085,
+            "Name": "Prefab",
+            "Type": "Data"
+        },
+        {
+            "ID": 12469516292377766736,
+            "Name": "Reference Count",
+            "Type": "Data"
+        },
+        {
+            "ID": 13444155602693000570,
+            "Name": "SpotLight_cutOff",
+            "Type": "Data"
+        },
+        {
+            "ID": 13652015321639104392,
+            "Name": "Animation State",
+            "Type": "Data"
+        },
+        {
+            "ID": 14005701927332787636,
+            "Name": "Audio3D",
+            "Type": "Data"
+        },
+        {
+            "ID": 14092314867081778292,
+            "Name": "Animation Mesh",
+            "Type": "Data"
+        },
+        {
+            "ID": 14939455891620228605,
+            "Name": "Render Settings",
+            "Type": "Data"
+        },
+        {
+            "ID": 15658156302365040810,
+            "Name": "Player",
+            "Type": "Data"
+        },
+        {
+            "ID": 16543290417917024480,
+            "Name": "PressurePlateC",
+            "Type": "Data"
+        },
+        {
+            "ID": 16764664310502468932,
+            "Name": "LightData",
+            "Type": "Data"
+        },
+        {
+            "ID": 16783082452481381293,
+            "Name": "Audio2D",
+            "Type": "Data"
+        },
+        {
+            "ID": 17357486087806025733,
+            "Name": "Particle Settings",
+            "Type": "Data"
+        },
+        {
+            "ID": 843323705426009089,
+            "Name": "PressurePlateObj",
+            "Type": "Tag"
+        },
+        {
+            "ID": 958437004250798538,
+            "Name": "ChangeAnimation",
+            "Type": "Tag"
+        },
+        {
+            "ID": 1387791556670178591,
+            "Name": "Rotate",
+            "Type": "Tag"
+        },
+        {
+            "ID": 1657598221336382421,
+            "Name": "Scale",
+            "Type": "Tag"
+        },
+        {
+            "ID": 2175480490166342316,
+            "Name": "GoalObj",
+            "Type": "Tag"
+        },
+        {
+            "ID": 2577374514748562284,
+            "Name": "AnimatorInitalized",
+            "Type": "Tag"
+        },
+        {
+            "ID": 3143799015706943846,
+            "Name": "UI Interactable Tag",
+            "Type": "Tag"
+        },
+        {
+            "ID": 3266854503378265484,
+            "Name": "MainMenuCanvasTag",
+            "Type": "Tag"
+        },
+        {
+            "ID": 3390169746324355747,
+            "Name": "DoorObj",
+            "Type": "Tag"
+        },
+        {
+            "ID": 3730141495910623493,
+            "Name": "Move",
+            "Type": "Tag"
+        },
+        {
+            "ID": 5192507803618943662,
+            "Name": "PauseCanvasTag",
+            "Type": "Tag"
+        },
+        {
+            "ID": 5487788029250127561,
+            "Name": "DirectionInitialisationTag",
+            "Type": "Tag"
+        },
+        {
+            "ID": 5789478599700867134,
+            "Name": "GUI Active Tag",
+            "Type": "Tag"
+        },
+        {
+            "ID": 7953110528599386264,
+            "Name": "SwitchObj",
+            "Type": "Tag"
+        },
+        {
+            "ID": 8681894170641198160,
+            "Name": "Window Tag",
+            "Type": "Tag"
+        },
+        {
+            "ID": 9442404442031302860,
+            "Name": "Activated",
+            "Type": "Tag"
+        },
+        {
+            "ID": 9542992427744475011,
+            "Name": "CameraInitalized",
+            "Type": "Tag"
+        },
+        {
+            "ID": 10546678081760353314,
+            "Name": "Canvas Tag",
+            "Type": "Tag"
+        },
+        {
+            "ID": 10771723023748516930,
+            "Name": "Root",
+            "Type": "Tag"
+        },
+        {
+            "ID": 11579594972927202851,
+            "Name": "Falling",
+            "Type": "Tag"
+        },
+        {
+            "ID": 11943421270193943088,
+            "Name": "InteractableSwitch",
+            "Type": "Tag"
+        },
+        {
+            "ID": 14351183427356573816,
+            "Name": "PressurePlateCount",
+            "Type": "Tag"
+        },
+        {
+            "ID": 14651668231127850635,
+            "Name": "Environment",
+            "Type": "Tag"
+        },
+        {
+            "ID": 16122454965537915493,
+            "Name": "Animating",
+            "Type": "Tag"
+        },
+        {
+            "ID": 17554459613907173444,
+            "Name": "BezierTag",
+            "Type": "Tag"
+        },
+        {
+            "ID": 8011325290042205806,
+            "Name": "Prefab Tag",
+            "Type": "Exclusive"
+        },
+        {
+            "ID": 15989607090904169780,
+            "Name": "Share As Data",
+            "Type": "Exclusive"
+        },
+        {
+            "ID": 2825672375017986452,
+            "Name": "GameGrid",
+            "Type": "Singleton"
+        },
+        {
+            "ID": 11649236739000616017,
+            "Name": "StateComponent",
+            "Type": "Singleton"
+        },
+        {
+            "ID": 13046552117888901067,
+            "Name": "PlayerController",
+            "Type": "Singleton"
+        },
+        {
+            "ID": 15464784767711742690,
+            "Name": "GameWorldState",
+            "Type": "Singleton"
+        }
+    ],
+    "EntitiesCount": 9,
+    "EntitiesBoundaries": 8,
+    "EntitiesDescriptor": [
+        {
+            "Name": "Entity_0",
+            "Validation": {
+                "Value": 1
+            }
+        },
+        {
+            "Name": "MainMenu Window_prefab",
+            "Validation": {
+                "Value": 1
+            }
+        },
+        {
+            "Name": "MainMenu",
+            "Validation": {
+                "Value": 1
+            }
+        },
+        {
+            "Name": "Trigger_prefab",
+            "Validation": {
+                "Value": 1
+            }
+        },
+        {
+            "Name": "Trigger_copy_prefab",
+            "Validation": {
+                "Value": 1
+            }
+        },
+        {
+            "Name": "MainMenu Window_prefab_instance",
+            "Validation": {
+                "Value": 1
+            }
+        },
+        {
+            "Name": "MainMenu_instance",
+            "Validation": {
+                "Value": 1
+            }
+        },
+        {
+            "Name": "Trigger_prefab_instance",
+            "Validation": {
+                "Value": 1
+            }
+        },
+        {
+            "Name": "Trigger_copy_prefab_instance",
+            "Validation": {
+                "Value": 1
+            }
+        }
+    ],
+    "Singletons": {
+        "Total": 1,
+        "List": [
+            {
+                "ID": 2825672375017986452,
+                "Name": "GameGrid",
+                "Type": "Singleton",
+                "Data": {
+                    "Grid Size": {
+                        "x": 5,
+                        "z": 5,
+                        "y": 5
+                    },
+                    "Cell Size": {
+                        "x": 50.0,
+                        "y": 50.0,
+                        "z": 50.0
+                    },
+                    "Cells": {
+                        "Cells": [
+                            [
+                                [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    }
+                                ]
+                            ],
+                            [
+                                [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    }
+                                ]
+                            ],
+                            [
+                                [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    }
+                                ]
+                            ],
+                            [
+                                [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    }
+                                ]
+                            ],
+                            [
+                                [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    },
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4294967295,
+                                            "Validation": {
+                                                "Value": 4294967295
+                                            }
+                                        },
+                                        "Type": "Empty"
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "Archetypes": {
+        "Total": 9,
+        "List": [
+            {
+                "Name": "",
+                "Details": {
+                    "ID": 14676539528535983551,
+                    "TotalFamily": 1,
+                    "TotalDataComponents": 5,
+                    "TotalSharedComponents": 0,
+                    "TotalTagComponents": 0
+                },
+                "ComponentDescriptors": [
+                    {
+                        "ID": 0,
+                        "Name": "Entity",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 2790988871431800744,
+                        "Name": "SkyBox Material",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 4517180040855548506,
+                        "Name": "Static Mesh",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 11418666248982899671,
+                        "Name": "Transform",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 14939455891620228605,
+                        "Name": "Render Settings",
+                        "Type": "Data"
+                    }
+                ],
+                "Families": [
+                    {
+                        "Details": {
+                            "ID": 42,
+                            "TotalEntities": 1
+                        },
+                        "Pool": [
+                            {
+                                "EntityName": "Entity_0",
+                                "Components": [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 0,
+                                            "Validation": {
+                                                "Value": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "SkyBox Material": {
+                                            "skybox_LT": {
+                                                "Resource Key": {
+                                                    "Key": 8453956803944047902
+                                                }
+                                            },
+                                            "skybox_RT": {
+                                                "Resource Key": {
+                                                    "Key": 4448801668410437228
+                                                }
+                                            },
+                                            "skybox_DN": {
+                                                "Resource Key": {
+                                                    "Key": 8203415454518042683
+                                                }
+                                            },
+                                            "skybox_UP": {
+                                                "Resource Key": {
+                                                    "Key": 14783803570095519825
+                                                }
+                                            },
+                                            "skybox_BK": {
+                                                "Resource Key": {
+                                                    "Key": 3397130026994866332
+                                                }
+                                            },
+                                            "skybox_FT": {
+                                                "Resource Key": {
+                                                    "Key": 4002470565445770801
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Static Mesh": {
+                                            "Asset": {
+                                                "Resource Key": {
+                                                    "Key": 9873813724217270066
+                                                }
+                                            },
+                                            "Unit Scales": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Transform": {
+                                            "Scale": {
+                                                "x": 10.0,
+                                                "y": 10.0,
+                                                "z": 10.0
+                                            },
+                                            "Axis": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Render Settings": {
+                                            "transparent": 1.0,
+                                            "onLight": false,
+                                            "onRender": false
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Name": "",
+                "Details": {
+                    "ID": 6510544236816340831,
+                    "TotalFamily": 1,
+                    "TotalDataComponents": 11,
+                    "TotalSharedComponents": 0,
+                    "TotalTagComponents": 3
+                },
+                "ComponentDescriptors": [
+                    {
+                        "ID": 0,
+                        "Name": "Entity",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 185107916917646601,
+                        "Name": "UI",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 560062247872353558,
+                        "Name": "Debug Draw",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 1381832709373037049,
+                        "Name": "AABB",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 4517180040855548506,
+                        "Name": "Static Mesh",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 5987635642972365904,
+                        "Name": "Child",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10648412085420057678,
+                        "Name": "Colour",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10665287539752122145,
+                        "Name": "Position",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 11418666248982899671,
+                        "Name": "Transform",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 12393267759677145085,
+                        "Name": "Prefab",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 14939455891620228605,
+                        "Name": "Render Settings",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 8681894170641198160,
+                        "Name": "Window Tag",
+                        "Type": "Tag"
+                    },
+                    {
+                        "ID": 10771723023748516930,
+                        "Name": "Root",
+                        "Type": "Tag"
+                    },
+                    {
+                        "ID": 8011325290042205806,
+                        "Name": "Prefab Tag",
+                        "Type": "Exclusive"
+                    }
+                ],
+                "Families": [
+                    {
+                        "Details": {
+                            "ID": 42,
+                            "TotalEntities": 1
+                        },
+                        "Pool": [
+                            {
+                                "EntityName": "MainMenu Window_prefab",
+                                "Components": [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 1,
+                                            "Validation": {
+                                                "Value": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "UI": {
+                                            "transparency": 0.0
+                                        }
+                                    },
+                                    {
+                                        "Debug Draw": {
+                                            "temp": false
+                                        }
+                                    },
+                                    {
+                                        "AABB": {
+                                            "AABB minScale": {
+                                                "x": 0.5,
+                                                "y": 0.5,
+                                                "z": 0.5
+                                            },
+                                            "AABB maxScale": {
+                                                "x": 0.5,
+                                                "y": 0.5,
+                                                "z": 0.5
+                                            },
+                                            "Collision Type": "AABB",
+                                            "AABB min": {
+                                                "x": 1.0,
+                                                "y": -4.371138828673793e-8,
+                                                "z": 0.0
+                                            },
+                                            "AABB max": {
+                                                "x": 1.0,
+                                                "y": -4.371138828673793e-8,
+                                                "z": 0.0
+                                            },
+                                            "AABB center": {
+                                                "x": 1.0,
+                                                "y": -4.371138828673793e-8,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Static Mesh": {
+                                            "Asset": {
+                                                "Resource Key": {
+                                                    "Key": 17047569883171969821
+                                                }
+                                            },
+                                            "Unit Scales": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Child": {
+                                            "Child Entities": [
+                                                {
+                                                    "Global Index": 2,
+                                                    "Validation": {
+                                                        "Value": 1
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Colour": {
+                                            "Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            },
+                                            "Initial Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Position": {
+                                            "Position": {
+                                                "x": 1.0,
+                                                "y": -4.371138828673793e-8,
+                                                "z": 0.0
+                                            },
+                                            "Speed": 0.5,
+                                            "shaky": false
+                                        }
+                                    },
+                                    {
+                                        "Transform": {
+                                            "Scale": {
+                                                "x": 10.0,
+                                                "y": 10.0,
+                                                "z": 0.0
+                                            },
+                                            "Axis": {
+                                                "x": 0.0,
+                                                "y": -90.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Prefab": {
+                                            "Referenced Entities": [
+                                                {
+                                                    "Global Index": 5,
+                                                    "Validation": {
+                                                        "Value": 1
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Render Settings": {
+                                            "transparent": 1.0,
+                                            "onLight": true,
+                                            "onRender": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Name": "",
+                "Details": {
+                    "ID": 18292083815566476948,
+                    "TotalFamily": 1,
+                    "TotalDataComponents": 14,
+                    "TotalSharedComponents": 0,
+                    "TotalTagComponents": 4
+                },
+                "ComponentDescriptors": [
+                    {
+                        "ID": 0,
+                        "Name": "Entity",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 185107916917646601,
+                        "Name": "UI",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 560062247872353558,
+                        "Name": "Debug Draw",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 735073682111509920,
+                        "Name": "Material",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 1381832709373037049,
+                        "Name": "AABB",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 4219641914652989460,
+                        "Name": "Parent",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 4517180040855548506,
+                        "Name": "Static Mesh",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 5987635642972365904,
+                        "Name": "Child",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 7146299578504058711,
+                        "Name": "Local To Parent",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10648412085420057678,
+                        "Name": "Colour",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10665287539752122145,
+                        "Name": "Position",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 11418666248982899671,
+                        "Name": "Transform",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 12393267759677145085,
+                        "Name": "Prefab",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 14939455891620228605,
+                        "Name": "Render Settings",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 3266854503378265484,
+                        "Name": "MainMenuCanvasTag",
+                        "Type": "Tag"
+                    },
+                    {
+                        "ID": 5789478599700867134,
+                        "Name": "GUI Active Tag",
+                        "Type": "Tag"
+                    },
+                    {
+                        "ID": 10546678081760353314,
+                        "Name": "Canvas Tag",
+                        "Type": "Tag"
+                    },
+                    {
+                        "ID": 8011325290042205806,
+                        "Name": "Prefab Tag",
+                        "Type": "Exclusive"
+                    }
+                ],
+                "Families": [
+                    {
+                        "Details": {
+                            "ID": 42,
+                            "TotalEntities": 1
+                        },
+                        "Pool": [
+                            {
+                                "EntityName": "MainMenu",
+                                "Components": [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 2,
+                                            "Validation": {
+                                                "Value": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "UI": {
+                                            "transparency": 0.0
+                                        }
+                                    },
+                                    {
+                                        "Debug Draw": {
+                                            "temp": false
+                                        }
+                                    },
+                                    {
+                                        "Material": {
+                                            "shinness": 128.0,
+                                            "diffuse": {
+                                                "Resource Key": {
+                                                    "Key": 1061238672014524492
+                                                }
+                                            },
+                                            "specular": {
+                                                "Resource Key": {
+                                                    "Key": 1061238672014524492
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "AABB": {
+                                            "AABB minScale": {
+                                                "x": 0.5,
+                                                "y": 0.5,
+                                                "z": 0.5
+                                            },
+                                            "AABB maxScale": {
+                                                "x": 0.5,
+                                                "y": 0.5,
+                                                "z": 0.5
+                                            },
+                                            "Collision Type": "AABB",
+                                            "AABB min": {
+                                                "x": 1.0,
+                                                "y": -4.371138828673793e-8,
+                                                "z": 0.0
+                                            },
+                                            "AABB max": {
+                                                "x": 1.0,
+                                                "y": -4.371138828673793e-8,
+                                                "z": 0.0
+                                            },
+                                            "AABB center": {
+                                                "x": 1.0,
+                                                "y": -4.371138828673793e-8,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Parent": {
+                                            "Parent Entity": {
+                                                "Global Index": 1,
+                                                "Validation": {
+                                                    "Value": 1
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Static Mesh": {
+                                            "Asset": {
+                                                "Resource Key": {
+                                                    "Key": 17047569883171969821
+                                                }
+                                            },
+                                            "Unit Scales": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Child": {
+                                            "Child Entities": [
+                                                {
+                                                    "Global Index": 3,
+                                                    "Validation": {
+                                                        "Value": 1
+                                                    }
+                                                },
+                                                {
+                                                    "Global Index": 4,
+                                                    "Validation": {
+                                                        "Value": 1
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Local To Parent": {
+                                            "Position": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "scale": {
+                                                "x": 6.097560882568359,
+                                                "y": 10.0,
+                                                "z": 0.0
+                                            },
+                                            "axis": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Colour": {
+                                            "Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            },
+                                            "Initial Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Position": {
+                                            "Position": {
+                                                "x": 1.0,
+                                                "y": -4.371138828673793e-8,
+                                                "z": 0.0
+                                            },
+                                            "Speed": 0.5,
+                                            "shaky": false
+                                        }
+                                    },
+                                    {
+                                        "Transform": {
+                                            "Scale": {
+                                                "x": 1.6399999856948853,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            },
+                                            "Axis": {
+                                                "x": 0.0,
+                                                "y": -90.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Prefab": {
+                                            "Referenced Entities": [
+                                                {
+                                                    "Global Index": 6,
+                                                    "Validation": {
+                                                        "Value": 1
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Render Settings": {
+                                            "transparent": 1.0,
+                                            "onLight": true,
+                                            "onRender": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Name": "",
+                "Details": {
+                    "ID": 631969700233338734,
+                    "TotalFamily": 1,
+                    "TotalDataComponents": 15,
+                    "TotalSharedComponents": 0,
+                    "TotalTagComponents": 3
+                },
+                "ComponentDescriptors": [
+                    {
+                        "ID": 0,
+                        "Name": "Entity",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 185107916917646601,
+                        "Name": "UI",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 560062247872353558,
+                        "Name": "Debug Draw",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 735073682111509920,
+                        "Name": "Material",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 1381832709373037049,
+                        "Name": "AABB",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 4219641914652989460,
+                        "Name": "Parent",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 4517180040855548506,
+                        "Name": "Static Mesh",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 7146299578504058711,
+                        "Name": "Local To Parent",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 8644390666535470522,
+                        "Name": "UI Hover",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 8680166306478852710,
+                        "Name": "UI Trigger",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10648412085420057678,
+                        "Name": "Colour",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10665287539752122145,
+                        "Name": "Position",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 11418666248982899671,
+                        "Name": "Transform",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 12393267759677145085,
+                        "Name": "Prefab",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 14939455891620228605,
+                        "Name": "Render Settings",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 3143799015706943846,
+                        "Name": "UI Interactable Tag",
+                        "Type": "Tag"
+                    },
+                    {
+                        "ID": 5789478599700867134,
+                        "Name": "GUI Active Tag",
+                        "Type": "Tag"
+                    },
+                    {
+                        "ID": 8011325290042205806,
+                        "Name": "Prefab Tag",
+                        "Type": "Exclusive"
+                    }
+                ],
+                "Families": [
+                    {
+                        "Details": {
+                            "ID": 42,
+                            "TotalEntities": 2
+                        },
+                        "Pool": [
+                            {
+                                "EntityName": "Trigger_prefab",
+                                "Components": [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 3,
+                                            "Validation": {
+                                                "Value": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "UI": {
+                                            "transparency": 0.0
+                                        }
+                                    },
+                                    {
+                                        "Debug Draw": {
+                                            "temp": false
+                                        }
+                                    },
+                                    {
+                                        "Material": {
+                                            "shinness": 128.0,
+                                            "diffuse": {
+                                                "Resource Key": {
+                                                    "Key": 5090543526616923758
+                                                }
+                                            },
+                                            "specular": {
+                                                "Resource Key": {
+                                                    "Key": 16957369829382588394
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "AABB": {
+                                            "AABB minScale": {
+                                                "x": 0.5,
+                                                "y": 0.5,
+                                                "z": 0.5
+                                            },
+                                            "AABB maxScale": {
+                                                "x": 0.5,
+                                                "y": 0.5,
+                                                "z": 0.5
+                                            },
+                                            "Collision Type": "AABB",
+                                            "AABB min": {
+                                                "x": 1.0,
+                                                "y": -0.03649906814098358,
+                                                "z": 0.4141845703125
+                                            },
+                                            "AABB max": {
+                                                "x": 1.0,
+                                                "y": -0.03649906814098358,
+                                                "z": 0.4141845703125
+                                            },
+                                            "AABB center": {
+                                                "x": 1.0,
+                                                "y": -0.03649906814098358,
+                                                "z": 0.4141845703125
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Parent": {
+                                            "Parent Entity": {
+                                                "Global Index": 2,
+                                                "Validation": {
+                                                    "Value": 1
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Static Mesh": {
+                                            "Asset": {
+                                                "Resource Key": {
+                                                    "Key": 17047569883171969821
+                                                }
+                                            },
+                                            "Unit Scales": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Local To Parent": {
+                                            "Position": {
+                                                "x": 0.0,
+                                                "y": -0.0364990234375,
+                                                "z": 0.4141845703125
+                                            },
+                                            "scale": {
+                                                "x": -3.7272727489471436,
+                                                "y": 4.545454502105713,
+                                                "z": 1.0
+                                            },
+                                            "axis": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "UI Hover": {
+                                            "FuncKey": "Hover Start",
+                                            "FuncKeyUnhover": "Normal Start"
+                                        }
+                                    },
+                                    {
+                                        "UI Trigger": {
+                                            "FuncKey": "Trigger Start"
+                                        }
+                                    },
+                                    {
+                                        "Colour": {
+                                            "Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            },
+                                            "Initial Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Position": {
+                                            "Position": {
+                                                "x": 1.0,
+                                                "y": -0.03649906814098358,
+                                                "z": 0.4141845703125
+                                            },
+                                            "Speed": 0.5,
+                                            "shaky": false
+                                        }
+                                    },
+                                    {
+                                        "Transform": {
+                                            "Scale": {
+                                                "x": -0.4399999976158142,
+                                                "y": 0.2199999988079071,
+                                                "z": 1.0
+                                            },
+                                            "Axis": {
+                                                "x": 0.0,
+                                                "y": -90.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Prefab": {
+                                            "Referenced Entities": [
+                                                {
+                                                    "Global Index": 7,
+                                                    "Validation": {
+                                                        "Value": 1
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Render Settings": {
+                                            "transparent": 1.0,
+                                            "onLight": true,
+                                            "onRender": true
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "EntityName": "Trigger_copy_prefab",
+                                "Components": [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 4,
+                                            "Validation": {
+                                                "Value": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "UI": {
+                                            "transparency": 0.0
+                                        }
+                                    },
+                                    {
+                                        "Debug Draw": {
+                                            "temp": false
+                                        }
+                                    },
+                                    {
+                                        "Material": {
+                                            "shinness": 128.0,
+                                            "diffuse": {
+                                                "Resource Key": {
+                                                    "Key": 8966839754596271494
+                                                }
+                                            },
+                                            "specular": {
+                                                "Resource Key": {
+                                                    "Key": 8966839754596271494
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "AABB": {
+                                            "AABB minScale": {
+                                                "x": 0.5,
+                                                "y": 0.5,
+                                                "z": 0.5
+                                            },
+                                            "AABB maxScale": {
+                                                "x": 0.5,
+                                                "y": 0.5,
+                                                "z": 0.5
+                                            },
+                                            "Collision Type": "AABB",
+                                            "AABB min": {
+                                                "x": 1.0,
+                                                "y": -0.2553101181983948,
+                                                "z": 0.4141845703125
+                                            },
+                                            "AABB max": {
+                                                "x": 1.0,
+                                                "y": -0.2553101181983948,
+                                                "z": 0.4141845703125
+                                            },
+                                            "AABB center": {
+                                                "x": 1.0,
+                                                "y": -0.2553101181983948,
+                                                "z": 0.4141845703125
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Parent": {
+                                            "Parent Entity": {
+                                                "Global Index": 2,
+                                                "Validation": {
+                                                    "Value": 1
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Static Mesh": {
+                                            "Asset": {
+                                                "Resource Key": {
+                                                    "Key": 17047569883171969821
+                                                }
+                                            },
+                                            "Unit Scales": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Local To Parent": {
+                                            "Position": {
+                                                "x": 0.0,
+                                                "y": -0.2553100883960724,
+                                                "z": 0.4141845703125
+                                            },
+                                            "scale": {
+                                                "x": -3.7272727489471436,
+                                                "y": 8.333333969116211,
+                                                "z": 1.0
+                                            },
+                                            "axis": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "UI Hover": {
+                                            "FuncKey": "Hover Instruction",
+                                            "FuncKeyUnhover": "Normal Instruction"
+                                        }
+                                    },
+                                    {
+                                        "UI Trigger": {
+                                            "FuncKey": "Trigger Instruction"
+                                        }
+                                    },
+                                    {
+                                        "Colour": {
+                                            "Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            },
+                                            "Initial Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Position": {
+                                            "Position": {
+                                                "x": 1.0,
+                                                "y": -0.2553101181983948,
+                                                "z": 0.4141845703125
+                                            },
+                                            "Speed": 0.5,
+                                            "shaky": false
+                                        }
+                                    },
+                                    {
+                                        "Transform": {
+                                            "Scale": {
+                                                "x": -0.4399999976158142,
+                                                "y": 0.11999999731779099,
+                                                "z": 1.0
+                                            },
+                                            "Axis": {
+                                                "x": 0.0,
+                                                "y": -90.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Prefab": {
+                                            "Referenced Entities": [
+                                                {
+                                                    "Global Index": 8,
+                                                    "Validation": {
+                                                        "Value": 1
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Render Settings": {
+                                            "transparent": 1.0,
+                                            "onLight": true,
+                                            "onRender": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Name": "",
+                "Details": {
+                    "ID": 8942742042508743000,
+                    "TotalFamily": 1,
+                    "TotalDataComponents": 11,
+                    "TotalSharedComponents": 0,
+                    "TotalTagComponents": 2
+                },
+                "ComponentDescriptors": [
+                    {
+                        "ID": 0,
+                        "Name": "Entity",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 185107916917646601,
+                        "Name": "UI",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 560062247872353558,
+                        "Name": "Debug Draw",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 1381832709373037049,
+                        "Name": "AABB",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 4517180040855548506,
+                        "Name": "Static Mesh",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 5159707721400732197,
+                        "Name": "Referenced Prefab",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 5987635642972365904,
+                        "Name": "Child",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10648412085420057678,
+                        "Name": "Colour",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10665287539752122145,
+                        "Name": "Position",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 11418666248982899671,
+                        "Name": "Transform",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 14939455891620228605,
+                        "Name": "Render Settings",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 8681894170641198160,
+                        "Name": "Window Tag",
+                        "Type": "Tag"
+                    },
+                    {
+                        "ID": 10771723023748516930,
+                        "Name": "Root",
+                        "Type": "Tag"
+                    }
+                ],
+                "Families": [
+                    {
+                        "Details": {
+                            "ID": 42,
+                            "TotalEntities": 1
+                        },
+                        "Pool": [
+                            {
+                                "EntityName": "MainMenu Window_prefab_instance",
+                                "Components": [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 5,
+                                            "Validation": {
+                                                "Value": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "UI": {
+                                            "transparency": 0.0
+                                        }
+                                    },
+                                    {
+                                        "Debug Draw": {
+                                            "temp": false
+                                        }
+                                    },
+                                    {
+                                        "AABB": {
+                                            "AABB minScale": {
+                                                "x": 0.5,
+                                                "y": 0.5,
+                                                "z": 0.5
+                                            },
+                                            "AABB maxScale": {
+                                                "x": 0.5,
+                                                "y": 0.5,
+                                                "z": 0.5
+                                            },
+                                            "Collision Type": "AABB",
+                                            "AABB min": {
+                                                "x": 1.0,
+                                                "y": -4.371138828673793e-8,
+                                                "z": 0.0
+                                            },
+                                            "AABB max": {
+                                                "x": 1.0,
+                                                "y": -4.371138828673793e-8,
+                                                "z": 0.0
+                                            },
+                                            "AABB center": {
+                                                "x": 1.0,
+                                                "y": -4.371138828673793e-8,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Static Mesh": {
+                                            "Asset": {
+                                                "Resource Key": {
+                                                    "Key": 17047569883171969821
+                                                }
+                                            },
+                                            "Unit Scales": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Referenced Prefab": {
+                                            "Prefab Entity": {
+                                                "Global Index": 1,
+                                                "Validation": {
+                                                    "Value": 1
+                                                }
+                                            },
+                                            "Prefab Overrides": []
+                                        }
+                                    },
+                                    {
+                                        "Child": {
+                                            "Child Entities": [
+                                                {
+                                                    "Global Index": 6,
+                                                    "Validation": {
+                                                        "Value": 1
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Colour": {
+                                            "Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            },
+                                            "Initial Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Position": {
+                                            "Position": {
+                                                "x": 200.0,
+                                                "y": 20.90422821044922,
+                                                "z": -4.67491340637207
+                                            },
+                                            "Speed": 0.5,
+                                            "shaky": false
+                                        }
+                                    },
+                                    {
+                                        "Transform": {
+                                            "Scale": {
+                                                "x": 10.0,
+                                                "y": 10.0,
+                                                "z": 0.0
+                                            },
+                                            "Axis": {
+                                                "x": 0.0,
+                                                "y": -90.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Render Settings": {
+                                            "transparent": 1.0,
+                                            "onLight": true,
+                                            "onRender": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Name": "",
+                "Details": {
+                    "ID": 8993879623474026770,
+                    "TotalFamily": 1,
+                    "TotalDataComponents": 13,
+                    "TotalSharedComponents": 0,
+                    "TotalTagComponents": 3
+                },
+                "ComponentDescriptors": [
+                    {
+                        "ID": 0,
+                        "Name": "Entity",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 185107916917646601,
+                        "Name": "UI",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 560062247872353558,
+                        "Name": "Debug Draw",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 735073682111509920,
+                        "Name": "Material",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 1381832709373037049,
+                        "Name": "AABB",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 4517180040855548506,
+                        "Name": "Static Mesh",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 5159707721400732197,
+                        "Name": "Referenced Prefab",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 5987635642972365904,
+                        "Name": "Child",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 7146299578504058711,
+                        "Name": "Local To Parent",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10648412085420057678,
+                        "Name": "Colour",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10665287539752122145,
+                        "Name": "Position",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 11418666248982899671,
+                        "Name": "Transform",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 14939455891620228605,
+                        "Name": "Render Settings",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 3266854503378265484,
+                        "Name": "MainMenuCanvasTag",
+                        "Type": "Tag"
+                    },
+                    {
+                        "ID": 5789478599700867134,
+                        "Name": "GUI Active Tag",
+                        "Type": "Tag"
+                    },
+                    {
+                        "ID": 10546678081760353314,
+                        "Name": "Canvas Tag",
+                        "Type": "Tag"
+                    }
+                ],
+                "Families": [
+                    {
+                        "Details": {
+                            "ID": 42,
+                            "TotalEntities": 0
+                        },
+                        "Pool": []
+                    }
+                ]
+            },
+            {
+                "Name": "",
+                "Details": {
+                    "ID": 17016480210277747788,
+                    "TotalFamily": 1,
+                    "TotalDataComponents": 14,
+                    "TotalSharedComponents": 0,
+                    "TotalTagComponents": 2
+                },
+                "ComponentDescriptors": [
+                    {
+                        "ID": 0,
+                        "Name": "Entity",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 185107916917646601,
+                        "Name": "UI",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 560062247872353558,
+                        "Name": "Debug Draw",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 735073682111509920,
+                        "Name": "Material",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 1381832709373037049,
+                        "Name": "AABB",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 4517180040855548506,
+                        "Name": "Static Mesh",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 5159707721400732197,
+                        "Name": "Referenced Prefab",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 7146299578504058711,
+                        "Name": "Local To Parent",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 8644390666535470522,
+                        "Name": "UI Hover",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 8680166306478852710,
+                        "Name": "UI Trigger",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10648412085420057678,
+                        "Name": "Colour",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10665287539752122145,
+                        "Name": "Position",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 11418666248982899671,
+                        "Name": "Transform",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 14939455891620228605,
+                        "Name": "Render Settings",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 3143799015706943846,
+                        "Name": "UI Interactable Tag",
+                        "Type": "Tag"
+                    },
+                    {
+                        "ID": 5789478599700867134,
+                        "Name": "GUI Active Tag",
+                        "Type": "Tag"
+                    }
+                ],
+                "Families": [
+                    {
+                        "Details": {
+                            "ID": 42,
+                            "TotalEntities": 0
+                        },
+                        "Pool": []
+                    }
+                ]
+            },
+            {
+                "Name": "",
+                "Details": {
+                    "ID": 14876154383872670920,
+                    "TotalFamily": 1,
+                    "TotalDataComponents": 15,
+                    "TotalSharedComponents": 0,
+                    "TotalTagComponents": 2
+                },
+                "ComponentDescriptors": [
+                    {
+                        "ID": 0,
+                        "Name": "Entity",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 185107916917646601,
+                        "Name": "UI",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 560062247872353558,
+                        "Name": "Debug Draw",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 735073682111509920,
+                        "Name": "Material",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 1381832709373037049,
+                        "Name": "AABB",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 4219641914652989460,
+                        "Name": "Parent",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 4517180040855548506,
+                        "Name": "Static Mesh",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 5159707721400732197,
+                        "Name": "Referenced Prefab",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 7146299578504058711,
+                        "Name": "Local To Parent",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 8644390666535470522,
+                        "Name": "UI Hover",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 8680166306478852710,
+                        "Name": "UI Trigger",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10648412085420057678,
+                        "Name": "Colour",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10665287539752122145,
+                        "Name": "Position",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 11418666248982899671,
+                        "Name": "Transform",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 14939455891620228605,
+                        "Name": "Render Settings",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 3143799015706943846,
+                        "Name": "UI Interactable Tag",
+                        "Type": "Tag"
+                    },
+                    {
+                        "ID": 5789478599700867134,
+                        "Name": "GUI Active Tag",
+                        "Type": "Tag"
+                    }
+                ],
+                "Families": [
+                    {
+                        "Details": {
+                            "ID": 42,
+                            "TotalEntities": 2
+                        },
+                        "Pool": [
+                            {
+                                "EntityName": "Trigger_prefab_instance",
+                                "Components": [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 7,
+                                            "Validation": {
+                                                "Value": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "UI": {
+                                            "transparency": 0.0
+                                        }
+                                    },
+                                    {
+                                        "Debug Draw": {
+                                            "temp": false
+                                        }
+                                    },
+                                    {
+                                        "Material": {
+                                            "shinness": 128.0,
+                                            "diffuse": {
+                                                "Resource Key": {
+                                                    "Key": 5090543526616923758
+                                                }
+                                            },
+                                            "specular": {
+                                                "Resource Key": {
+                                                    "Key": 16957369829382588394
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "AABB": {
+                                            "AABB minScale": {
+                                                "x": 0.5,
+                                                "y": 0.5,
+                                                "z": 0.5
+                                            },
+                                            "AABB maxScale": {
+                                                "x": 0.5,
+                                                "y": 0.5,
+                                                "z": 0.5
+                                            },
+                                            "Collision Type": "AABB",
+                                            "AABB min": {
+                                                "x": 1.0,
+                                                "y": -0.03649906814098358,
+                                                "z": 0.4141845703125
+                                            },
+                                            "AABB max": {
+                                                "x": 1.0,
+                                                "y": -0.03649906814098358,
+                                                "z": 0.4141845703125
+                                            },
+                                            "AABB center": {
+                                                "x": 1.0,
+                                                "y": -0.03649906814098358,
+                                                "z": 0.4141845703125
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Parent": {
+                                            "Parent Entity": {
+                                                "Global Index": 6,
+                                                "Validation": {
+                                                    "Value": 1
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Static Mesh": {
+                                            "Asset": {
+                                                "Resource Key": {
+                                                    "Key": 17047569883171969821
+                                                }
+                                            },
+                                            "Unit Scales": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Referenced Prefab": {
+                                            "Prefab Entity": {
+                                                "Global Index": 3,
+                                                "Validation": {
+                                                    "Value": 1
+                                                }
+                                            },
+                                            "Prefab Overrides": []
+                                        }
+                                    },
+                                    {
+                                        "Local To Parent": {
+                                            "Position": {
+                                                "x": 0.0,
+                                                "y": -0.0364990234375,
+                                                "z": 0.4141845703125
+                                            },
+                                            "scale": {
+                                                "x": -3.7272727489471436,
+                                                "y": 4.545454502105713,
+                                                "z": 1.0
+                                            },
+                                            "axis": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "UI Hover": {
+                                            "FuncKey": "Hover Start",
+                                            "FuncKeyUnhover": "Normal Start"
+                                        }
+                                    },
+                                    {
+                                        "UI Trigger": {
+                                            "FuncKey": "Trigger Start"
+                                        }
+                                    },
+                                    {
+                                        "Colour": {
+                                            "Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            },
+                                            "Initial Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Position": {
+                                            "Position": {
+                                                "x": 1.0,
+                                                "y": -0.03649906814098358,
+                                                "z": 0.4141845703125
+                                            },
+                                            "Speed": 0.5,
+                                            "shaky": false
+                                        }
+                                    },
+                                    {
+                                        "Transform": {
+                                            "Scale": {
+                                                "x": -0.4399999976158142,
+                                                "y": 0.2199999988079071,
+                                                "z": 1.0
+                                            },
+                                            "Axis": {
+                                                "x": 0.0,
+                                                "y": -90.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Render Settings": {
+                                            "transparent": 1.0,
+                                            "onLight": true,
+                                            "onRender": true
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "EntityName": "Trigger_copy_prefab_instance",
+                                "Components": [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 8,
+                                            "Validation": {
+                                                "Value": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "UI": {
+                                            "transparency": 0.0
+                                        }
+                                    },
+                                    {
+                                        "Debug Draw": {
+                                            "temp": false
+                                        }
+                                    },
+                                    {
+                                        "Material": {
+                                            "shinness": 128.0,
+                                            "diffuse": {
+                                                "Resource Key": {
+                                                    "Key": 8966839754596271494
+                                                }
+                                            },
+                                            "specular": {
+                                                "Resource Key": {
+                                                    "Key": 8966839754596271494
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "AABB": {
+                                            "AABB minScale": {
+                                                "x": 0.5,
+                                                "y": 0.5,
+                                                "z": 0.5
+                                            },
+                                            "AABB maxScale": {
+                                                "x": 0.5,
+                                                "y": 0.5,
+                                                "z": 0.5
+                                            },
+                                            "Collision Type": "AABB",
+                                            "AABB min": {
+                                                "x": 1.0,
+                                                "y": -0.2553101181983948,
+                                                "z": 0.4141845703125
+                                            },
+                                            "AABB max": {
+                                                "x": 1.0,
+                                                "y": -0.2553101181983948,
+                                                "z": 0.4141845703125
+                                            },
+                                            "AABB center": {
+                                                "x": 1.0,
+                                                "y": -0.2553101181983948,
+                                                "z": 0.4141845703125
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Parent": {
+                                            "Parent Entity": {
+                                                "Global Index": 6,
+                                                "Validation": {
+                                                    "Value": 1
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Static Mesh": {
+                                            "Asset": {
+                                                "Resource Key": {
+                                                    "Key": 17047569883171969821
+                                                }
+                                            },
+                                            "Unit Scales": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Referenced Prefab": {
+                                            "Prefab Entity": {
+                                                "Global Index": 4,
+                                                "Validation": {
+                                                    "Value": 1
+                                                }
+                                            },
+                                            "Prefab Overrides": []
+                                        }
+                                    },
+                                    {
+                                        "Local To Parent": {
+                                            "Position": {
+                                                "x": 0.0,
+                                                "y": -0.2553100883960724,
+                                                "z": 0.4141845703125
+                                            },
+                                            "scale": {
+                                                "x": -3.7272727489471436,
+                                                "y": 8.333333969116211,
+                                                "z": 1.0
+                                            },
+                                            "axis": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "UI Hover": {
+                                            "FuncKey": "Hover Instruction",
+                                            "FuncKeyUnhover": "Normal Instruction"
+                                        }
+                                    },
+                                    {
+                                        "UI Trigger": {
+                                            "FuncKey": "Trigger Instruction"
+                                        }
+                                    },
+                                    {
+                                        "Colour": {
+                                            "Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            },
+                                            "Initial Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Position": {
+                                            "Position": {
+                                                "x": 1.0,
+                                                "y": -0.2553101181983948,
+                                                "z": 0.4141845703125
+                                            },
+                                            "Speed": 0.5,
+                                            "shaky": false
+                                        }
+                                    },
+                                    {
+                                        "Transform": {
+                                            "Scale": {
+                                                "x": -0.4399999976158142,
+                                                "y": 0.11999999731779099,
+                                                "z": 1.0
+                                            },
+                                            "Axis": {
+                                                "x": 0.0,
+                                                "y": -90.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Render Settings": {
+                                            "transparent": 1.0,
+                                            "onLight": true,
+                                            "onRender": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Name": "",
+                "Details": {
+                    "ID": 14398938402712406964,
+                    "TotalFamily": 1,
+                    "TotalDataComponents": 14,
+                    "TotalSharedComponents": 0,
+                    "TotalTagComponents": 3
+                },
+                "ComponentDescriptors": [
+                    {
+                        "ID": 0,
+                        "Name": "Entity",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 185107916917646601,
+                        "Name": "UI",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 560062247872353558,
+                        "Name": "Debug Draw",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 735073682111509920,
+                        "Name": "Material",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 1381832709373037049,
+                        "Name": "AABB",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 4219641914652989460,
+                        "Name": "Parent",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 4517180040855548506,
+                        "Name": "Static Mesh",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 5159707721400732197,
+                        "Name": "Referenced Prefab",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 5987635642972365904,
+                        "Name": "Child",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 7146299578504058711,
+                        "Name": "Local To Parent",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10648412085420057678,
+                        "Name": "Colour",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 10665287539752122145,
+                        "Name": "Position",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 11418666248982899671,
+                        "Name": "Transform",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 14939455891620228605,
+                        "Name": "Render Settings",
+                        "Type": "Data"
+                    },
+                    {
+                        "ID": 3266854503378265484,
+                        "Name": "MainMenuCanvasTag",
+                        "Type": "Tag"
+                    },
+                    {
+                        "ID": 5789478599700867134,
+                        "Name": "GUI Active Tag",
+                        "Type": "Tag"
+                    },
+                    {
+                        "ID": 10546678081760353314,
+                        "Name": "Canvas Tag",
+                        "Type": "Tag"
+                    }
+                ],
+                "Families": [
+                    {
+                        "Details": {
+                            "ID": 42,
+                            "TotalEntities": 1
+                        },
+                        "Pool": [
+                            {
+                                "EntityName": "MainMenu_instance",
+                                "Components": [
+                                    {
+                                        "Entity": {
+                                            "Global Index": 6,
+                                            "Validation": {
+                                                "Value": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "UI": {
+                                            "transparency": 0.0
+                                        }
+                                    },
+                                    {
+                                        "Debug Draw": {
+                                            "temp": false
+                                        }
+                                    },
+                                    {
+                                        "Material": {
+                                            "shinness": 128.0,
+                                            "diffuse": {
+                                                "Resource Key": {
+                                                    "Key": 1061238672014524492
+                                                }
+                                            },
+                                            "specular": {
+                                                "Resource Key": {
+                                                    "Key": 1061238672014524492
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "AABB": {
+                                            "AABB minScale": {
+                                                "x": 0.5,
+                                                "y": 0.5,
+                                                "z": 0.5
+                                            },
+                                            "AABB maxScale": {
+                                                "x": 0.5,
+                                                "y": 0.5,
+                                                "z": 0.5
+                                            },
+                                            "Collision Type": "AABB",
+                                            "AABB min": {
+                                                "x": 0.18000000715255737,
+                                                "y": -0.5000000596046448,
+                                                "z": -0.5
+                                            },
+                                            "AABB max": {
+                                                "x": 1.8199999332427979,
+                                                "y": 0.4999999701976776,
+                                                "z": 0.5
+                                            },
+                                            "AABB center": {
+                                                "x": 1.0,
+                                                "y": -4.371138828673793e-8,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Parent": {
+                                            "Parent Entity": {
+                                                "Global Index": 5,
+                                                "Validation": {
+                                                    "Value": 1
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Static Mesh": {
+                                            "Asset": {
+                                                "Resource Key": {
+                                                    "Key": 17047569883171969821
+                                                }
+                                            },
+                                            "Unit Scales": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Referenced Prefab": {
+                                            "Prefab Entity": {
+                                                "Global Index": 2,
+                                                "Validation": {
+                                                    "Value": 1
+                                                }
+                                            },
+                                            "Prefab Overrides": []
+                                        }
+                                    },
+                                    {
+                                        "Child": {
+                                            "Child Entities": [
+                                                {
+                                                    "Global Index": 7,
+                                                    "Validation": {
+                                                        "Value": 1
+                                                    }
+                                                },
+                                                {
+                                                    "Global Index": 8,
+                                                    "Validation": {
+                                                        "Value": 1
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Local To Parent": {
+                                            "Position": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "scale": {
+                                                "x": 6.097560882568359,
+                                                "y": 10.0,
+                                                "z": 0.0
+                                            },
+                                            "axis": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Colour": {
+                                            "Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            },
+                                            "Initial Colour": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Position": {
+                                            "Position": {
+                                                "x": 1.0,
+                                                "y": -4.371138828673793e-8,
+                                                "z": 0.0
+                                            },
+                                            "Speed": 0.5,
+                                            "shaky": false
+                                        }
+                                    },
+                                    {
+                                        "Transform": {
+                                            "Scale": {
+                                                "x": 1.6399999856948853,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            },
+                                            "Axis": {
+                                                "x": 0.0,
+                                                "y": -90.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Render Settings": {
+                                            "transparent": 1.0,
+                                            "onLight": true,
+                                            "onRender": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

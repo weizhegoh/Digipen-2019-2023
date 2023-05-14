@@ -1,0 +1,205 @@
+{
+    "Entities": [
+        {
+            "Name": "EndingLight.prefab",
+            "Mapped ID": 0,
+            "ComponentDescriptors": [
+                {
+                    "ID": 0,
+                    "Name": "Entity",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 560062247872353558,
+                    "Name": "Debug Draw",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 4517180040855548506,
+                    "Name": "Static Mesh",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 7146299578504058711,
+                    "Name": "Local To Parent",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 8524248933160047964,
+                    "Name": "LightProperties",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 9365789973950508172,
+                    "Name": "QuadraticFunction",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10648412085420057678,
+                    "Name": "Colour",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10665287539752122145,
+                    "Name": "Position",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 11418666248982899671,
+                    "Name": "Transform",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 12393267759677145085,
+                    "Name": "Prefab",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 14939455891620228605,
+                    "Name": "Render Settings",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 8011325290042205806,
+                    "Name": "Prefab Tag",
+                    "Type": "ExclusiveTag"
+                }
+            ],
+            "Components": [
+                {
+                    "Debug Draw": {
+                        "temp": false
+                    }
+                },
+                {
+                    "Static Mesh": {
+                        "Asset": {
+                            "Resource Key": {
+                                "Key": 14256802636339086925
+                            }
+                        },
+                        "Unit Scales": {
+                            "x": 10.0,
+                            "y": 10.0,
+                            "z": 10.0
+                        }
+                    }
+                },
+                {
+                    "Local To Parent": {
+                        "Position": {
+                            "x": 22.539642333984375,
+                            "y": -12.590335845947266,
+                            "z": -19.56024169921875
+                        },
+                        "scale": {
+                            "x": 400.0,
+                            "y": 400.0,
+                            "z": 400.0
+                        },
+                        "axis": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "LightProperties": {
+                        "Ambient": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 5.0
+                        },
+                        "Diffuse": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "Specular": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5,
+                            "w": 1.0
+                        },
+                        "Radius": 10.0,
+                        "Near Plane": 0.009999999776482582,
+                        "Far Plane": 200.0,
+                        "Bound": 200.0,
+                        "View Up": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "View At": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "Light Render Shadow": false
+                    }
+                },
+                {
+                    "QuadraticFunction": {
+                        "Constant": 0.5,
+                        "Linear": 0.10000000149011612,
+                        "Quadratic": 0.10000000149011612
+                    }
+                },
+                {
+                    "Colour": {
+                        "Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Initial Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Position": {
+                        "Position": {
+                            "x": 397.5396423339844,
+                            "y": 72.20433044433594,
+                            "z": 755.6046142578125
+                        },
+                        "Speed": 0.5,
+                        "shaky": false
+                    }
+                },
+                {
+                    "Transform": {
+                        "Scale": {
+                            "x": 0.10000000149011612,
+                            "y": 0.10000000149011612,
+                            "z": 0.10000000149011612
+                        },
+                        "Axis": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Prefab": {
+                        "Referenced Entities": []
+                    }
+                },
+                {
+                    "Render Settings": {
+                        "transparent": 1.0,
+                        "onLight": false,
+                        "onRender": true
+                    }
+                }
+            ]
+        }
+    ]
+}

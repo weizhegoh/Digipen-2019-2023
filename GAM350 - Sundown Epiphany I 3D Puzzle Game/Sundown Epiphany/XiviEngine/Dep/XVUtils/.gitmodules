@@ -1,0 +1,6 @@
+[submodule "Dep/spdlog"]
+	path = Dep/spdlog
+	url = https://github.com/gabime/spdlog.git
+[submodule "Dep/tuplet"]
+	path = Dep/tuplet
+	url = https://github.com/codeinred/tuplet.git

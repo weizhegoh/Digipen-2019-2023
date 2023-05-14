@@ -1,0 +1,214 @@
+{
+    "Entities": [
+        {
+            "Name": "footstepCart.prefab",
+            "Mapped ID": 0,
+            "ComponentDescriptors": [
+                {
+                    "ID": 0,
+                    "Name": "Entity",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 7146299578504058711,
+                    "Name": "Local To Parent",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 7808846320554847421,
+                    "Name": "Particle Emitter",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10648412085420057678,
+                    "Name": "Colour",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 10665287539752122145,
+                    "Name": "Position",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 11418666248982899671,
+                    "Name": "Transform",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 12393267759677145085,
+                    "Name": "Prefab",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 17357486087806025733,
+                    "Name": "Particle Settings",
+                    "Type": "Data"
+                },
+                {
+                    "ID": 8011325290042205806,
+                    "Name": "Prefab Tag",
+                    "Type": "ExclusiveTag"
+                }
+            ],
+            "Components": [
+                {
+                    "Local To Parent": {
+                        "Position": {
+                            "x": 1.329437255859375,
+                            "y": -22.220123291015625,
+                            "z": -0.8638916015625
+                        },
+                        "scale": {
+                            "x": 0.019999999552965164,
+                            "y": 0.012500000186264515,
+                            "z": 0.008333333767950535
+                        },
+                        "axis": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Particle Emitter": {
+                        "isActive": true,
+                        "Debug Draw": false,
+                        "Model": {
+                            "Resource Key": {
+                                "Key": 14256802636339086925
+                            }
+                        },
+                        "Unit Scales": {
+                            "x": 10.0,
+                            "y": 10.0,
+                            "z": 10.0
+                        },
+                        "Shinness": 128.0,
+                        "Diffuse": {
+                            "Resource Key": {
+                                "Key": 16957369829382588394
+                            }
+                        },
+                        "Specular": {
+                            "Resource Key": {
+                                "Key": 16957369829382588394
+                            }
+                        }
+                    }
+                },
+                {
+                    "Colour": {
+                        "Colour": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Initial Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                {
+                    "Position": {
+                        "Position": {
+                            "x": 326.3294372558594,
+                            "y": 152.77987670898438,
+                            "z": 474.1361083984375
+                        },
+                        "Speed": 0.5,
+                        "shaky": false
+                    }
+                },
+                {
+                    "Transform": {
+                        "Scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Axis": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                {
+                    "Prefab": {
+                        "Referenced Entities": []
+                    }
+                },
+                {
+                    "Particle Settings": {
+                        "Count": 30,
+                        "Rate Over Distance": 1,
+                        "Rate of Spawn": 30,
+                        "Spawn Interval": 1.0,
+                        "Direction": {
+                            "First": {
+                                "x": -0.10000000149011612,
+                                "y": 1.0,
+                                "z": -1.0
+                            },
+                            "Second": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        "Speed": {
+                            "First": 20.0,
+                            "Second": 10.0
+                        },
+                        "Life Time": {
+                            "First": 1.0,
+                            "Second": 0.5
+                        },
+                        "Start Time": {
+                            "First": 0.0,
+                            "Second": 0.0
+                        },
+                        "Transparency": {
+                            "First": 0.5,
+                            "Second": 0.5
+                        },
+                        "Scale": {
+                            "First": 10.0,
+                            "Second": 5.0
+                        },
+                        "Colour": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Position Spawn OffSet": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -12.0
+                        },
+                        "Position Spawn OffSet2": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 12.0
+                        },
+                        "Axis": {
+                            "First": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Second": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
