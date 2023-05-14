@@ -1,7 +1,0 @@
-Package: rapidjson
-Version: 2020-02-08
-Architecture: x64-windows
-Multi-Arch: same
-Abi: 51060c9e22915140f449917d1b8df5f539544a0f
-Description: A fast JSON parser/generator for C++ with both SAX/DOM style API <http://rapidjson.org/>
-Type: Port

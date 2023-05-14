@@ -1,1 +1,0 @@
-No copyright notice is required for the use of the C++ STL

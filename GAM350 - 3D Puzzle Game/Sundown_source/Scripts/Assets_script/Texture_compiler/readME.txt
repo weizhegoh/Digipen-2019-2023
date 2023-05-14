@@ -1,1 +1,0 @@
-tex_compiler.exe c 9.jpg -pixelformat DXT5 -quality 255
