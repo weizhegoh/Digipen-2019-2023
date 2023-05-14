@@ -1,0 +1,47 @@
+#name
+n DEFEAT_RESTART
+
+#entity
+e DEFEAT_RESTART
+
+#shaderOption {shader option name}
+so FULL_TEXTURE
+
+#renderTexture {texture name , texture file}
+rt DEFEAT_RESTART Assets/images/GameOver_Restart.png
+rt DEFEAT_RESTART_HOVER Assets/images/GameOver_Restart_Hover.png
+#renderShape {shape}
+rs SQUARE
+
+#transform {scale , angle}
+t 100.0 100.0 0.0 0.0
+
+#position
+p 0.0 0.0 1.0
+
+#rigidbody {velocity, acceleration}
+rb 0.0 0.0 0.0 0.0 0.0 0.0
+
+#colour {colour}
+col 0.0 0.0 0.0
+
+#AABB 
+aabb 0.5 0.5
+
+#STATE
+state
+
+#FLAG
+flag FLAG_ACTIVE FLAG_VISIBLE
+
+#Collision FLAG
+cflag
+
+#LIGHT
+light 1.0 1.0 1.0 1.0 
+
+#LIGHTFLAG
+f_light 0 0 0 0 0
+
+#UI
+ui 0

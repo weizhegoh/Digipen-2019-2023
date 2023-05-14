@@ -1,0 +1,701 @@
+/*****************************************************************
+*\file		 GameTypes.h
+*\brief		 All the Games Type
+
+
+*\author(s)    Lee Liang Ping			120 lines x 20% Code contribution
+*\author(s)    Justin Yip Ling Kit		120 lines x 20% Code contribution
+*\author(s)    Lee Jun Jie				120 lines x 20% Code contribution
+*\author(s)    Goh Wei Zhe				120 lines x 20% Code contributions
+*\author(s)    Kenric Tan Wei Liang		120 lines x 20% Code contribution
+
+Copyright (C) 2021 DigiPen Institute of Technology.
+Reproduction or disclosure of this file or its contents without the
+prior written consent of DigiPen Institute of Technology is prohibited.
+*******************************************************************/
+
+#pragma once
+#include <EnginePch.h>
+
+
+using Index = size_t;
+using Size = size_t;
+using Entity = unsigned int;
+const Entity MAX_ENTITIES = 10000;
+using ComponentType = char;
+const ComponentType MAX_COMPONENTS = 64;
+using BitSignature = std::bitset<MAX_COMPONENTS>;
+
+const unsigned int FlagArray[4] = { 0x00000000 ,0x00000001, 0x00000002, 0x00000004 };
+
+const unsigned int FLAG_INACTIVE = 0x00000000;
+const unsigned int	FLAG_ACTIVE = 0x00000001;
+const unsigned int	FLAG_VISIBLE = 0x00000002;
+const unsigned int	FLAG_COLLISION = 0x00000004;
+
+
+const unsigned int	LIGHT_NIL = 0x00000000;
+const unsigned int	LIGHT_NORMAL = 0x00000001;
+const unsigned int	LIGHT_MC = 0x00000002;
+const unsigned int	LIGHT_KO = 0x00000004;
+const unsigned int	LIGHT_KO_PARTS = 0x00000008;
+
+const unsigned int LIGHT_ALL = LIGHT_NORMAL | LIGHT_MC | LIGHT_KO | LIGHT_KO_PARTS;
+const unsigned int LIGHT_CHECK[4] = { LIGHT_NORMAL ,LIGHT_MC, LIGHT_KO, LIGHT_KO_PARTS };
+const unsigned int MAX_LIGHTS = 128;
+
+//Collision flags
+const unsigned int	COLLISION_LEFT = 0x00000001;	//0001
+const unsigned int	COLLISION_RIGHT = 0x00000002;	//0010
+const unsigned int	COLLISION_TOP = 0x00000004;		//0100
+const unsigned int	COLLISION_BOTTOM = 0x00000008;	//1000
+
+//Physic flags
+const unsigned int	P_NIL = 0x00000000;
+const unsigned int	P_NORMAL = 0x00000001;
+const unsigned int	P_FRICTION = 0x00000004;	//0001
+const unsigned int	P_GRAVITY = 0x00000008;		//0010
+
+
+const float  PI = 3.14159f; //180
+const float  TWO_PI = 2.0f * PI; //360
+const float  HALF_PI = 0.5f * PI; //90
+const float  QUARTER_PI = 0.25f * PI; //45
+const float  EIGHTH_PI = 0.125f * PI; // 22.5
+const float  SIXTEENTH_PI = 0.0625f * PI; //11.25
+const float  THIRTIETH_PI = 0.03125f * PI;	//5.625
+const float  DEG_TO_RAD = PI / 180.0f;
+const float  RAD_TO_DEG = 180.0f / PI;
+
+const float VELOCITY_CAP = 0.9f;
+const float CAM_SPEED = 400.f;
+
+constexpr float WorldIntensity = 0.85f;
+
+enum class EventID
+{
+	SetBoulderStatusEvent,
+	PickUpEvent,
+	CreateParticleEvent,
+	CreatePulseParticleEvent,
+	CreateRandomParticleEvent,
+	SetLoadingScreenEvent,
+	SetWincreenEvent,
+	ActivateTutorial
+};
+
+enum class ObjectShapes
+{
+	SQUARE = 0,
+	CIRCLE,
+	TRIANGLE,
+	SQUARELESS
+};
+
+enum class ObjectDirection
+{
+	NO_DIR = 0,
+	LEFT,
+	RIGHT,
+	UP,
+	DOWN,
+	UPLEFT,
+	UPRIGHT,
+	DOWNLEFT,
+	DOWNRIGHT,
+	CIRCLE
+};
+
+enum class ObjectState
+{
+	IDLE = 0,
+	MOVING,
+	PUSHING_BARREL,
+	CHARGING,
+	DEATH,
+	MONSTER_MOVING,
+	MONSTER_IDLE,
+	MONSTER_GUIDE_MOVING,
+	MONSTER_GUIDE_IDLE,
+	MONSTER_PATROL_MOVING,
+	MONSTER_PATROL_IDLE,
+	DOOR_OPEN,
+	DOOR_CLOSE
+};
+
+enum class TextureType
+{
+	FLOOR = 0,
+	MAIN_CHARACTER,
+	GLOWINGBALL,
+	MONSTER,
+	MONSTER_PATROL,
+	MONSTER_GUIDE,
+	WALL,
+	WALL2,
+	WALL3,
+	WALL_MOSS_1,
+	WALL_MOSS_2,
+	WALL_MOSS_3,
+	WALL_HORIZONTAL,
+	WALL_VERTICLE,
+	PUSHABLE_BARREL,
+	ENTRANCE_DOOR,
+	EXIT_DOOR,
+	LEVEL_DOOR,
+	BACKGROUND,
+	KEY_OBJECTIVE,
+	LASER,
+	TURRET,
+	COLLECTIBLES,
+	LEVER_DOOR,
+	//
+	TUTORIAL,
+	TUTORIAL_2,
+	TUTORIAL_FLOOR,
+	TUTORIAL_TEXT_1,
+	TUTORIAL_TEXT_2,
+	TUTORIAL_TEXT_3,
+	TUTORIAL_TEXT_4,
+	TUTORIAL_TEXT_5,
+	TUTORIAL_TEXT_6,
+	TUTORIAL_TEXT_7,
+	TUTORIAL_TEXT_8,
+	TUTORIAL_TEXT_9,
+	TUTORIAL_BOX,
+	TUTORIAL_INSTRUCT,	
+	TUTORIAL_INSTRUCT1,	
+	TUTORIAL_INSTRUCT2,
+	TUTORIAL_INSTRUCT3,
+	//
+	TELEPORTER,
+	TELEPORTER_UP,
+	TELEPORTER_LEFT,
+	TELEPORTER_DOWN,
+	TELEPORTER_RIGHT,
+	//
+	LEVER_SWITCH_ON_UP,
+	LEVER_SWITCH_ON_DOWN,
+	LEVER_SWITCH_ON_LEFT,
+	LEVER_SWITCH_ON_RIGHT,
+	LEVER_SWITCH_OFF_UP,
+	LEVER_SWITCH_OFF_DOWN,
+	LEVER_SWITCH_OFF_LEFT,
+	LEVER_SWITCH_OFF_RIGHT,
+	//
+	//Main Menu
+	MAIN_MENU_BG,
+	PLAY,
+	PLAY_HOVER,
+	CONTROL,
+	HOW_TO_PLAY_HOVER,
+	OPTION,
+	OPTION_HOVER,
+	CREDIT,
+	CREDIT_HOVER,
+	QUIT,
+	QUIT_HOVER,
+	//Level Select Menu
+	LEVELSELECT_MENU_BG,
+	LEVEL1,
+	LEVEL1_HOVER,
+	LEVEL2,
+	LEVEL2_HOVER,
+	LEVEL3,
+	LEVEL3_HOVER,
+	LEVEL4,
+	LEVEL4_HOVER,
+	LEVEL5,
+	LEVEL5_HOVER,
+	LEVEL_BACK,
+	//Option Menu
+	OPTION_MENU_BG,
+	OPTION_1920x1080,
+	OPTION_1920x1080_HOVER,
+	OPTION_800x600,
+	OPTION_800x600_HOVER,
+	TOGGLE_ON,
+	TOGGLE_OFF,
+	OPTION_BACK,
+	//How to play Menu
+	CONTROL_MENU_BG_1,
+	CONTROL_MENU_BG_2,
+	CONTROL_MENU_BG_3,
+	CONTROL_NEXT,
+	CONTROL_BACK,
+	//Credit Menu
+	CREDIT_MENU_BG_1,
+	CREDIT_MENU_BG_2,
+	CREDIT_MENU_BG_3,
+	CREDIT_MENU_BG_4,
+	CREDIT_MENU_BG_5,
+	CREDIT_MENU_BG_6,
+	CREDIT_NEXT,
+	CREDIT_BACK,
+	//Quit Menu
+	QUIT_MENU_BG,
+	QUIT_YES,
+	QUIT_YES_HOVER,
+	QUIT_NO,
+	QUIT_NO_HOVER,
+	//Back & Next button
+	BACK_BUTTON_HOVER,
+	NEXT_BUTTON_HOVER,
+	//Pause Menu
+	PAUSE_MENU_BG,
+	PAUSE_RESUME,
+	PAUSE_RESUME_HOVER,
+	PAUSE_OPTIONS,
+	PAUSE_OPTIONS_HOVER,
+	PAUSE_QUIT,
+	PAUSE_QUIT_HOVER,
+	PAUSE_MAINMENU,
+	PAUSE_MAINMENU_HOVER,
+	PAUSE_HOWTOPLAY,
+	PAUSE_HOWTOPLAY_HOVER,
+	PAUSE_HOWTOPLAY_BG,
+	PAUSE_HOWTOPLAY_BG3,
+	PAUSE_HOWTOPLAY_BG2,
+	//Defeat Screen
+	DEFEAT_BG,
+	DEFEAT_RESTART,
+	DEFEAT_RESTART_HOVER,
+	DEFEAT_MAINMENU,
+	DEFEAT_MAINMENU_HOVER,
+	//Victory Screen
+	VICTORY_BG,
+	VICTORY_CONTINUE,
+	VICTORY_CONTINUE_HOVER,
+	VICTORY_RESTART,
+	VICTORY_RESTART_HOVER,
+	VICTORY_MAINMENU,
+	VICTORY_MAINMENU_HOVER,
+	//UI
+	UI_HP_ICON,
+	UI_OBJECTIVE_ICON,
+	//UI Counter
+	UI_HP_COUNTER_0,
+	UI_HP_COUNTER_1,
+	UI_HP_COUNTER_2,
+	UI_HP_COUNTER_3,
+	UI_HP_COUNTER_4,
+	UI_HP_COUNTER_5,
+	UI_HP_COUNTER_6,
+	UI_HP_COUNTER_7,
+	UI_HP_COUNTER_8,
+	UI_HP_COUNTER_9,
+	//Resolution Buttons
+	RES_1920_1080,
+	RES_800_600,
+	RES_1920_1080_HOVER,
+	RES_800_600_HOVER,
+	LOADINGBG1,
+	LOADINGBG2,
+	//LoadingLogo
+	LOADINGLOGO1,
+	LOADINGLOGO2,
+	LOADINGLOGO3,
+	//Cinematic
+	Cinematic_1,
+	Cinematic_2,
+	Cinematic_3,
+	Cinematic_4,
+	Cinematic_5,
+	Cinematic_6,
+	Cinematic_7,
+	Cinematic_8,
+	Cinematic_9,
+	Cinematic_10,
+	Cinematic_11,
+	Cinematic_12,
+	//
+	BACKGROUND2,
+	POPUP_1,
+	POPUP_2,
+	POPUP_3,
+	POPUP_4,
+	POPUP_5,
+	//
+	RED_DOT,
+	SMOKE_1,
+	SMOKE_2,
+	SMOKE_3,
+	SMOKE_4,
+	SMOKE_5,
+	MOUSE_CURSOR,
+	DEFAULT
+};
+
+enum class ObjectType
+{
+	FLOOR = 0,
+	MAIN_CHARACTER,
+	MONSTER,
+	MONSTER_PATROL,
+	MONSTER_GUIDE,
+	WALL,
+	WALL_HORIZONTAL,
+	WALL_VERTICLE,
+	PUSHABLE_BARREL,
+	ENTRANCE_DOOR,
+	EXIT_DOOR,
+	LEVEL_DOOR,
+	BACKGROUND,
+	KEY_OBJECTIVE,
+	COLLECTIBLES,
+	LEVER_DOOR,
+	LEVER_SWITCH,
+	TELEPORTER,
+	TUTORIAL,
+	TUTORIAL_FLOOR,
+	TUTORIAL_BOX,
+	TUTORIAL_INSTRUCT,
+	//Main Menu
+	MAIN_MENU_BG,
+	PLAY,
+	OPTION,
+	CONTROL,
+	CREDIT,
+	QUIT,
+	//Level Select Menu
+	LEVELSELECT_MENU_BG,
+	LEVEL1,
+	LEVEL2,
+	LEVEL3,
+	LEVEL4,
+	LEVEL5,
+	LEVEL_BACK,
+	//Option Menu
+	OPTION_MENU_BG,
+	OPTION_1920x1080,
+	OPTION_800x600,
+	FULLSCREEN,
+	BGM,
+	OPTION_BACK,
+	//How to play Menu
+	CONTROL_MENU_BG_1,
+	CONTROL_MENU_BG_2,
+	CONTROL_MENU_BG_3,
+	CONTROL_NEXT,
+	CONTROL_BACK,
+	//Credit Menu
+	CREDIT_MENU_BG_1,
+	CREDIT_MENU_BG_2,
+	CREDIT_MENU_BG_3,
+	CREDIT_MENU_BG_4,
+	CREDIT_MENU_BG_5,
+	CREDIT_MENU_BG_6,
+	CREDIT_NEXT,
+	CREDIT_BACK,
+	//Quit Menu
+	QUIT_MENU_BG,
+	QUIT_YES,
+	QUIT_NO,
+	//Pause Menu
+	PAUSE_MENU_BG,
+	PAUSE_RESUME,
+	PAUSE_QUIT,
+	PAUSE_MAINMENU,
+	PAUSE_OPTIONS,
+	PAUSE_HOWTOPLAY,
+	PAUSE_HOWTOPLAY_BG,
+	PAUSE_HOWTOPLAY_BG3,
+	PAUSE_HOWTOPLAY_BG2,
+	//Defeat Screen
+	DEFEAT_BG,
+	DEFEAT_RESTART,
+	DEFEAT_MAINMENU,
+	//Victory Screen
+	VICTORY_BG,
+	VICTORY_CONTINUE,
+	VICTORY_RESTART,
+	VICTORY_MAINMENU,
+	//UI
+	UI_HP_ICON,
+	UI_OBJECTIVE_ICON,
+	UI_HP_COUNTER,
+	//Resolution Buttons
+	RES_1920_1080,
+	RES_800_600,
+	//LoadingLogo
+	LOADING_LOGO,
+	//
+	RED_DOT,
+	TURRET,
+	LASER_PROJECTILE,
+	CIRCLE,
+	PARTICLE,
+	SQUARE,
+	OUTOFBOUND,
+
+	LOADING_SCREENS,
+	POPUP,
+	MOUSE_CURSOR,
+	DEFAULT,
+};
+
+using MapData = std::vector<std::vector<ObjectType>>;
+using TexData = std::vector<std::vector<int>>;
+using DirectionData = std::vector<std::vector<ObjectDirection>>;
+using LeverData = std::vector<std::vector<int>>;
+using TeleporterData = std::vector<std::vector<int>>;
+
+struct Data
+{
+	MapData _mapdata;
+	TexData _texdata;
+	DirectionData _dirdata;
+	LeverData _leverID;
+	TeleporterData _teleporterID;
+};
+
+enum class ZoomOption
+{
+	NORMAL = 0,
+	SETUP_ZOOM,
+	ZOOM_TO_OBJECT,
+	ZOOM_PAUSE,
+	MAP,
+	MAP_FULLVIEW
+};
+
+enum class ShaderOption
+{
+	SHAPE = 0,
+	FULL_TEXTURE,
+	ANIMATION_TEXTURE,
+	TEXT,
+	TEXTURE_LIGHT // TEST
+};
+
+enum class DrawOption
+{
+	POINTS = 0,
+	LINE_STRIP,
+	DEFAULT
+};
+
+enum class ParticleTypesEnum
+{
+	PARTICLE_NIL = 0,
+	PARTICLE_PULSE_INWARDS,
+	PARTICLE_PULSE_OUTWARDS,
+	PARTICLE_FIREWORK,
+	PARTICLE_SMOKE,
+	PARTICLE_LASER_CHARGING,
+	PARTICLE_PICKUP,
+	PARTICLE_TELEPORT
+};
+
+enum class ParticleState
+{
+	PARTICLESTATE_NIL = 0,
+	PARTICLEMAINCHARIDLE
+};
+
+enum class EntitySystemOption
+{
+	GAME_ENTITY,
+	PARTICLE_ENTITY,
+	LIGHT_ENTITY
+};
+
+enum class TimerMap
+{
+	PARTICLE_PULSING_INTERVAL = 0,
+	PARTICLE_WALKING_INTERVAL,
+	IDLE_TIME,
+	PUSHING_BARREL_INPUT,
+	LASER_IDLE,
+	LASER_CHARGE,
+	LASER_FIRE,
+	LASER_IMAGE,
+	MOVEMENT_LOCK,
+	LASER_FIRE_TO_IDLE,
+	LASER_PROJECTILE_INCREASE,
+	PARTICLE_GENERATIONN,
+	TIMER_NIL,
+};
+
+enum class LaserState
+{
+	LASER_IDLE,
+	LASER_CHARGE,
+	LASER_FIRE,
+	LASER_FIRING,
+};
+
+enum class TURN_TYPE
+{
+	TURN_NULL = 0,
+	TURN_LEFT,
+	TURN_RIGHT,
+	TURN_BACK
+};
+
+enum class FreeType_Font
+{
+	OpenSansRegular = 0,
+	OpenSans_Bold,
+	OpenSans_Italic,
+	OpenSans_BoldItalic,
+	OCR_A_EXTENDED,
+	AgencyFBBold
+};
+
+enum class FreeRenderType
+{
+	MODEL_WORLD = 0,
+	SCREEN
+};
+
+enum class FreeTypeList
+{
+	GAMETIMER = 0,
+	WIN_STATEMENT,
+	GOD_MODE_ACTIVATION,
+	SPEED_MODE_ACTIVATION,
+	HACK_ACTIVATION,
+	InventoryCollect,
+	Objectives
+};
+
+enum class DurationType
+{
+	NO_DURTION = 0,
+	LIFETIME_EXISTS,
+	NO_SET
+};
+
+enum class RemoveOption
+{
+	ACTIVATE = 0,
+	DEACTIVATE,
+	REMOVE
+};
+
+enum class CollisionType
+{
+	CHARGING_LASER_PROJECTILE = 0,
+	OBJECT_TO_LASER_PROJECTILE,
+	ALL_COLLISIONTYPE
+};
+
+enum class ForceType
+{
+	FORCE = 0,
+	FRICTION,
+	GRAVITY,
+	SUMMEDFORCES
+};
+
+enum class BooleanType
+{
+	MOVEMENT_LOCK = 0
+};
+
+enum class PauseState {
+	STATE_DEFAULT = 0,
+	STATE_HOWTOPLAY,
+	STATE_OPTIONS,
+	STATE_QUIT
+};
+
+enum class LogoState
+{
+	DIGIPENLOGO,
+	FMODLOGO,
+	TEAMLOGO,
+	CINEMATIC_1,
+	CINEMATIC_2,
+	CINEMATIC_3,
+	CINEMATIC_4,
+	CINEMATIC_5,
+	CINEMATIC_6,
+	CINEMATIC_7,
+	CINEMATIC_8,
+	CINEMATIC_9,
+	CINEMATIC_10,
+	CINEMATIC_11,
+	CINEMATIC_12,
+	GOTOMAINMENU
+};
+
+
+enum class SoundType
+{
+	BUTTON_CLICK = 0,
+	KEY_SELECT,
+	DOOR_CLOSE,
+	PICKUP_1,
+	REACH_FOR_THE_STARS_SHORT,
+	LASER_1,
+	LASER_2,
+	LASER_3,
+	LASER_4,
+	LASER_5,
+	LASER_6,
+	SWEEP,
+	SUBMERGED_SILENCE_LONG,
+	SUBMERGED_SILENCE_SHORT,
+	SWITCH_BREAKER,
+	ARROW_KEY_PICKUP,
+	AI_STATIC_LASER,
+	GAME_OVER,
+	PUSH,
+	DEATH,
+	LEVEL_1,
+	MOUSE_CLICK,
+	MOUSE_HOVER,
+	WIN,
+	WARP_remove,
+	LEVER,
+	WARP,
+	FIREWORK,
+	LASER_EXPLODE,
+	PICKUP_2,
+	PICKUP_3,
+	DOOM,
+	DIALOG_1,
+	DIALOG_2,
+	DIALOG_3,
+	DIALOG_4,
+	DIALOG_5,
+	DIALOG_6,
+	DIALOG_7,
+	DIALOG_8,
+	DIALOG_9,
+	DIALOG_10,
+	DIALOG_11,
+	CINEMATIC_BG
+};
+
+enum class StagesEnum
+{
+	TUTORIAL_1,
+	TUTORIAL_2,
+	ACTUAL_STAGE,
+	LEVEL2,
+	LEVEL3,
+	LEVEL4,
+	LEVEL5,
+	MAIN_MENU,
+	WIN
+};
+
+enum class TypeState
+{
+	Active,
+	Removing,
+	Removed
+};
+
+enum class ParticleAction
+{
+	START,
+	END,
+	TOWARDS_LEVEL_DOOR,
+	TOWARDS_MC,
+	TOWARDS_TELEPORTER,
+	PULSE
+};

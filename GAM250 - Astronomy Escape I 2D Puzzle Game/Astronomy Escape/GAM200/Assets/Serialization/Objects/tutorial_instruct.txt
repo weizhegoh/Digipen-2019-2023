@@ -1,0 +1,44 @@
+#name
+n TUTORIAL_INSTRUCT
+
+#entity
+e TUTORIAL_INSTRUCT
+
+#shaderOption {shader option name}
+so FULL_TEXTURE
+
+#renderTexture {texture name , texture file}
+rt TUTORIAL_INSTRUCT Assets/images/tutorial_instruct.png
+rt TUTORIAL_INSTRUCT1 Assets/images/tutorial_instruct1.png
+rt TUTORIAL_INSTRUCT2 Assets/images/tutorial_instruct2.png
+rt TUTORIAL_INSTRUCT3 Assets/images/tutorial_instruct3.png
+
+#renderShape {shape}
+rs SQUARE
+
+#transform {scale , angle}
+t 1000.0 350.0 0.0 0.0
+
+#position
+p 0.0 0.0 0.0
+
+#rigidbody {velocity, acceleration}
+rb 0.0 0.0 0.0 0.0 0.0 0.0
+
+#colour {colour}
+col 0.0 1.0 0.0
+
+#AABB 
+aabb 0.2 0.2
+
+#FLAG
+flag FLAG_ACTIVE FLAG_VISIBLE
+
+#Collision FLAG
+cflag
+
+#LIGHT
+light 1.0 1.0 1.0 1.0 
+
+#LIGHTFLAG
+f_light 0 0 0 0 0

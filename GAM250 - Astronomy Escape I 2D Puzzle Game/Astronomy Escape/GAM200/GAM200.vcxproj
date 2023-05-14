@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{e5546707-62bc-46f6-9a54-8ac95e7205fe}</ProjectGuid>
+    <RootNamespace>GAM200</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)lib\glew-2.1.0\include;$(SolutionDir)lib\rapidjson_x64-windows\include;$(SolutionDir)lib\FMOD\inc;$(SolutionDir)lib\glfw-3.3.2.bin.WIN32\include;$(SolutionDir)lib\imgui-master;$(SolutionDir)lib\stb-master;$(SolutionDir)lib\glm-0.9.9.7;$(ProjectDir)\Graphics\include;$(SolutionDir)lib\FreeImage\Dist\x32;$(IncludePath);$(ProjectDir)src\Engine\Manager\include</IncludePath>
+    <LibraryPath>$(SolutionDir)lib\glfw-3.3.2.bin.WIN32\lib-vc2019;$(SolutionDir)lib\glew-2.1.0\lib\Release\Win32;$(SolutionDir)lib\FreeImage\Dist\x32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)lib\glew-2.1.0\include;$(SolutionDir)lib\rapidjson_x64-windows\include;$(SolutionDir)lib\FMOD\inc;$(SolutionDir)lib\glfw-3.3.2.bin.WIN32\include;$(SolutionDir)lib\imgui-master;$(SolutionDir)lib\stb-master;$(SolutionDir)lib\glm-0.9.9.7;$(ProjectDir)\Graphics\include;$(SolutionDir)lib\FreeImage\Dist\x32;$(IncludePath);$(ProjectDir)src\Engine\Manager\include</IncludePath>
+    <LibraryPath>$(SolutionDir)lib\glfw-3.3.2.bin.WIN32\lib-vc2019;$(SolutionDir)lib\glew-2.1.0\lib\Release\Win32;$(SolutionDir)lib\FreeImage\Dist\x32;$(LibraryPath)</LibraryPath>
+    <EnableMicrosoftCodeAnalysis>false</EnableMicrosoftCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)lib\glm-0.9.9.7;$(SolutionDir)lib\stb-master;$(SolutionDir)lib\imgui-master;$(SolutionDir)lib\glfw-3.3.2.bin.WIN64\include;$(SolutionDir)lib\glew-2.1.0\include;$(SolutionDir)lib\FMOD\inc;$(SolutionDir)lib\rapidjson_x64-windows\include;$(ProjectDir)\Graphics\include;$(ProjectDir)src\Engine\Components;$(ProjectDir)src\Engine\Systems\include;$(ProjectDir)src\ECS_Core;$(ProjectDir)include;$(IncludePath);$(SolutionDir)lib\FreeImage\Dist\x64;$(ProjectDir)src\Engine\Manager\include;$(ProjectDir)\Libraries\include;$(ProjectDir)src\Engine\Event\Include;$(SolutionDir)lib\freetype-windows-binaries-master\include;$(ProjectDir)src\Engine\LevelEdit</IncludePath>
+    <LibraryPath>$(SolutionDir)lib\glfw-3.3.2.bin.WIN64\lib-vc2019;$(SolutionDir)lib\glew-2.1.0\lib\Release\x64;$(SolutionDir)lib\FreeImage\Dist\x64;$(SolutionDir)lib\freetype-windows-binaries-master\win64;$(LibraryPath)</LibraryPath>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)lib\glm-0.9.9.7;$(SolutionDir)lib\stb-master;$(SolutionDir)lib\imgui-master;$(SolutionDir)lib\glfw-3.3.2.bin.WIN64\include;$(SolutionDir)lib\glew-2.1.0\include;$(SolutionDir)lib\FMOD\inc;$(SolutionDir)lib\rapidjson_x64-windows\include;$(ProjectDir)src\Engine\Components;$(ProjectDir)src\Engine\Systems\include;$(ProjectDir)\Graphics\include;$(ProjectDir)src\ECS_Core;$(ProjectDir)include;$(IncludePath);$(SolutionDir)lib\FreeImage\Dist\x64;$(ProjectDir)src\Engine\Manager\include;$(ProjectDir)\Libraries\include;$(ProjectDir)src\Engine\Event\Include;$(SolutionDir)lib\freetype-windows-binaries-master\include;$(ProjectDir)src\Engine\LevelEdit</IncludePath>
+    <LibraryPath>$(SolutionDir)lib\glfw-3.3.2.bin.WIN64\lib-vc2019;$(SolutionDir)lib\glew-2.1.0\lib\Release\x64;$(SolutionDir)lib\FreeImage\Dist\x64;$(SolutionDir)lib\freetype-windows-binaries-master\win64;$(LibraryPath)</LibraryPath>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3dll.lib;fmod_vc.lib;fmodL_vc.lib;fmodstudio_vc.lib;fmodstudioL_vc.lib;FreeImage.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\FMOD\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)lib\glfw-3.3.2.bin.WIN32\lib-vc2019\glfw3.dll" "$(TargetDir)glfw3.dll" /Y
+copy "$(SolutionDir)lib\glew-2.1.0\bin\Release\Win32\glew32.dll" "$(TargetDir)glew32.dll" /Y
+copy "$(SolutionDir)lib\FreeImage\Dist\x32\FreeImage.dll" "$(TargetDir)FreeImage.dll" /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3dll.lib;fmod_vc.lib;fmodL_vc.lib;fmodstudio_vc.lib;fmodstudioL_vc.lib;FreeImage.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\FMOD\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)lib\glfw-3.3.2.bin.WIN32\lib-vc2019\glfw3.dll" "$(TargetDir)glfw3.dll" /Y
+copy "$(SolutionDir)lib\glew-2.1.0\bin\Release\Win32\glew32.dll" "$(TargetDir)glew32.dll" /Y
+copy "$(SolutionDir)lib\FreeImage\Dist\x32\FreeImage.dll" "$(TargetDir)FreeImage.dll" /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>EnginePch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\FMOD\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3dll.lib;fmod_vc.lib;fmodL_vc.lib;fmodstudio_vc.lib;fmodstudioL_vc.lib;FreeImage.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)lib\glfw-3.3.2.bin.WIN64\lib-vc2019\glfw3.dll" "$(TargetDir)glfw3.dll" /Y
+copy "$(SolutionDir)lib\glew-2.1.0\bin\Release\x64\glew32.dll" "$(TargetDir)glew32.dll" /Y
+copy "$(SolutionDir)lib\FreeImage\Dist\x64\FreeImage.dll" "$(TargetDir)FreeImage.dll" /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>EnginePch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\FMOD\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3dll.lib;fmod_vc.lib;fmodL_vc.lib;fmodstudio_vc.lib;fmodstudioL_vc.lib;FreeImage.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)lib\glfw-3.3.2.bin.WIN64\lib-vc2019\glfw3.dll" "$(TargetDir)glfw3.dll" /Y
+copy "$(SolutionDir)lib\glew-2.1.0\bin\Release\x64\glew32.dll" "$(TargetDir)glew32.dll" /Y
+copy "$(SolutionDir)lib\FreeImage\Dist\x64\FreeImage.dll" "$(TargetDir)FreeImage.dll" /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\lib\imgui-master\imgui.cpp" />
+    <ClCompile Include="..\lib\imgui-master\imgui_demo.cpp" />
+    <ClCompile Include="..\lib\imgui-master\imgui_draw.cpp" />
+    <ClCompile Include="..\lib\imgui-master\imgui_impl_glfw_gl3.cpp" />
+    <ClCompile Include="Graphics\AnimationManager.cpp" />
+    <ClCompile Include="Graphics\Animations.cpp" />
+    <ClCompile Include="Graphics\FreeType.cpp" />
+    <ClCompile Include="Graphics\FreeTypeFontManager.cpp" />
+    <ClCompile Include="Graphics\Gfx.cpp" />
+    <ClCompile Include="Graphics\glslshader.cpp" />
+    <ClCompile Include="Graphics\include\TextManager.cpp" />
+    <ClCompile Include="Graphics\ShaderManager.cpp" />
+    <ClCompile Include="Graphics\Shapes.cpp" />
+    <ClCompile Include="Graphics\ShapeManager.cpp" />
+    <ClCompile Include="Graphics\Textures.cpp" />
+    <ClCompile Include="Graphics\TextureManager.cpp" />
+    <ClCompile Include="Graphics\Window.cpp" />
+    <ClCompile Include="Graphics\WindowManager.cpp" />
+    <ClCompile Include="include\ComponentsHeader.h" />
+    <ClCompile Include="include\EnginePch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Libraries\Collision.cpp" />
+    <ClCompile Include="Libraries\matrix3x3.cpp" />
+    <ClCompile Include="Libraries\vector3D.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\Engine\LevelEdit\LevelEditHelper.cpp" />
+    <ClCompile Include="src\Engine\Manager\AudioEngine.cpp" />
+    <ClCompile Include="src\Engine\Manager\Camera2d.cpp" />
+    <ClCompile Include="src\Engine\Manager\CollisionList.cpp" />
+    <ClCompile Include="src\Engine\Manager\ForceManager.cpp" />
+    <ClCompile Include="src\Engine\Manager\GlobalVar.cpp" />
+    <ClCompile Include="src\Engine\Manager\Input.cpp" />
+    <ClCompile Include="src\Engine\Manager\InputCallBack.cpp" />
+    <ClCompile Include="src\Engine\Manager\LightFunctions.cpp" />
+    <ClCompile Include="src\Engine\Manager\ParticlesInfo.cpp" />
+    <ClCompile Include="src\Engine\Manager\StageChanger.cpp" />
+    <ClCompile Include="src\Engine\Manager\Timer.cpp" />
+    <ClCompile Include="src\Engine\Manager\WindowFPS.cpp" />
+    <ClCompile Include="src\Engine\Serialization\Serialization.cpp" />
+    <ClCompile Include="src\Engine\Systems\AiSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\AnimationSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\CameraSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\CollisionSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\Defeat_screen.cpp" />
+    <ClCompile Include="src\Engine\Systems\DoorSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\Functions\PhysicFunctions.cpp" />
+    <ClCompile Include="src\Engine\Systems\GameInputSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\HotSpotCollisionSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\ImGuiSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\include\Victory_screen.cpp" />
+    <ClCompile Include="src\Engine\Systems\InputSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\InventorySystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\LaserProjectileSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\LaserSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\LevelEditSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\KeyObjectiveSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\LeverSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\LightSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\L_P_PhysicSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\MainMenuInputSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\MouseSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\ParticleCollisionSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\ParticleSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\PauseMenu.cpp" />
+    <ClCompile Include="src\Engine\Systems\PhysicSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\PreCollisionSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\RenderingSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\fLoadingSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\ScoreSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\StateSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\TeleporterSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\TransformSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\TextRenderSystem.cpp" />
+    <ClCompile Include="src\Engine\Systems\Tutorial.cpp" />
+    <ClCompile Include="src\Engine\Systems\UiSystem.cpp" />
+    <ClCompile Include="src\EnumToString.cpp" />
+    <ClCompile Include="src\GameState\GameState.cpp" />
+    <ClCompile Include="src\GameState\GameStateManager.cpp" />
+    <ClCompile Include="src\GameState\LevelEdit.cpp" />
+    <ClCompile Include="src\GameState\Level_1.cpp" />
+    <ClCompile Include="src\GameState\MainMenu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\lib\imgui-master\imconfig.h" />
+    <ClInclude Include="..\lib\imgui-master\imgui.h" />
+    <ClInclude Include="..\lib\imgui-master\imgui_impl_glfw_gl3.h" />
+    <ClInclude Include="..\lib\imgui-master\imgui_internal.h" />
+    <ClInclude Include="..\lib\imgui-master\stb_rect_pack.h" />
+    <ClInclude Include="..\lib\imgui-master\stb_textedit.h" />
+    <ClInclude Include="..\lib\imgui-master\stb_truetype.h" />
+    <ClInclude Include="Graphics\include\AnimationManager.h" />
+    <ClInclude Include="Graphics\include\Animations.h" />
+    <ClInclude Include="Graphics\include\Character.h" />
+    <ClInclude Include="Graphics\include\FreeType.h" />
+    <ClInclude Include="Graphics\include\FreeTypeFontManager.h" />
+    <ClInclude Include="Graphics\include\TextManager.h" />
+    <ClInclude Include="Graphics\include\Gfx.h" />
+    <ClInclude Include="Graphics\include\glslshader.h" />
+    <ClInclude Include="Graphics\include\ShaderManager.h" />
+    <ClInclude Include="Graphics\include\ShapeManager.h" />
+    <ClInclude Include="Graphics\include\Shapes.h" />
+    <ClInclude Include="Graphics\include\TextClass.h" />
+    <ClInclude Include="Graphics\include\Textures.h" />
+    <ClInclude Include="Graphics\include\TextureManager.h" />
+    <ClInclude Include="Graphics\include\Window.h" />
+    <ClInclude Include="Graphics\WindowManager.h" />
+    <ClInclude Include="include\EnginePch.h" />
+    <ClInclude Include="include\EnumToString.h" />
+    <ClInclude Include="include\GameTypes.h" />
+    <ClInclude Include="include\ManagerClassesHeader.h" />
+    <ClInclude Include="include\SystemsHeaders.h" />
+    <ClInclude Include="Libraries\include\Collision.h" />
+    <ClInclude Include="Libraries\include\MathsFunctions.h" />
+    <ClInclude Include="Libraries\include\matrix3x3.h" />
+    <ClInclude Include="Libraries\include\vector3D.h" />
+    <ClInclude Include="src\ECS_Core\ComponentList.h" />
+    <ClInclude Include="src\ECS_Core\ComponentManager.h" />
+    <ClInclude Include="src\ECS_Core\EntityCreation.h" />
+    <ClInclude Include="src\ECS_Core\Debug.h" />
+    <ClInclude Include="src\ECS_Core\ECSManager.h" />
+    <ClInclude Include="src\ECS_Core\EntityManager.h" />
+    <ClInclude Include="src\ECS_Core\EntityRegister.h" />
+    <ClInclude Include="src\ECS_Core\FakeEngine.h" />
+    <ClInclude Include="src\ECS_Core\System.h" />
+    <ClInclude Include="src\ECS_Core\SystemManager.h" />
+    <ClInclude Include="src\Engine\Components\AABB.h" />
+    <ClInclude Include="src\Engine\Components\AI.h" />
+    <ClInclude Include="src\Engine\Components\Animation.h" />
+    <ClInclude Include="src\Engine\Components\Circle.h" />
+    <ClInclude Include="src\Engine\Components\CollisionFlag.h" />
+    <ClInclude Include="src\Engine\Components\Colour.h" />
+    <ClInclude Include="src\Engine\Components\Comet.h" />
+    <ClInclude Include="src\Engine\Components\EnityTypes.h" />
+    <ClInclude Include="src\Engine\Components\Flags.h" />
+    <ClInclude Include="src\Engine\Components\Force.h" />
+    <ClInclude Include="src\Engine\Components\KeyObjective.h" />
+    <ClInclude Include="src\Engine\Components\Lever.h" />
+    <ClInclude Include="src\Engine\Components\LightFlag.h" />
+    <ClInclude Include="src\Engine\Components\LightType.h" />
+    <ClInclude Include="src\Engine\Components\LoadingType.h" />
+    <ClInclude Include="src\Engine\Components\MainMenuType.h" />
+    <ClInclude Include="src\Engine\Components\Mouse.h" />
+    <ClInclude Include="src\Engine\Components\ParentId.h" />
+    <ClInclude Include="src\Engine\Components\Input.h" />
+    <ClInclude Include="src\Engine\Components\Inventory.h" />
+    <ClInclude Include="src\Engine\Components\Laser.h" />
+    <ClInclude Include="src\Engine\Components\LifeTime.h" />
+    <ClInclude Include="src\Engine\Components\Light.h" />
+    <ClInclude Include="src\Engine\Components\LineSegment.h" />
+    <ClInclude Include="src\Engine\Components\Object.h" />
+    <ClInclude Include="src\Engine\Components\ParticleStates.h" />
+    <ClInclude Include="src\Engine\Components\ParticleType.h" />
+    <ClInclude Include="src\Engine\Components\PhysicFlag.h" />
+    <ClInclude Include="src\Engine\Components\PointLight.h" />
+    <ClInclude Include="src\Engine\Components\Position.h" />
+    <ClInclude Include="src\Engine\Components\Ray.h" />
+    <ClInclude Include="src\Engine\Components\Render.h" />
+    <ClInclude Include="src\Engine\Components\RenderPos.h" />
+    <ClInclude Include="src\Engine\Components\Rigidbody.h" />
+    <ClInclude Include="src\Engine\Components\State.h" />
+    <ClInclude Include="src\Engine\Components\RenderTex.h" />
+    <ClInclude Include="src\Engine\Components\Teleporter.h" />
+    <ClInclude Include="src\Engine\Components\Transform.h" />
+    <ClInclude Include="src\Engine\Components\UI.h" />
+    <ClInclude Include="src\Engine\Event\Include\Event.h" />
+    <ClInclude Include="src\Engine\Event\Include\EventBus.h" />
+    <ClInclude Include="src\Engine\Event\Include\EventHandler.h" />
+    <ClInclude Include="src\Engine\LevelEdit\LevelEditHelper.h" />
+    <ClInclude Include="src\Engine\Manager\include\AudioEngine.h" />
+    <ClInclude Include="src\Engine\Manager\include\Camera2d.h" />
+    <ClInclude Include="src\Engine\Manager\include\CollisionList.h" />
+    <ClInclude Include="src\Engine\Manager\include\ForceManager.h" />
+    <ClInclude Include="src\Engine\Manager\include\GlobalVar.h" />
+    <ClInclude Include="src\Engine\Manager\include\GraphicStorage.h" />
+    <ClInclude Include="src\Engine\Manager\include\ImGuiVar.h" />
+    <ClInclude Include="src\Engine\Manager\include\InputCallBack.h" />
+    <ClInclude Include="src\Engine\Manager\include\LevelEditVar.h" />
+    <ClInclude Include="src\Engine\Manager\include\BooleanList.h" />
+    <ClInclude Include="src\Engine\Manager\include\LightFunctions.h" />
+    <ClInclude Include="src\Engine\Manager\include\ManagerList.h" />
+    <ClInclude Include="src\Engine\Manager\include\MemoryManager.h" />
+    <ClInclude Include="src\Engine\Manager\include\ParticlesInfo.h" />
+    <ClInclude Include="src\Engine\Manager\include\SerializationVar.h" />
+    <ClInclude Include="src\Engine\Manager\include\StageChanger.h" />
+    <ClInclude Include="src\Engine\Manager\include\TemplateFunctions.h" />
+    <ClInclude Include="src\Engine\Manager\include\Timer.h" />
+    <ClInclude Include="src\Engine\Manager\include\WindowFPS.h" />
+    <ClInclude Include="src\Engine\Serialization\Serialization.h" />
+    <ClInclude Include="src\Engine\Systems\include\AnimationSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\CameraSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\CollisionSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\AiSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\Defeat_screen.h" />
+    <ClInclude Include="src\Engine\Systems\include\DoorSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\fLoadingSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\GameCounter.h" />
+    <ClInclude Include="src\Engine\Systems\include\GameInputSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\HotSpotCollisionSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\ImGuiSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\InputSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\InventorySystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\LaserProjectileSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\LaserSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\LevelEditSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\KeyObjectiveSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\LeverSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\LightSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\L_P_PhysicSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\MainMenuInputSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\MouseSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\ParticleCollisionSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\ParticleSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\PauseMenu.h" />
+    <ClInclude Include="src\Engine\Systems\include\PhysicFunctions.h" />
+    <ClInclude Include="src\Engine\Systems\include\PhysicSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\PreCollisionSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\RenderingSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\ScoreSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\StateSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\SystemList.h" />
+    <ClInclude Include="src\Engine\Systems\include\TeleporterSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\TransformSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\TextRenderSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\Tutorial.h" />
+    <ClInclude Include="src\Engine\Systems\include\UiSystem.h" />
+    <ClInclude Include="src\Engine\Systems\include\Victory_screen.h" />
+    <ClInclude Include="src\GameState\GameState.h" />
+    <ClInclude Include="src\GameState\GameStateManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Assets\background.txt" />
+    <Text Include="..\Assets\Board.txt" />
+    <Text Include="..\Assets\key_objective.txt" />
+    <Text Include="..\Assets\level1.txt" />
+    <Text Include="..\Assets\main_character.txt" />
+    <Text Include="..\Assets\wall.txt" />
+    <Text Include="..\Assets\wall_horizontal.txt" />
+    <Text Include="..\Assets\wall_verticle.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\shaders\Animation_fragmentShader.frag" />
+    <None Include="Assets\shaders\Animation_vertexShader.vert" />
+    <None Include="Assets\shaders\fragmentShader.frag" />
+    <None Include="Assets\shaders\Text_fragmentShader.frag" />
+    <None Include="Assets\shaders\Text_vertexShader.vert" />
+    <None Include="Assets\shaders\TfragmentShader.frag" />
+    <None Include="Assets\shaders\TvertexShader.vert" />
+    <None Include="Assets\shaders\vertexShader.vert" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

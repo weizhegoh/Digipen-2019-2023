@@ -1,0 +1,56 @@
+#name
+n LEVER_SWITCH
+
+#entity
+e LEVER_SWITCH
+
+#shaderOption {shader option name}
+so FULL_TEXTURE
+
+#renderTexture {texture name , texture file}
+rt LEVER_SWITCH Assets/images/leverswitch.png
+rt LEVER_SWITCH_OFF_UP Assets/images/Up_Off.png
+rt LEVER_SWITCH_OFF_DOWN Assets/images/Down_Off.png
+rt LEVER_SWITCH_OFF_LEFT Assets/images/Left_Off.png
+rt LEVER_SWITCH_OFF_RIGHT Assets/images/Right_Off.png
+
+rt LEVER_SWITCH_ON_UP Assets/images/Up_On.png
+rt LEVER_SWITCH_ON_DOWN Assets/images/Down_On.png
+rt LEVER_SWITCH_ON_LEFT Assets/images/Left_On.png
+rt LEVER_SWITCH_ON_RIGHT Assets/images/Right_On.png
+
+#renderShape {shape}
+rs SQUARE
+
+#transform {scale , angle}
+t 100.0 100.0 0.0 0.0
+
+#position
+p 0.0 0.0 0.0
+
+#rigidbody {velocity, acceleration}
+rb 0.0 0.0 0.0 0.0 0.0 0.0
+
+#colour {colour}
+col 0.0 1.0 0.0
+
+#AABB 
+aabb 0.2 0.2
+
+#STATE
+state
+
+#FLAG
+flag FLAG_ACTIVE FLAG_VISIBLE
+
+#Collision FLAG
+cflag
+
+#LIGHT
+light
+
+#LEVERID
+leverid
+
+#LIGHTFLAG
+f_light 0 0 0 0 0

@@ -1,0 +1,7 @@
+n square
+v -0.5 -0.5 # prefix v indicates vertex position attribute
+v 0.5 -0.5
+v 0.5 0.5
+v -0.5 0.5
+t 0 1 2   # prefix t means triangle primitives rendered as GL_TRIANGLES 
+t 2 3 0   # prefix f means triangle primitives rendered as GL_TRIANGLE_FAN

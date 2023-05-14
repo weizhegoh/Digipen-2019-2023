@@ -1,0 +1,41 @@
+#name
+n TUTORIAL_BOX
+
+#entity
+e TUTORIAL_BOX
+
+#shaderOption {shader option name}
+so FULL_TEXTURE
+
+#renderTexture {texture name , texture file}
+rt TUTORIAL_BOX Assets/images/text.png
+
+#renderShape {shape}
+rs SQUARE
+
+#transform {scale , angle}
+t 700.0 50.0 0.0 0.0
+
+#position
+p 0.0 0.0 0.0
+
+#rigidbody {velocity, acceleration}
+rb 0.0 0.0 0.0 0.0 0.0 0.0
+
+#colour {colour}
+col 0.0 1.0 0.0
+
+#AABB 
+aabb 0.2 0.2
+
+#FLAG
+flag FLAG_ACTIVE FLAG_VISIBLE
+
+#Collision FLAG
+cflag
+
+#LIGHT
+light 1.0 1.0 1.0 1.0 
+
+#LIGHTFLAG
+f_light 0 0 0 0 0

@@ -1,0 +1,1126 @@
+{
+  "sheet_width": 1280,
+  "sheet_height": 1280,
+  "sprite": [
+    {
+      "name": "idle",
+      "x": 0,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "idle",
+      "x": 128,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "idle",
+      "x": 256,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "idle",
+      "x": 384,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "idle",
+      "x": 512,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "idle",
+      "x": 640,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "idle",
+      "x": 768,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "idle",
+      "x": 896,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "idle",
+      "x": 1024,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "idle",
+      "x": 1152,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "idle",
+      "x": 0,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "idle",
+      "x": 128,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "idle",
+      "x": 256,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "idle",
+      "x": 384,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "idle",
+      "x": 512,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "idle",
+      "x": 640,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "idle",
+      "x": 768,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "idle",
+      "x": 896,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "idle",
+      "x": 1024,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "idle",
+      "x": 1152,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "idle",
+      "x": 0,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "idle",
+      "x": 128,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "running",
+      "x": 256,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "running",
+      "x": 384,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "running",
+      "x": 512,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "running",
+      "x": 640,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "running",
+      "x": 768,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "running",
+      "x": 896,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "running",
+      "x": 1024,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "running",
+      "x": 1152,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "death",
+      "x": 0,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "duration": 0.09
+    },
+    {
+      "name": "death",
+      "x": 128,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "duration": 0.09
+    },
+    {
+      "name": "death",
+      "x": 256,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "duration": 0.09
+    },
+    {
+      "name": "death",
+      "x": 384,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "duration": 0.09
+    },
+    {
+      "name": "death",
+      "x": 512,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "duration": 0.09
+      },
+    {
+      "name": "death",
+      "x": 640,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "duration": 0.09
+    },
+    {
+      "name": "death",
+      "x": 768,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "duration": 0.09
+    },
+    {
+      "name": "death",
+      "x": 896,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "duration": 0.09
+    },
+    {
+      "name": "death",
+      "x": 1024,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "duration": 0.09
+    },
+    {
+      "name": "death",
+      "x": 1152,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "duration": 0.09
+    },
+    {
+      "name": "death",
+      "x": 0,
+      "y": 512,
+      "width": 128,
+      "height": 128,
+      "duration": 0.09
+    },
+    {
+      "name": "death",
+      "x": 128,
+      "y": 512,
+      "width": 128,
+      "height": 128,
+      "duration": 0.09
+    },
+    {
+      "name": "death",
+      "x": 256,
+      "y": 512,
+      "width": 128,
+      "height": 128,
+      "duration": 0.09
+    },
+    {
+      "name": "death",
+      "x": 384,
+      "y": 512,
+      "width": 128,
+      "height": 128,
+      "duration": 0.09
+    },
+    {
+      "name": "pushing",
+      "x": 512,
+      "y": 512,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0833
+    },
+    {
+      "name": "pushing",
+      "x": 640,
+      "y": 512,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0833
+    },
+    {
+      "name": "pushing",
+      "x": 768,
+      "y": 512,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0833
+    },
+    {
+      "name": "pushing",
+      "x": 896,
+      "y": 512,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0833
+    },
+    {
+      "name": "pushing",
+      "x": 1024,
+      "y": 512,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0833
+    },
+    {
+      "name": "pushing",
+      "x": 1152,
+      "y": 512,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0833
+    },
+    {
+      "name": "pushing",
+      "x": 0,
+      "y": 640,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0833
+    },
+    {
+      "name": "monster_running",
+      "x": 256,
+      "y": 640,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "monster_running",
+      "x": 384,
+      "y": 640,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "monster_running",
+      "x": 512,
+      "y": 640,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "monster_running",
+      "x": 640,
+      "y": 640,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "monster_running",
+      "x": 768,
+      "y": 640,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "monster_running",
+      "x": 896,
+      "y": 640,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "monster_running",
+      "x": 1024,
+      "y": 640,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "monster_running",
+      "x": 1152,
+      "y": 640,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "monster_idle",
+      "x": 0,
+      "y": 768,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster_idle",
+      "x": 128,
+      "y": 768,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster_idle",
+      "x": 256,
+      "y": 768,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster_idle",
+      "x": 384,
+      "y": 768,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster_idle",
+      "x": 512,
+      "y": 768,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster_idle",
+      "x": 640,
+      "y": 768,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster_idle",
+      "x": 768,
+      "y": 768,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster_idle",
+      "x": 896,
+      "y": 768,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster_idle",
+      "x": 1024,
+      "y": 768,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster_idle",
+      "x": 1152,
+      "y": 768,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster_idle",
+      "x": 0,
+      "y": 896,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster_idle",
+      "x": 128,
+      "y": 896,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster_idle",
+      "x": 256,
+      "y": 896,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster_idle",
+      "x": 384,
+      "y": 896,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster_idle",
+      "x": 512,
+      "y": 896,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster_idle",
+      "x": 640,
+      "y": 896,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster_idle",
+      "x": 768,
+      "y": 896,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster_idle",
+      "x": 896,
+      "y": 896,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster_idle",
+      "x": 1024,
+      "y": 896,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster_idle",
+      "x": 1152,
+      "y": 896,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster_idle",
+      "x": 0,
+      "y": 1024,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster_idle",
+      "x": 128,
+      "y": 1024,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster2_running",
+      "x": 256,
+      "y": 1024,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "monster2_running",
+      "x": 384,
+      "y": 1024,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "monster2_running",
+      "x": 512,
+      "y": 1024,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "monster2_running",
+      "x": 640,
+      "y": 1024,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "monster2_running",
+      "x": 768,
+      "y": 1024,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "monster2_running",
+      "x": 896,
+      "y": 1024,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "monster2_running",
+      "x": 1024,
+      "y": 1024,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "monster2_running",
+      "x": 1152,
+      "y": 1024,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "monster2_idle",
+      "x": 0,
+      "y": 1152,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster2_idle",
+      "x": 128,
+      "y": 1152,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster2_idle",
+      "x": 256,
+      "y": 1152,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster2_idle",
+      "x": 384,
+      "y": 1152,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster2_idle",
+      "x": 512,
+      "y": 1152,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster2_idle",
+      "x": 640,
+      "y": 1152,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster2_idle",
+      "x": 768,
+      "y": 1152,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster2_idle",
+      "x": 896,
+      "y": 1152,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster2_idle",
+      "x": 1024,
+      "y": 1152,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster2_idle",
+      "x": 1152,
+      "y": 1152,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster2_idle",
+      "x": 0,
+      "y": 1152,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster2_idle",
+      "x": 128,
+      "y": 1152,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster2_idle",
+      "x": 256,
+      "y": 1152,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster2_idle",
+      "x": 384,
+      "y": 1152,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster2_idle",
+      "x": 512,
+      "y": 1152,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster2_idle",
+      "x": 640,
+      "y": 1152,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster2_idle",
+      "x": 768,
+      "y": 1152,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster2_idle",
+      "x": 896,
+      "y": 1152,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster2_idle",
+      "x": 1024,
+      "y": 1152,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster2_idle",
+      "x": 1152,
+      "y": 1152,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster2_idle",
+      "x": 0,
+      "y": 1280,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster2_idle",
+      "x": 128,
+      "y": 1280,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster3_running",
+      "x": 256,
+      "y": 1280,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "monster3_running",
+      "x": 384,
+      "y": 1280,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "monster3_running",
+      "x": 512,
+      "y": 1280,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "monster3_running",
+      "x": 640,
+      "y": 1280,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "monster3_running",
+      "x": 768,
+      "y": 1280,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "monster3_running",
+      "x": 896,
+      "y": 1280,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "monster3_running",
+      "x": 1024,
+      "y": 1280,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "monster3_running",
+      "x": 1152,
+      "y": 1280,
+      "width": 128,
+      "height": 128,
+      "duration": 0.1333
+    },
+    {
+      "name": "monster3_idle",
+      "x": 0,
+      "y": 1408,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster3_idle",
+      "x": 128,
+      "y": 1408,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster3_idle",
+      "x": 256,
+      "y": 1408,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster3_idle",
+      "x": 384,
+      "y": 1408,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster3_idle",
+      "x": 512,
+      "y": 1408,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster3_idle",
+      "x": 640,
+      "y": 1408,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster3_idle",
+      "x": 768,
+      "y": 1408,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster3_idle",
+      "x": 896,
+      "y": 1408,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster3_idle",
+      "x": 1024,
+      "y": 1408,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster3_idle",
+      "x": 1152,
+      "y": 1408,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster3_idle",
+      "x": 0,
+      "y": 1408,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster3_idle",
+      "x": 128,
+      "y": 1408,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster3_idle",
+      "x": 256,
+      "y": 1408,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster3_idle",
+      "x": 384,
+      "y": 1408,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster3_idle",
+      "x": 512,
+      "y": 1408,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster3_idle",
+      "x": 640,
+      "y": 1408,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster3_idle",
+      "x": 768,
+      "y": 1408,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster3_idle",
+      "x": 896,
+      "y": 1408,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster3_idle",
+      "x": 1024,
+      "y": 1408,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster3_idle",
+      "x": 1152,
+      "y": 1408,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    },
+    {
+      "name": "monster3_idle",
+      "x": 0,
+      "y": 1408,
+      "width": 128,
+      "height": 128,
+      "duration": 0.0916
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+#name
+n TURRET
+
+#entity
+e TURRET
+
+#shaderOption {shader option name}
+so FULL_TEXTURE
+
+#renderTexture {texture name , texture file}
+rt TURRET Assets/images/turret.png
+
+#renderShape {shape}
+rs SQUARE
+
+#transform {scale , angle}
+t 100.0 100.0 0.0 0.0
+
+#position
+p 0.0 0.0 0.0
+
+#rigidbody {velocity, acceleration}
+rb 0.0 0.0 0.0 401.0 401.0 0.0
+
+#colour {colour}
+col 0.0 1.0 1.0
+
+#AABB 
+aabb 0.5 0.5
+
+#STATE
+state
+
+#FLAG
+flag FLAG_ACTIVE FLAG_VISIBLE
+
+#Collision FLAG
+cflag
+
+#LIGHT
+light
+
+#Laser
+laser
+
+#LIGHTFLAG
+f_light 1 1 0 0 0
